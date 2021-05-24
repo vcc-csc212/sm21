@@ -2,7 +2,7 @@
 title: Syllabus
 category: Course Info [READ ME]
 order: 2
-permalink: /policies/
+permalink: /syllabus/
 ---
 On this page:  
 ✔️ [Course Outcomes](#outcomes)  

@@ -44,7 +44,7 @@
 					{% if group.name != "" %} <!--  hides assignment descs from nav -->
 						<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
 							{% assign items = group.items | sort: 'order' %}
-							<a class = "collapsible" href="#" onclick="return false;">+ {{ group.name }}</a> 
+							<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a> 
 							<ul>
 								{% for item in items %}
 									<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
@@ -73,27 +73,27 @@
 				document.body.classList.toggle("nav-open");
 			});
 
-			//collapsible submenu 
-			var coll = document.getElementsByClassName("collapsible");
-			for (var i = 0; i < coll.length; i++) {
-			  coll[i].addEventListener("click", function() {
+			// //collapsible submenu 
+			// var coll = document.getElementsByClassName("collapsible");
+			// for (var i = 0; i < coll.length; i++) {
+			//   coll[i].addEventListener("click", function() {
 			    
-			    var content = this.nextElementSibling;
-			    if (content.style.display === "block") {
-			      content.style.display = "none";
-			      this.innerHTML = this.innerHTML.replace("x", "+");
-			    } else {
-			      content.style.display = "block";
-			      this.innerHTML = this.innerHTML.replace("+", "x");
-			    }
-			  });
-			};
+			//     var content = this.nextElementSibling;
+			//     if (content.style.display === "block") {
+			//       content.style.display = "none";
+			//       this.innerHTML = this.innerHTML.replace("x", "+");
+			//     } else {
+			//       content.style.display = "block";
+			//       this.innerHTML = this.innerHTML.replace("+", "x");
+			//     }
+			//   });
+			// };
 
-			// changes + from menu of current page to x. 
-			//todo: make collapsible for good UX (low priority)
-			if(document.getElementsByClassName("current")[0]) {
-				document.getElementsByClassName("current")[0].innerHTML = document.getElementsByClassName("current")[0].innerHTML.replace("+", "x");
-			}
+			// // changes + from menu of current page to x. 
+			// //todo: make collapsible for good UX (low priority)
+			// if(document.getElementsByClassName("current")[0]) {
+			// 	document.getElementsByClassName("current")[0].innerHTML = document.getElementsByClassName("current")[0].innerHTML.replace("+", "x");
+			// }
 			
 			//to open external links in a new tab, from: https://harrymartland.co.uk/jekyll-open-links-in-new-tab/
 			const baseUrl = '{{ site.url }}';

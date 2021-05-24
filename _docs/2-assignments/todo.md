@@ -1,7 +1,7 @@
 ---
 title: Student To Do
 category: Assignments
-order: 3
+order: 0
 permalink: /todo/
 ---
 
@@ -9,21 +9,21 @@ permalink: /todo/
 [Readings for<br>Tuesday](/wk1#tues)
 : These readings will help you understand the course structure so you're set up for success over the next ten weeks.
 
-[Tuesday Lab](/lab01)
+Tuesday Lab
 : This lab will help you ensure you're set up to code in C++ and will allow you to gain experience with the autograder.
 
 [Readings for<br>Wednesday](/wk1#weds)
-: These readings will 
+: These readings will help you review some of the fundamentals of programming in C++.
 
 
-[Wednesday Lab](/lab02)
-: This lab will help you 
+Wednesday Lab
+: This lab will help you solidify your understanding of programming, debugging and testing in C++.
 
 [Readings for<br>Thursday](/wk1#thurs)
-: These readings will
+: These readings will teach you about object oriented programming.
 
-[Thursday Lab](/lab03)
-: This lab will help you 
+Thursday Lab
+: This lab will help you solidify your understanding of object oriented programming.
 
 ---
 

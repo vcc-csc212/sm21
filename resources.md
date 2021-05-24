@@ -12,7 +12,7 @@ On this page:
 ✔️ [C++ Pointers and Memory](#pointers)  
 ✔️ [Object Oriented Programming](#oop)  
 ✔️ [Code and Data Structure Visualizers](#viz)  
-✔️ [Programming Practice/Challenges](#challenges)
+✔️ [Programming Practice/Challenges](#challenges)  
 ✔️ [Add my own suggestion](#suggestions)  
 
 ***
