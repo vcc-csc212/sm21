@@ -109,6 +109,7 @@
 			        if(href.startsWith(baseUrl) && !href.startsWith(baseUrl+"/sm21") && !href.startsWith("http://127.0.0.1")){
 			        	var arr = href.split(".io");
 			        	href = arr[0] + ".io/sm21" + arr[1];
+			        	console.log("New href: " + href);
 			            window.open(href);
 			            event.preventDefault();
 			        }
