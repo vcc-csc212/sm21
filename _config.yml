@@ -3,7 +3,7 @@
 
 title: URI CSC 212
 url: "https://vcc-csc212.github.io"
-baseurl: "sm21"
+# baseurl: "sm21"
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
