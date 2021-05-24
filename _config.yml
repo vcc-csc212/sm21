@@ -38,7 +38,7 @@ exclude:
 collections:
   docs:
     title: Documentation
-    permalink: /sm21/:path/
+    permalink: /:path/
     output: true
 
 defaults:
