@@ -19,10 +19,10 @@ Generally speaking, the data structures and algorithms course is one of the toug
 
 Because the topics we're going to cover are already challenging in it of themselves, it's important you come in as prepared as possible so you don't have to play catch up while learning new material.
 
-Working on C++ programming, problem-solving skills, and dividing-and-conquering is **strongly recommended for all** students and **tons of resources** to practice and review are available on [the resources page](/resources).
+Working on C++ programming, problem-solving skills, and dividing-and-conquering is **strongly recommended for all** students and **tons of resources** to practice and review are available on [the resources page](/sm21/resources).
 
 #### Navigating ths site {#site}
-This site will be used to house all non-confidential course information such as [class resources](/resources), [syllabus](/syllabus), and [assignments](/todo). Use the sidebar on the left (right if on mobile) to view the pages, scroll down for all **important links** (such as Zoom).
+This site will be used to house all non-confidential course information such as [class resources](/sm21/resources), [syllabus](/sm21/syllabus), and [assignments](/sm21/todo). Use the sidebar on the left (right if on mobile) to view the pages, scroll down for all **important links** (such as Zoom).
 - We will **not be using** Brightspace 
 - We will be using **Piazza** for announcements and Q&A
 - We will be using **Zoom** for all lectures and hours meetings (find links below)
@@ -46,12 +46,12 @@ There are **two** summer sections of CSC 212. All class meetings and student hel
 : Virtually on **Tuesdays, Wednesdays, and Thursdays 10:00pm - 11:50pm ET** 
 
 [Student Help Hours](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
-: Various times, [see schedule](/hours).
+: Various times, [see schedule](/sm21/hours).
 
 ---
 
 #### Exams and Final Project {#final}
-There are no exams for this course. There is, however, an open-ended [final project](/final) due on July 31st. That means you'll need to concurrently work on assignments + your final project after the first half of the session.
+There are no exams for this course. There is, however, an open-ended [final project](/sm21/final) due on July 31st. That means you'll need to concurrently work on assignments + your final project after the first half of the session.
 
 ---
 

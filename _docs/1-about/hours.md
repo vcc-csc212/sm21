@@ -56,18 +56,18 @@ Meet with Prof:
 #### Meet your instructor {#vcc}
 My name is Victoria C. Chávez (they/she) and I’m excited to be your instructor for this course! You may call me Victoria or Professor Chávez, whichever you prefer. I am excited to get to meet you all and I'm looking forward to this semester!
 
-![cropped headshot of Prof. Chávez](/1-about/imgs/vcc.jpg)
+![cropped headshot of Prof. Chávez](/sm21/1-about/imgs/vcc.jpg)
 : I was born and raised in Chicago, I’m Guatemalan, and I now call Rhode Island home. I have a Bachelor’s in Computer Science and a Master’s focusing on Computer Science Education. I’ve worked as a Software Engineer at Twitter and Microsoft, and I’ve taught middle, high school, and college level Computer Science courses. This is my last class at URI as I'll be leaving to pursue my PhD.
 
 **A note on pronounciation:** The correct way to say last name is with a **hard "ch"** (like in "chimichanga") and with **emphasis on the "a"** not "vez".
 
 #### Meet your TAs {#tas}
-![cropped headshot of Alexander](/1-about/imgs/alex.jpg) 
+![cropped headshot of Alexander](/sm21/1-about/imgs/alex.jpg) 
 : **Alexander**: I'm a Computer Science undergrad and am minoring in both Digital Forensics and Cybersecurity here at URI. Outside of programming for my internship and class, one of my favorite pastimes is reading a good book. If you can't attend my help hours, feel free to [email me](mailto:asinapi@uri.edu) and I will do my best to get back to you.
 
 ---
 
-![cropped headshot of Denno](/1-about/imgs/denno.jpg) 
+![cropped headshot of Denno](/sm21/1-about/imgs/denno.jpg) 
 : <br> **Denno**: Hello, my name is Denno Louis. I am a rising junior at the university. I enjoy playing basketball, coding games, and working out. Stop by my hours for any coding questions. <br> <br>
 
 ---
