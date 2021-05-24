@@ -46,7 +46,7 @@ Upon successful completion of the course, you should be able to:
 #### Late Policy {#late}
 > **TLDR:** No late work. Manage your time wisely and submit what you can.
 
-No late work will be accepted. You have multiple opportunities to demonstrate your knowldege of any given topic, including through the final project. If you're running tight on time, submit a partial solution so you can [resubmit later](/sm21/resubmissions).
+No late work will be accepted. If you're running tight on time, submit a partial solution so you can [resubmit later](/sm21/resubmissions).
 
 #### Collaboration and Academic Honesty {#integrity}
 > **TLDR:** Read this policy before you end up in the Dean's office.

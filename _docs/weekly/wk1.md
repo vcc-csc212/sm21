@@ -24,10 +24,10 @@ Before attending class, please complete the material below and **use the followi
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read the [course intro page](/)
-- Read the [course procedures](/procs)
-- Read the [course syllabus](/syllabus)
-- Read [about resubmissions](/resubmissions)
+- Read the [course intro page](/sm21/)
+- Read the [course procedures](/sm21/procs)
+- Read the [course syllabus](/sm21/syllabus)
+- Read [about resubmissions](/sm21/resubmissions)
 
 ##### In Class
 In today's class we'll do a brief course overview and work on Lab 1.

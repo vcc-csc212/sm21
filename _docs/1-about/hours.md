@@ -48,7 +48,7 @@ Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAi
  > **Hours schedule coming soon!**
 
 Async help:
-: Remember you can ask questions and contribute to our collective knowledgebase using [Piazza](piazza.com/uri/summer2021/csc212/home)! You may also [email Alexander](mailto:asinapi@uri.edu).
+: Remember you can ask questions and contribute to our collective knowledgebase using [Piazza](https://piazza.com/uri/summer2021/csc212/home)! You may also [email Alexander](mailto:asinapi@uri.edu).
 
 Meet with Prof:
 : If you'd like to meet 1:1 with Prof Chávez, you may [schedule a time using Calendly](http://calendly.com/vcchavez/).
