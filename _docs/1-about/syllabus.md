@@ -1,18 +1,30 @@
 ---
-title: Policies
-category: About / Syllabus
-order: 4
+title: Syllabus
+category: Course Info [READ ME]
+order: 2
 permalink: /policies/
 ---
 On this page:  
+✔️ [Course Outcomes](#outcomes)  
 ✔️ [Expectations](#expectations)  
 ✔️ [Late Policy](#late)  
 ✔️ [Collaboration and Academic Honesty](#integrity)  
+✔️ [Grading](#grading)  
 ✔️ [Accommodations](#accommodations)  
 ✔️ [Academic Support Services](#support)  
 ✔️ [Anti-Bias](#abt)  
 ✔️ [Covid Safety](#covid)  
 ✔️ [Religious Holidays](#rh)  
+✔️ [Tentative Schedule](#sched)  
+
+#### Course Outcomes {#outcomes}
+Upon successful completion of the course, you should be able to:
+- Implement code using pointers and dynamic memory allocation
+- Implement solutions that involve recursive functions
+- Implement sorting algorithms and understand their performance under different scenarios
+- Implement and use basic algorithms, data structures, and containers
+- Implement algorithmic solutions using the appropriate data structures and algorithms 
+- Compare different algorithms and data structures based on efficiency, using empirical and theoretical algorithm analysis techniques
 
 #### Expectations {#expectations}
 > **TLDR:** Be a responsible adult and a good human being.
@@ -37,27 +49,63 @@ On this page:
 No late work will be accepted. You have multiple opportunities to demonstrate your knowldege of any given topic, including through the final project. If you're running tight on time, submit a partial solution so you can [resubmit later](/resubmissions).
 
 #### Collaboration and Academic Honesty {#integrity}
-Collaborating is key to succeeding in this course. Helping others will allow you to gauge and improve your own understanding, while asking for help will allow you to move forward without feeling overwhelmed or being stuck for too long. 
-
-##### The following is allowed:
 > **TLDR:** Read this policy before you end up in the Dean's office.
 
-- You may work with others on all assignments **except exams**, but each person must hand in their own **significantly distinct** solution. 
-	- You must mention, somewhere on your assignment, who you worked with and how your solutions are significantly distinct.
+Collaborating is key to succeeding in this course. Helping others will allow you to gauge and improve your own understanding, while asking for help will allow you to move forward without feeling overwhelmed or being stuck for too long. 
+
+##### The following is NOT allowed:
+- You may not share your own code with anyone in any form.
+- You may not copy code from peers (current or past students of the course).
+- You may not copy code from online or other resources.
+
+##### The following is allowed:
+- You may discuss assignments with others, without writing or sharing code. That means you may discuss approaches and share publicly available resources.
+	- You must mention, somewhere on your assignment, who you worked with and how.
 - You may ask for help and may help others with debugging. 
 	- You must mention, somewhere on your assignment, who helped you and with what.
 - You may, and are encouraged to, seek help online/in books. 
 	- You must mention, somewhere on your assignment, the sources you used and for what.
 
-##### The following is NOT allowed:
-- You may not share your own code with peers (current or future students of the course).
-- You may not copy code from peers (current or past students of the course).
-- You may not copy code from online (or other) resources.
+#### Grading {#grading}
+> **TLDR:** Read this as it's something you're not used to.
+
+In computer science you learn by doing so while you may think or feel that the assignments are solely for a grade, they're whole purpose is for you to learn through them! Your grade should be a reflection of your learning and learning is an ongoing process, therefore, you are allowed and encouraged to continue working on assignments throughout the duration of the course and [resubmit](/resubmissions) as your assignments show your learning progress.
+
+Because I want you to emphasize your learning rather than your grades, grading is structured to reflect that:  
+
+To receive a D
+: you must:
+- Meet **all the requirements** for 60% of all labs assigned
+- Complete and submit a final project
+
+To receive a C
+: you must:
+- Meet **all the requirements** for 70% of all labs assigned
+- Complete and submit a final project
+
+To receive a B
+: you must:
+- Meet **all the requirements** for 80% of all labs assigned
+- Complete and submit a final project
+
+To receive a A
+: you must:
+- Meet **all the requirements** for 90% of all labs assigned
+- Complete and submit a final project
+
+To receive a +
+: If you have a D, C, or B and would like to receive a D+, C+, or B+ (respectively) you must:
+- Keep a **dated learning journal** where you log daily or weekly [reflections](https://docs.google.com/document/d/1dJZqShTQPvNvLo5hpWMewN280iy837e5yfxU1iXcoXE/edit#heading=h.obzg343dwvc3) on how the course is going and how your learning is progressing.
+
+Life happens
+: To drop a missing or incomplete lab, you must:
+- Complete [one application](https://docs.google.com/document/d/1dJZqShTQPvNvLo5hpWMewN280iy837e5yfxU1iXcoXE/edit#heading=h.c4hpqzvq7m4j) on any topic, of your choosing, related to the course (max limit of one).
+
 
 #### Accommodations {#accommodations}
 > **TLDR:** Let me know ASAP how to best support you and ensure your success in the course.
 
-I am working very hard to ensure my course is as accessible as possible. That being said, if you need any accommodations, please contact me as soon as possible so that we may work together to support your success in this course. While I do not require students to have a documented disability to receive accommodations in my course, most courses do and as such, I encourage you to contact Disability Services for Students (Office of Student Life, 330 Memorial Union, 401-874-2098).
+I am working very hard to ensure my course is as accessible as possible. That being said, if you need any accommodations, please contact me as soon as possible so that we may work together to support your success in this course. While I do not require students to have a documented disability to receive accommodations in my course, most courses do and as such, I encourage you to contact [Disability Services](https://web.uri.edu/disability/) for Students (Office of Student Life, 330 Memorial Union, 401-874-2098).
 
 #### Academic Support Services {#support}
 > **TLDR:** Use all the resources available to you.
@@ -70,7 +118,7 @@ URI offers an array of resources to enable you to succeed in all your courses. W
 We, as a class and community, respect the rights and dignity of each individual and group. We reject prejudice and intolerance, and we work to understand differences. We believe that equity and inclusion are critical components for campus community members to thrive. If you are a target or a witness of a bias incident, you are encouraged to submit a report to the URI Bias Response Team at uri.edu/brt. There, you will also find people and resources to help. 
 
 #### Covid Safety {#covid}
-> **TLDR:** We're in the middle of a very real pandemic. Don't be foolish.
+> **TLDR:** We are STILL in the middle of a very real pandemic. Don't be foolish.
 
 As members of the URI community, students are required to comply with standards of conduct and take precautions to keep themselves and others safe. Students are required to comply with Rhode Island state laws, including the Rhode Island Executive Orders related to health and safety, ordinances, regulations, and guidance adopted by the University as it relates to public health crises, such as COVID-19.  You are expected to know and comply with these obligations, including but not limited to:
 - Wearing of face masks by all community members when on a URI campus in the presence of others
@@ -83,4 +131,20 @@ Following the University’s quarantine and isolation requirements
 If you are already on campus and start to feel ill, you need to remove yourself from the public and notify URI Health Services via phone immediately at 401-874-2246 and go home/back to your room and self-isolate while you await direction from Health Services.
 
 #### Religious Holidays {#rh}
-If you'll be missing class or lab to observe a religious holiday, please email me in advance.
+If you'll be missing class to observe a religious holiday, please email me in advance.
+
+#### Tentative Schedule {#sched}
+Each time we meet, you'll be focusing on a new topic. **We move incredibly fast so don't fall behind**. 
+
+| Week | Tuesday | Wednesday | Thursday |
+| :-----------: | :-----------: | :-----------: | :-----------: |
+| 1 | Intro & Setup | C++ Crash Course | Object Oriented Programming | 
+| 2 | Essential Math Overview <br>& Intro to Analysis of Algos | Dynamic Arrays | Basic Sorting Algos |
+| 3 | Binary Search | Sets & Maps | Hashtables | 
+| 4 | Pointers Crash Course | Linked Lists | Linked Lists, cont'd |
+| 5 | Stacks | Queues | Priority Queues |
+| 6 | Recursion Crash Course | Mergesort | Quicksort |
+| 7 | Analyzing Recursive Functions <br>(w/ recurrences) | Recursive Backtracking | Recursive Backtracking, cont'd |
+| 8 | Intro to Trees | Binary Search Trees | BSTs, cont'd |
+| 9 | Balanced Trees | Heaps | Heapsort |
+| 10 | Intro to Graphs | BFS & DFS | Dijkstra |

@@ -1,7 +1,7 @@
 ---
 title: C++ Crash Course
 asg: Lab 01
-permalink: /lab01/
+permalink:
 ---
 
 Welcome to the first CSC 212 lab. Your goal for this lab will be to set up your environment and familiarize yourself with some basic terminal commands. **Be sure to read and follow all instructions unless otherwise specified.**  You'll find the table of contents for this lab below.

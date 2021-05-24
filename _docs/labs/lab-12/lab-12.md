@@ -1,7 +1,7 @@
 ---
 title: Graphs, BFS, & DFS
 asg: Lab 12
-permalink: /lab12/
+permalink:
 ---
 
 On this page:  

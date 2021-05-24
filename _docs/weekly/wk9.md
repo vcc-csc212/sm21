@@ -1,6 +1,6 @@
 ---
 title: Week 9
-permalink: /wk9/
+permalink: 
 ---
 
 > Reminder that you **must complete the pre-reading before each class**.

@@ -1,7 +1,7 @@
 ---
 title: Priority Queues
 asg: Lab 8
-permalink: /lab08/
+permalink:
 ---
 
 On this page:  

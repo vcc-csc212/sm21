@@ -1,7 +1,7 @@
 ---
 title: Pointers & Linked Lists
 asg: Lab 04
-permalink: /lab04/
+permalink:
 ---
 
 On this page:  

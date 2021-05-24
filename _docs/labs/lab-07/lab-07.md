@@ -1,7 +1,7 @@
 ---
 title: Backtracking
 asg: Lab 7
-permalink: /lab07/
+permalink:
 ---
 
 On this page:  

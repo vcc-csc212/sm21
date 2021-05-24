@@ -1,7 +1,7 @@
 ---
 title: Hash Tables, Chaining, & Open-Addressing
 asg: Lab 13
-permalink: /lab13/
+permalink:
 ---
 
 On this page:  

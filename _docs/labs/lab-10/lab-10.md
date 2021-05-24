@@ -1,7 +1,7 @@
 ---
 title: Binary Search Tree
 asg: Lab 10
-permalink: /lab10/
+permalink:
 ---
 
 On this page:  

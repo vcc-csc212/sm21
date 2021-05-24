@@ -1,6 +1,6 @@
 ---
 title: Week 2
-permalink: /wk2/
+permalink: 
 ---
 
 > You **must complete the pre-reading before each class**:  

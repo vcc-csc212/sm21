@@ -1,7 +1,7 @@
 ---
 title: Advanced Recursion
 asg: Lab 06
-permalink: /lab06/
+permalink:
 ---
 
 On this page:  

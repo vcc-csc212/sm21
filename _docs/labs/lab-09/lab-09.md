@@ -1,7 +1,7 @@
 ---
 title: Introduction to Trees
 asg: Lab 9
-permalink: /lab09/
+permalink:
 ---
 
 On this page:  

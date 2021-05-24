@@ -1,7 +1,7 @@
 ---
 title: Dynamic Arrays
 asg: Lab 03
-permalink: /lab03/
+permalink:
 ---
 
 On this page:  

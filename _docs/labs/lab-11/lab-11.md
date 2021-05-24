@@ -1,7 +1,7 @@
 ---
 title: Heaps
 asg: Lab 11
-permalink: /lab11/
+permalink:
 ---
 
 On this page:  

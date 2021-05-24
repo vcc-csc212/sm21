@@ -1,6 +1,6 @@
 ---
 title: Week 6
-permalink: /wk6/
+permalink: 
 ---
 
 > Reminder that you **must complete the pre-reading before each class**.

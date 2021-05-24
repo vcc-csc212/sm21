@@ -1,7 +1,7 @@
 ---
 title: Recursion
 asg: Lab 02
-permalink: /lab02/
+permalink:
 ---
 
 On this page:  

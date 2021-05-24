@@ -1,7 +1,7 @@
 ---
 title: Debugging & Problem Solving
 asg: Lab 05
-permalink: /lab05/
+permalink:
 ---
 
 > **Note**: This Lab differs from the others as it is **due at the end of this session!** You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic. Also, this is an **individual** lab (no groups).

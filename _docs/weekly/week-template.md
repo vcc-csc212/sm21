@@ -14,7 +14,7 @@ On this page:
 #### Pre-Reading for TOPIC, Tuesday DATE1 {#tues}
 
 ##### Essential Questions
-Before attending class, please complete the material below and use the following questions to guide your note-taking:  
+Before attending class, please complete the material below and **use the following questions to guide your note-taking**:  
 <br>
 ✔️ ?  
 
