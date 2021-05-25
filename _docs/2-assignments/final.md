@@ -12,7 +12,7 @@ On this page:
 ✔️ [Submitting the Final Project](#sub)  
 
 #### About the Final Project {#about}
-It's never too early to start thinking about a final project! Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Friday, July 31st @ 8:00pm**.
+It's never too early to start thinking about a final project! Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Friday, July 30th @ 8:00pm**.
 
 - You may work individually or in groups of up to 4.
 - The more people in the group, the higher the expectations for the final product. 

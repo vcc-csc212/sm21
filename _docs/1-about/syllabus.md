@@ -69,7 +69,7 @@ Collaborating is key to succeeding in this course. Helping others will allow you
 #### Grading {#grading}
 > **TLDR:** Read this as it's something you're not used to.
 
-In computer science you learn by doing so while you may think or feel that the assignments are solely for a grade, they're whole purpose is for you to learn through them! Your grade should be a reflection of your learning and learning is an ongoing process, therefore, you are allowed and encouraged to continue working on assignments throughout the duration of the course and [resubmit](/sm21/resubmissions) as your assignments show your learning progress.
+In computer science you learn by doing so while you may think or feel that the assignments are solely for a grade, their whole purpose is for you to learn through them! Your grade should be a reflection of your learning and learning is an ongoing process, therefore, you are allowed and encouraged to continue working on assignments throughout the duration of the course and [resubmit](/sm21/resubmissions) as your assignments show your learning progress.
 
 Because I want you to emphasize your learning rather than your grades, grading is structured to reflect that:  
 
