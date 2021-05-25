@@ -38,7 +38,7 @@ Coding challenges have become more and more common as a part of the interview pr
 ---
 
 #### Requirements {#reqs}
-Your submission will be **tested and graded by an autograder**, for this reason it cannot be stressed enough that your program must **exactly** follow the assignment specifications:  
+Your submission will be manually checked to ensure it meets the following specifications:  
 
 1. Document includes both screenshots, as specified above
 2. Screenshot shows successful completion of HackerRank challenge
