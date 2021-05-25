@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk1#tues)
 : These readings will help you understand the **course structure** so you're set up for success over the next ten weeks.
 
-Tuesday Lab
+[Tuesday Lab](/sm21/lab01)
 : This lab will help you ensure you're set up to code in C++ and will allow you to gain experience with the autograder.
 
 [Readings for<br>Wednesday](/sm21/wk1#weds)
