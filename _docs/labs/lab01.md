@@ -23,8 +23,8 @@ Coding challenges have become more and more common as a part of the interview pr
 ---
 
 #### Your Task {#task}
-1. Sign up on [Hacker Rank](https://www.hackerrank.com/) and [complete any one C++ challenge](https://www.hackerrank.com/domains/cpp). Take a screenshot showing you've successfully completed it.
-2. Set up the IDE you'll be using for the class. Download and install it if necessary, and write a short program that prints out "Hello `name`" where `name` is your name. Tak a screenshot of your IDE and console showing the expected output.
+1. Sign up on [Hacker Rank](https://www.hackerrank.com/) and [complete any one C++ challenge](https://www.hackerrank.com/domains/cpp). Take a screenshot **showing you've successfully completed** it.
+2. Set up the IDE you'll be using for the class. Download and install it if necessary, and write a short program that prints out "Hello `name`" where `name` is your name. Take a screenshot of **your IDE and console showing the expected output**.
 3. Explore the debugger of your chosen IDE. We have some [tutorials available on the resource page](/sm21/resouces#debuggers)
 
 > Common 212 editors:
