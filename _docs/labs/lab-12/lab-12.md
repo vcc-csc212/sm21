@@ -137,11 +137,11 @@ Similar to last week's lab, we give you a makefile, a unit test file, a doctest 
 
 We have supplied ```graph.cpp``` to house your class definitions, and `test.cpp` will serve as your main file. 
 
-- [graph.h](/labs/lab-12/template-code/graph.h)
-- [graph.cpp](/labs/lab-12/template-code/graph.cpp)
-- [test.cpp](/labs/lab-12/template-code/test.cpp)
-- [doctest.h](/labs/lab-12/template-code/doctest.h)
-- [makefile](/labs/lab-12/template-code/makefile)
+- [graph.h](/sm21/labs/lab-12/template-code/graph.h)
+- [graph.cpp](/sm21/labs/lab-12/template-code/graph.cpp)
+- [test.cpp](/sm21/labs/lab-12/template-code/test.cpp)
+- [doctest.h](/sm21/labs/lab-12/template-code/doctest.h)
+- [makefile](/sm21/labs/lab-12/template-code/makefile)
 
 Thus you will need to follow the specifications in the next section very closely in order to complete the lab correctly.
 
@@ -270,7 +270,7 @@ Your goal for this lab is to complete the following tasks **in order**:
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sm21/staff#sched) to get checked off.
 
 ---
 
@@ -284,6 +284,6 @@ This assignment covers graphs and `BFS & DFS` and your level of knowledge on the
     - Successfully meet [requirements](#reqs) **1 through 3**
 
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---

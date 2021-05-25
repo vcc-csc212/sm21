@@ -4,6 +4,7 @@ permalink: /resources/
 ---
 
 On this page:  
+✔️ [Course Specific Resources](#course)  
 ✔️ [Make the most of your IDE and Debugger](#debuggers)  
 ✔️ [Reference Sites & Cheat sheets](#quick)  
 ✔️ [Math for Understanding Time Complexities](#math)  
@@ -14,6 +15,15 @@ On this page:
 ✔️ [Code and Data Structure Visualizers](#viz)  
 ✔️ [Programming Practice/Challenges](#challenges)  
 ✔️ [Add my own suggestion](#suggestions)  
+
+***
+
+#### Course Specific Resources {#course}
+- [Student To Do](/sm21/todo): Weekly **pre-class readings and assignments**
+- [Piazza](http://piazza.com/uri/spring2021/csc212): Forum for **announcements and Q&A**.
+- [Class Slides](/sm21/slides): Slides used in class.
+- [Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link): Google Form to **provide feedback anonymously**. Help me improve the course by sharing your **questions, thoughts, comments, and concerns**.
+- [Evan's Tree Guide](http://bit.ly/trees-guide): Summary of various types of trees as well as BFS and DFS.
 
 ***
 
@@ -78,6 +88,7 @@ On this page:
 ***
 
 #### C++ Programming {#cpp}
+- [C++ Language Tutorial](https://cplusplus.com/doc/tutorial/) 
 - Free online textbook: [Starting Out with C++](http://instructor.sdu.edu.kz/~bakhyt/CPP/suggested%20books/Starting%20out%20with%20C++.pdf)
 	- Used at URI in CSC 211 and CSC 200
 	- I recommend you download it for easy access

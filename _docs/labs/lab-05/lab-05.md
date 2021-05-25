@@ -171,7 +171,7 @@ This assignment covers **problem solving** and your level of knowledge on them w
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirement](#reqs) **3**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

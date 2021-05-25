@@ -57,19 +57,19 @@ Lets try applying this algorithm to our board:
 
 | First Pass | Second Pass | Seventh Pass |
 | --- | --- | --- |
-| ![image](/labs/lab-07/images/sujiko/first_pass.png) | ![image](/labs/lab-07/images/sujiko/second_pass.png) | ![image](/labs/lab-07/images/sujiko/seventh_pass.png) |
+| ![image](/sm21/labs/lab-07/images/sujiko/first_pass.png) | ![image](/sm21/labs/lab-07/images/sujiko/second_pass.png) | ![image](/sm21/labs/lab-07/images/sujiko/seventh_pass.png) |
 
 We've hit our first dead end, & there are no more missing values to place. This solution is not correct, so we backtrack to the previous version of the board, and change the number that was placed.
 
 | Sixth Pass Revisited | Sixth Pass Modified | Seventh Pass Revisited |
 | --- | --- | --- |
-| ![image](/labs/lab-07/images/sujiko/sixth_pass_revisited.png) | ![image](/labs/lab-07/images/sujiko/sixth_pass_modified.png) | ![image](/labs/lab-07/images/sujiko/new_seventh_pass.png) |
+| ![image](/sm21/labs/lab-07/images/sujiko/sixth_pass_revisited.png) | ![image](/sm21/labs/lab-07/images/sujiko/sixth_pass_modified.png) | ![image](/sm21/labs/lab-07/images/sujiko/new_seventh_pass.png) |
 
 This yields another dead end, so we would backtrack back to the 5th empty spot, and change the value there.
 
 | Fifth Pass Revisited | New Fifth   | New Sixth Pass |
 | --- | --- | --- |
-| ![image](/labs/lab-07/images/sujiko/fifth_pass_revisited.png) | ![image](/labs/lab-07/images/sujiko/new_fifth_pass.png) | ![image](/labs/lab-07/images/sujiko/new_sixth_pass.png) |
+| ![image](/sm21/labs/lab-07/images/sujiko/fifth_pass_revisited.png) | ![image](/sm21/labs/lab-07/images/sujiko/new_fifth_pass.png) | ![image](/sm21/labs/lab-07/images/sujiko/new_sixth_pass.png) |
 
 This process would repeat until we have a solution board:
 
@@ -124,9 +124,9 @@ The following is the result of the recursive call tree for solving a 4x4 puzzle:
 
 Download the code to solve the N-Queens problem and work to understand how the backtracking is working to solve the problem. After you can follow the code, move on to the next section.
 
-- [main.cpp](/labs/lab-07/N-Queens/main.cpp)
-- [n-queens.h](/labs/lab-07/N-Queens/n-queens.h)
-- [n-queens.cpp](/labs/lab-07/N-Queens/n-queens.cpp)
+- [main.cpp](/sm21/labs/lab-07/N-Queens/main.cpp)
+- [n-queens.h](/sm21/labs/lab-07/N-Queens/n-queens.h)
+- [n-queens.cpp](/sm21/labs/lab-07/N-Queens/n-queens.cpp)
 
 ---
 
@@ -137,16 +137,16 @@ In Sudoku, you are given a partially filled 9x9 board with the objective of fill
 
 |              Sudoku Puzzle               |              Sudoku Puzzle Solved               |
 | :--------------------------------------: | :---------------------------------------------: |
-| ![image](/labs/lab-07/images/sudoku_puzzle.png) | ![image](/labs/lab-07/images/sudoku_puzzle_solved.png) |
+| ![image](/sm21/labs/lab-07/images/sudoku_puzzle.png) | ![image](/sm21/labs/lab-07/images/sudoku_puzzle_solved.png) |
 
 Now that you know the rules, finish the given code for solving a Sudoku puzzle.
 
-- [main.cpp](/labs/lab-07/Sudoku/main.cpp)
-- [sudoku.cpp](/labs/lab-07/Sudoku/sudoku.cpp)
-- [sudoku.h](/labs/lab-07/Sudoku/sudoku.h)
-- [Easy Puzzle](/labs/lab-07/Sudoku/puzzle_easy.txt)
-- [Medium Puzzle](/labs/lab-07/Sudoku/puzzle_medium.txt)
-- [Hard Puzzle](/labs/lab-07/Sudoku/puzzle_hard.txt)
+- [main.cpp](/sm21/labs/lab-07/Sudoku/main.cpp)
+- [sudoku.cpp](/sm21/labs/lab-07/Sudoku/sudoku.cpp)
+- [sudoku.h](/sm21/labs/lab-07/Sudoku/sudoku.h)
+- [Easy Puzzle](/sm21/labs/lab-07/Sudoku/puzzle_easy.txt)
+- [Medium Puzzle](/sm21/labs/lab-07/Sudoku/puzzle_medium.txt)
+- [Hard Puzzle](/sm21/labs/lab-07/Sudoku/puzzle_hard.txt)
 
 Your strategy will be *very* similar to the solution for N-Queens:
 
@@ -184,7 +184,7 @@ In other words, instead of solving the puzzle left to right, solve it top to bot
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sm21/staff#sched) to get checked off.
 
 ---
 
@@ -197,7 +197,7 @@ This assignment covers the topic of **recursive backtracking** and your level of
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 3**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

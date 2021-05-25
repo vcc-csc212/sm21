@@ -31,18 +31,18 @@ Sorting algorithms are used to rearrange a list or array of elements according t
 
 #### Your Task {#task}
 Complete the implementation of the sorting algorithms in `sorting-lab.cpp`. Pay attention to the **hints in the code**. Refer to previous material as needed:
-- [Insertion and selection sort implementation material](/wk2#thurs)
-- [Insertion and selection sort analysis material](/wk3#tues)
-- [Mergesort material](/wk6#tues)
-- [Quicksort material](/wk7#tues)
-- [Class slides](/slides)
+- [Insertion and selection sort implementation material](/sm21/wk2#thurs)
+- [Insertion and selection sort analysis material](/sm21/wk3#tues)
+- [Mergesort material](/sm21/wk6#tues)
+- [Quicksort material](/sm21/wk7#tues)
+- [Class slides](/sm21/slides)
 
 Similar to our recent labs, you'll be using a makefile and unit testing for this lab. Make sure to download all files:
-- [sorting-lab.cpp](/labs/sort-lab/template-code/sorting-lab.cpp)
-- [sorting-lab.h](/labs/sort-lab/template-code/sorting-lab.h)
-- [test.cpp](/labs/sort-lab/template-code/test.cpp)
-- [doctest.h](/labs/sort-lab/template-code/doctest.h)
-- [makefile](/labs/sort-lab/template-code/makefile)
+- [sorting-lab.cpp](/sm21/labs/sort-lab/template-code/sorting-lab.cpp)
+- [sorting-lab.h](/sm21/labs/sort-lab/template-code/sorting-lab.h)
+- [test.cpp](/sm21/labs/sort-lab/template-code/test.cpp)
+- [doctest.h](/sm21/labs/sort-lab/template-code/doctest.h)
+- [makefile](/sm21/labs/sort-lab/template-code/makefile)
 
 ---
 
@@ -66,7 +66,7 @@ This assignment covers the **non-negotiable topic** of `Sorting Algos (Implement
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 2**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

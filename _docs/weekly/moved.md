@@ -1,3 +1,8 @@
+FOR POINTERS: 
+
+- Read [Stack and Heap Memory](https://courses.engr.illinois.edu/cs225/fa2020/resources/stack-heap/)
+- Watch [Stack Versus Heap](https://www.youtube.com/watch?v=IX3fDYz0WyM) (3 min)
+
 #### Pre-Reading for Essential Math Overview, Thursday 1/28 {#thurs}
 
 ##### Essential Questions
@@ -13,7 +18,7 @@ Before attending class, please complete the material below and use the following
 ✔️ When are **factorials** useful and how are they calculated?
 
 ##### Read/Watch/Review
-Before attending class, please complete the material below. If your math is rough around the edges, I recommend checking out the [Math Prep Work](/prep#math) posted over break **before** completing the material below.
+Before attending class, please complete the material below. If your math is rough around the edges, I recommend checking out the [Math Prep Work](/sm21/prep#math) posted over break **before** completing the material below.
 - Read [Rules of Exponents](https://www.chilimath.com/lessons/intermediate-algebra/rules-of-exponents/)
 	- Alternatively, for a one-stop shop of Exponents and Logarithms, read [Exponentials: Discrete, Real, and Imaginary](https://sites.google.com/site/butwhymath/algebra/eponentials-discrete-real-and-imaginary)
 - Read [Logarithms Explained](https://www.chilimath.com/lessons/advanced-algebra/logarithms-explained/)
