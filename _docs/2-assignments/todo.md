@@ -15,8 +15,7 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk1#weds)
 : These readings will help you review some of the **fundamentals of programming in C++**. If this is the **first time you're using C++**, please refer to the **[C++ Programming tutorials](/sm21/resources#cpp)** available on the resource page.
 
-
-Wednesday Lab
+[Wednesday Lab](/sm21/lab02)
 : This lab will help you solidify your understanding of programming, debugging, and testing in C++.
 
 [Readings for<br>Thursday](/sm21/wk1#thurs)
