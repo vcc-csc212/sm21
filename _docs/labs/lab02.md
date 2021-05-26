@@ -294,6 +294,8 @@ for (int i = 0; i < num_rows; i++){
 
 #### Your Task {#task}
 
+> While Step 4 requires collaboration with a peer, please remember from our [collaboration and academic honesty policy](/sm21/syllabus#integrity) that "You may not share your own code or psuedocode with anyone in any form (this **includes screen sharing**, file sharing, posting your code, pictures of your code, etc.)." You may share your planned approach (from step 5) as long as it's in full sentences and not psuedocode.
+
 1. Create a new Google Document (this will allow me to see your change history), and title it "Lab 2".
 2. Sign up on [LeetCode](https://leetcode.com/), a website similar to HackerRank.
 3. Read the problem description for [Implement strStr()](https://leetcode.com/problems/implement-strstr/). **Don't start coding yet. Write down your initial thoughts and reactions on the Google Doc**. 
@@ -315,6 +317,9 @@ Your submission will be manually checked to ensure it meets the following specif
 ---
 
 #### Handing in {#submit}
+
+> Please **only submit after completing ALL NINE STEPS in order**.
+
 1. Share the Google Document with my email **uncheck the box next to "Notify people"**
 2. Copy the link to your document
 3. Submit the link to Gradescope. 

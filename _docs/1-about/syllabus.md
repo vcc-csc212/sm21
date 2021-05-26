@@ -54,7 +54,7 @@ No late work will be accepted. If you're running tight on time, submit a partial
 Collaborating is key to succeeding in this course. Helping others will allow you to gauge and improve your own understanding, while asking for help will allow you to move forward without feeling overwhelmed or being stuck for too long. 
 
 ##### The following is NOT allowed:
-- You may not share your own code with anyone in any form (this includes screen sharing, file sharing, posting your code, pictures of your code, etc.).
+- You may not share your own code or psuedocode with anyone in any form (this includes screen sharing, file sharing, posting your code, pictures of your code, etc.).
 - You may not copy code from peers (current or past students of the course).
 - You may not copy code from online or other resources.
 
