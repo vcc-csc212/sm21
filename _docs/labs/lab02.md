@@ -22,7 +22,7 @@ This lab will help you solidify your understanding of programming, debugging, an
 #### Background Info {#bgi}
 If you have not yet set up your IDE of choice, please do so now. You may refer to [Lab 1](/sm21/lab01) for suggestions and tutorials.
 
-The next section will deal with Unix commands, as Unix is a common environment for C++ development. For those of you in a Windows environment, you can install the [Windows Subsystem for Linux](https://itsfoss.com/install-bash-on-windows/) and gain access to a Unix Shell.
+The next section will deal with Unix commands, as Unix is a common environment for C++ development. You should be able to **use your IDE's built in terminal** for the following section.
 
 ##### Basic Unix Command-Line Exploration
 
@@ -33,13 +33,16 @@ To really understand what you'll be doing for this section of the lab, having a 
 ###### Opening a New Terminal
 
 CS50
-: If you don't have a terminal already open in your environment, you can create one in the the CS50 IDE by clicking File > New Terminal. Please read [the CS50 documentation](https://cs50.readthedocs.io/ide/online/#working-with-terminals) before moving to the next step.
+: If you don't have a terminal already open in your environment, you can create one in the CS50 IDE by clicking File > New Terminal. Please read [the CS50 documentation](https://cs50.readthedocs.io/ide/online/#working-with-terminals) before moving to the next step.
+
+Other IDEs
+: If you don't have a terminal already open in your environment, you can create one usually under "File" or under "Tools".
 
 Mac OS
-: Run the 'Terminal' program
+: If you are **not using an IDE**, run the 'Terminal' program
 
 Windows
-: If you followed the above steps to install the 'Windows Subsystem for Linux' then run the 'Ubuntu' program to open a terminal.
+: If you are **not using an IDE**, install the [Windows Subsystem for Linux](https://itsfoss.com/install-bash-on-windows/), then run the 'Ubuntu' program to open a terminal.
 
 ###### Making a file
 
