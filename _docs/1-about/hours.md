@@ -45,7 +45,28 @@ If you're feeling shy, you can ask questions anonymously!
 > To join an hours session, log on to your URI Zoom account and join [this meeting](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09).  
 Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAiRY).
 
- > **Hours schedule coming soon!**
+Mondays:
+: 11:00am-1:00pm ET (Denno)  
+1:00pm-2:00pm ET (Alexander)  
+2:00pm–4:00pm ET (Denno)
+
+Tuesdays:
+: 11:00am–1:00pm ET (Denno)  
+1:00pm-2:00pm ET (Alexander)  
+2:00pm–4:00pm ET (Denno) 
+
+Wednesdays:
+: 11:00am–2:00pm ET (Denno)  
+12:00pm-2:00pm ET (Alexander)  
+4:00pm–6:00pm ET (Denno)
+
+Thursdays:
+: 11:00am–2:00pm ET (Denno)  
+12:00pm-2:00pm ET (Alexander)  
+4:00pm–6:00pm ET (Denno)
+
+Fridays:
+: 12:00pm-2:00pm ET (Alexander)
 
 Async help:
 : Remember you can ask questions and contribute to our collective knowledgebase using [Piazza](https://piazza.com/uri/summer2021/csc212/home)! You may also [email Alexander](mailto:asinapi@uri.edu).
