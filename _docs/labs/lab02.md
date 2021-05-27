@@ -221,7 +221,7 @@ g++ main.cpp -o prog && ./prog
 
 Wouldn't it be nice to not have to type that every single time you're trying to compile? There's a way!
 
-A makefile is a file containing the set of instructions required to compile and run your proram. The nice thing about a makefile is that if it is created correctly, all you need to do to compile your code is run the command `make`, no arguments needed. We'll be using a makefile for the next lab, but in the mean time, you should [read up on them](https://makefiletutorial.com)!
+A makefile is a file containing the set of instructions required to compile and run your program. The nice thing about a makefile is that if it is created correctly, all you need to do to compile your code is run the command `make`, no arguments needed. We'll be using a makefile for the next lab, but in the mean time, you should [read up on them](https://makefiletutorial.com)!
 
 ##### Good Programming Practices
 
