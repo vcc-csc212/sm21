@@ -174,7 +174,7 @@ The makefile we have given you is already completed and beyond compiling your co
 
 The instructions below will walk you through applying OOP concepts as well as testing them using your own automated tester!
 
-1. Download the files below
+1. Download the files below (it's easiest if you right click and then choose download or save)
 
     [Animal.h](/sm21/labs/lab03/template-code/Animal.h)
     : Contains the **declaration** of the abstract Animal class from the example above.
