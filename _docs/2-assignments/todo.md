@@ -21,7 +21,7 @@ permalink: /todo/
 [Readings for<br>Thursday](/sm21/wk1#thurs)
 : These readings will teach you about **object oriented programming**. This is a hefty unit designed for people with no OOP experience. If you’ve done object oriented programming before, you may skim material as you see fit.
 
-Thursday Lab
+[Thursday Lab](/sm21/lab03)
 : This lab will help you solidify your understanding of object oriented programming.
 
 ---
