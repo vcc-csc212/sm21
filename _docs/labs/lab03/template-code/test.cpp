@@ -56,7 +56,7 @@ TEST_CASE("Speak tests") {
     //add your own
 }
 
-TEST_CASE("Plymorphism tests") {
+TEST_CASE("Polymorphism tests") {
     SUBCASE("Dog") {
         std::ostringstream oss;
         Animal *dog = new Dog(50);
