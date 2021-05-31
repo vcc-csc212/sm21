@@ -280,6 +280,7 @@ To submit your solution to Gradescope, select **all of the following files** and
 - Snake.h
 - Hamster.h
 - main.cpp
+- test.cpp
 
 ---
 
