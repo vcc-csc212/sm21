@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk2#tues)
 : These readings will help you understand the **necessary pre-requisite math for conducting analysis of algorithms**. This is a hefty unit designed to review **several pre-algebra and pre-calculus topics**. If you’re comfortable with these concepts, you may skim material as you see fit. **If your math is rough around the edges**, please review the [Math Resources](/sm21/resources#math) available on the resource page **before completing these readings**.
 
-Tuesday Lab
+[Tuesday Lab](/sm21/lab04)
 : This lab will introduce you to the concept of analyzing algorithms. 
 
 [Readings for<br>Wednesday](/sm21/wk2#weds)
