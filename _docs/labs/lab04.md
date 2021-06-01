@@ -24,7 +24,7 @@ Rather than writing out a lengthy section for the background information, we hav
 Before completing the task below, please complete the material below and use the following questions to guide your note-taking:  
 <br>
 ✔️ Why is time complexity important?  
-✔️ What are common order-of-growth classifications?
+✔️ What are common order-of-growth classifications?  
 ✔️ What are the differences between Big-O, Big-Omega, and Theta?  
 ✔️ What is the process for analyzing the time complexity of an algorithm?  
 
