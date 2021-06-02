@@ -120,8 +120,17 @@ The instructions below will walk you through implementing and testing your own d
 3. Create your own makefile to compile and run your program. Refer to [Lab 3](/sm21/lab03) as needed.
 4. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in.
 5. Implement and test the overloaded constructors
+    > **Note:** You should initialize **all member variables** in all constructors so you don't end up with any garbage values.
 6. Implement and test `append()` and `prepend()`
-    > **Note:** the array should increase its capacity by the scaling factor whenever it's full. If the array is empty to begin with, increase its capacity to 1.
+    > **Note:** the array should increase its capacity by the scaling factor whenever it's full. If the array is empty to begin with, increase its capacity to 1. Recall the algorithm for inserting into an an array:
+    ```
+    If array is NOT full:
+        insert into our array 
+    If array IS full:
+        dynamically allocate memory for new array
+        copy data from old array into new array
+        delete the old array
+    ```    
 7. Implement and test `findFirstOf()` and `findLastOf()`
 8. Implement and test `removeLast()`, `removeFirst()`, and `clear()`
     > **Note:** the array should decrease its capacity by the scaling factor whenever it's been emptied to 1/(2 x m_scaling_factor) its capacity or less (i.e., if the scaling factor is 2, the array should shrink to 1/2 its size when it's 1/4 full or less; if the scaling factor is 5, the array should shrink to 1/5 its size when it's 1/10 full or less)
