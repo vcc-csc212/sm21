@@ -15,7 +15,7 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk2#weds)
 : These readings will help you better understand a data structure you have probably used already: **Dynamic Arrays**, known as vectors in C++, lists in Python, ArrayLists in Java, and Arrays in JavaScript.
 
-Wednesday Lab
+[Wednesday Lab](/sm21/lab05)
 : This lab will help you solidify your understanding of dynamic arrays by having you implement your own dynamic array.
 
 [Readings for<br>Thursday](/sm21/wk2#thurs)
