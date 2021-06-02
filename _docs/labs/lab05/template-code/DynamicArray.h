@@ -18,7 +18,8 @@ class DynamicArray {
         unsigned int m_capacity; 
         // the scaling factor when resizing the array (always > 1)
         double m_scaling_factor; 
-        // pointer to the array of integers
+        // pointer to the array of integers that represents our dynamic array
+        // this is the pointer to the array that will be resized
         int *m_data; 
 
     public:

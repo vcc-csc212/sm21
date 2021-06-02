@@ -23,7 +23,7 @@ This lab will help you solidify your understanding of dynamic arrays by having y
 1. **Dynamic allocation** means **allocating memory** at run time instead of compile time. This happens with the use of the `new` keyword.
 2. **Dynamic arrays**, or vectors, are arrays that **automatically change size** by growing or shrinking as necessary. This is the main focus of this lab.
 
-##### Arrays
+##### Static Arrays
 
 Arrays are one of the most common and versatile data structures and are essential to almost any useful C or C++ program. They allow us to store hundreds, or even thousands, of elements inside of memory while providing random access in `O(1)` to all of them. While these helpful structures provide us with near-instant access to our data whenever we need it, they are not without weakness. When using regular C-style arrays, you must declare a fixed size for them at the time of their creation and, once this size is declared, it cannot be changed.
 
@@ -97,6 +97,8 @@ With amortized analysis, we see that on average, inserting into a dynamic array 
 ---
 
 #### Your Task {#task}
+
+> **Do not use a vector** at all for this assignment-- you are **implementing a vector**
 
 The instructions below will walk you through implementing and testing your own dynamic array.
 

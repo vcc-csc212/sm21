@@ -5,6 +5,16 @@ DynamicArray::DynamicArray()
     : m_length(0), m_capacity(0), m_scaling_factor(2.0), m_data(nullptr) {
 }
 
+//The above is sorthand for: 
+/*
+DynamicArray::DynamicArray() {
+    this->m_length = 0;
+    this->m_capacity = 0;
+    this->m_scaling_factor = 2.0;
+    this->m_data = nullptr;
+}
+*/
+
 DynamicArray::DynamicArray(double scaling_factor, unsigned int capacity) {
     //..............
     // TODO
