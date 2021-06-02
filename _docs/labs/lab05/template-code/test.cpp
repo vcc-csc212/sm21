@@ -65,7 +65,7 @@ TEST_CASE("Default Con/Destructor") {
 //         REQUIRE(da_def.getLength() == 3);
 //         REQUIRE(da_def.getCapacity() == 4);
         
-//         DynamicArray da_cap(3, 1);
+//         DynamicArray da_cap(3, 3);
 //         da_cap.append(5);
 //         REQUIRE(da_cap.toString() == "{5}");
 //         REQUIRE(da_cap.getLength() == 1);
@@ -80,7 +80,7 @@ TEST_CASE("Default Con/Destructor") {
 //         REQUIRE(da_cap.getCapacity() == 3);
 //         da_cap.append(5000);
 //         REQUIRE(da_cap.toString() == "{5 50 500 5000}");
-//         REQUIRE(da_cap.getLength() == 3);
+//         REQUIRE(da_cap.getLength() == 4);
 //         REQUIRE(da_cap.getCapacity() == 9);
 
 //         DynamicArray da_fill(5, 5, 0);
@@ -109,20 +109,24 @@ TEST_CASE("Default Con/Destructor") {
 //         da_def.append(50);
 //         da_def.append(5);
 
-//         unsigned int* index;
-//         bool found;
+//         unsigned int index = 999;
+//         bool found = false;
 
-//         found = da_def.findFirstOf(5, index);
+//         found = da_def.findFirstOf(5, &index);
 //         REQUIRE(found == true);
-//         REQUIRE(*index == 0);
+//         REQUIRE(index == 0);
 
-//         found = da_def.findFirstOf(50, index);
+//         index = 999;
+//         found = false;
+//         found = da_def.findFirstOf(50, &index);
 //         REQUIRE(found == true);
-//         REQUIRE(*index == 1);
+//         REQUIRE(index == 1);
 
-//         found = da_def.findFirstOf(500, index);
+//         index = 999;
+//         found = false;
+//         found = da_def.findFirstOf(500, &index);
 //         REQUIRE(found == false);
-//         REQUIRE(*index == -1);
+//         REQUIRE(index == 999);
 
 //         //add your own
 //     }
@@ -133,20 +137,24 @@ TEST_CASE("Default Con/Destructor") {
 //         da_def.append(50);
 //         da_def.append(5);
 
-//         unsigned int* index;
-//         bool found;
+//         unsigned int index = 999;
+//         bool found = false;
 
-//         found = da_def.findLastOf(5, index);
+//         found = da_def.findLastOf(5, &index);
 //         REQUIRE(found == true);
-//         REQUIRE(*index == 2);
+//         REQUIRE(index == 2);
 
-//         found = da_def.findLastOf(50, index);
+//         index = 999;
+//         found = false;
+//         found = da_def.findLastOf(50, &index);
 //         REQUIRE(found == true);
-//         REQUIRE(*index == 1);
+//         REQUIRE(index == 1);
 
-//         found = da_def.findLastOf(500, index);
+//         index = 999;
+//         found = false;
+//         found = da_def.findLastOf(500, &index);
 //         REQUIRE(found == false);
-//         REQUIRE(*index == -1);
+//         REQUIRE(index == 999);
 
 //         //add your own
 //     }
@@ -185,17 +193,17 @@ TEST_CASE("Default Con/Destructor") {
 //         da_def.append(50);
 //         da_def.append(500);
 
-//         da_def.removeFirst();
+//         da_def.removeLast();
 //         REQUIRE(da_def.toString() == "{5 50}");
 //         REQUIRE(da_def.getLength() == 2);
 //         REQUIRE(da_def.getCapacity() == 4);
         
-//         da_def.removeFirst();
+//         da_def.removeLast();
 //         REQUIRE(da_def.toString() == "{5}");
 //         REQUIRE(da_def.getLength() == 1);
 //         REQUIRE(da_def.getCapacity() == 2);
 
-//         da_def.removeFirst();
+//         da_def.removeLast();
 //         REQUIRE(da_def.toString() == "{}");
 //         REQUIRE(da_def.getLength() == 0);
 //         REQUIRE(da_def.getCapacity() == 1);
