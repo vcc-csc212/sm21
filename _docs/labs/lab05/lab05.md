@@ -56,7 +56,7 @@ If array IS full:
 ##### Analyzing Dynamic Arrays
 
 <details>
-    <summary>Assuming you have enough space to add an element to a static array, what is the time complexity of inserting into a static array? (after giving it some thought, click to reveal answer)</summary>
+    <summary><strong>Assuming you have enough space to add an element to a static array, what is the time complexity of inserting into a static array? (after giving it some thought, click to reveal answer)</strong></summary>
 
     For static arrays, an insert operation runs in O(1) (i.e., constant) time. Since we have random memory access, and all of the space we need is already allocated, we simply need to index into the appropriate index and assign it the value we are inserting. It does not matter if we are inserting into index 0, or index 10,000-- both operations will take the same amount of time. 
 </details>
@@ -65,7 +65,7 @@ If array IS full:
 <br>But what about for a Dynamic Array? If we have enough space as-is, inserts will take O(1) time, but inserts that require resizing will take longer. 
 
 <details>
-    <summary>What is the time complexity of inserting into a dynamic array when it requires resizing the array? (after giving it some thought, click to reveal answer)</summary>
+    <summary><strong>What is the time complexity of inserting into a dynamic array when it requires resizing the array? (after giving it some thought, click to reveal answer)</strong></summary>
 
     Recall that if a dynamic array is full, thwe following steps must be performed:
     1. dynamically allocate memory for new array
@@ -89,7 +89,7 @@ Well neither of those helpful! There's no Theta and the way we know how to calcu
 
 With amortized analysis, we see that on average, inserting into a dynamic array will be constant time or O(1).
 
-> Despite the uee of the word **average**, amortized analysis and average-case (&Theta;) are completely different. Amortized analysis is **a way or means** to get a time complexity, &Theta; is an asymptotic notation that tells us the average function behaviour as n gets very large. For more info:
+> Despite the use of the word **average**, amortized analysis and average-case (&Theta;) are completely different. Amortized analysis is **a way or means** to get a time complexity, Theta is an asymptotic notation that tells us the average function behaviour as n gets very large. For more info:
 - Read [Big Theta and Asymptotic Notation Explained](https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/)
 - Read [What is amortized analysis of algorithms?](https://stackoverflow.com/questions/11102585/what-is-amortized-analysis-of-algorithms)
 - Read [What is the relationship between amortized run time and big-Θ run time?](https://www.quora.com/What-is-the-relationship-between-amortized-run-time-and-big-Θ-run-time?share=1)
