@@ -5,7 +5,7 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (5/24-5/28)
+##### This Week (6/1-6/4)
 [Readings for<br>Tuesday](/sm21/wk2#tues)
 : These readings will help you understand the **necessary pre-requisite math for conducting analysis of algorithms**. This is a hefty unit designed to review **several pre-algebra and pre-calculus topics**. If you’re comfortable with these concepts, you may skim material as you see fit. **If your math is rough around the edges**, please review the [Math Resources](/sm21/resources#math) available on the resource page **before completing these readings**.
 
