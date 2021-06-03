@@ -20,12 +20,12 @@ class DynamicArray {
         double m_scaling_factor; 
         // pointer to the array of integers that represents our dynamic array
         // this is the pointer to the array that will be resized
-        int *m_data; 
+        int *m_data; // this is the same as saying: int m_data[]
 
     public:
         // default constructor, capacity = 0, no need to allocate an internal array yet
         DynamicArray(); 
-        // default constructor with a scaling factor, creates an array with capacity = capacity
+        // overloaded constructor with a scaling factor, creates an array with capacity = capacity
         DynamicArray(double scaling_factor, unsigned int capacity); 
         // fill constructor, creates an array of capacity = length, and set all values to `default_value`
         DynamicArray(double scaling_factor, unsigned int length, int default_value); 

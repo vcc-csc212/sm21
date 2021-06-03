@@ -21,7 +21,7 @@ permalink: /todo/
 [Readings for<br>Thursday](/sm21/wk2#thurs)
 : These readings will teach you about **basic sorting algorithms** such as bubble sort, insertion sort, and selection sort.
 
-Thursday Lab
+[Thursday Lab](/sm21/lab06)
 : This lab will help you solidify your understanding of the implementation and analysis of basic sorting algos.
 
 ---
