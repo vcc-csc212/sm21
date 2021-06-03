@@ -157,7 +157,8 @@ Smallest element is at last position so for every element in the list I have to 
     : File used to compile and run your program with the test suite. 
 3. Read the code comments closely-- **code is supposed to follow the algorithm as written in the background info above**
 4. Find (and fix) the **TWO bugs**
-5. There is **one in selectionSort()** and **one in insertionSort()**
+    - **Note/Hint:** There is **one in selectionSort()** and **one in insertionSort()**
+    - **Hint:** You should NOT be adding any code to fix the bug-- you should only be making a single small edit to a single line for each bug.
 6. Identify the step the error was in the algorithm, **as written on the slides**
 7. Write down how to fix it and how you knew (I recommend you type it so you can copy/paste into Gradescope)
 

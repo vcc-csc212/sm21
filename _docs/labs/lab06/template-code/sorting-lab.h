@@ -8,7 +8,7 @@
 class sorts {
 	public:
 		sorts();
-    ~sorts();
+    	~sorts();
 		void selectionSort(int * unsortedArr, int arrSize);
 		void insertionSort(int * unsortedArr, int arrSize);
 		void print(int data[], int n, std::ostream& os = std::cout);
