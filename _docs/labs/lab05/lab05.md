@@ -123,8 +123,7 @@ The instructions below will walk you through implementing and testing your own d
     > **Note:** You should initialize **all member variables** in all constructors so you don't end up with any garbage values.
 6. Implement and test `append()` and `prepend()`
     > **Notes:**
-- The array should increase its capacity by the scaling factor whenever it's full. 
-- If the array is empty to begin with, increase its capacity to 1. 
+- If the array is empty to begin with, increase its capacity to 1, otherwise, the array should increase its capacity by the scaling factor whenever it's full. 
 - Recall the algorithm for inserting into an an array:
     ```
     If array is NOT full:
