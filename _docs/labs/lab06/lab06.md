@@ -159,8 +159,8 @@ Smallest element is at last position so for every element in the list I have to 
 4. Find (and fix) the **TWO bugs**
     - **Note/Hint:** There is **one in selectionSort()** and **one in insertionSort()**
     - **Hint:** You should NOT be adding any code to fix the bug-- you should only be making a single small edit to a single line for each bug.
-6. Identify the step the error was in the algorithm, **as written on the slides**
-7. Write down how to fix it and how you knew (I recommend you type it so you can copy/paste into Gradescope)
+5. Identify the step the error was in the algorithm, **as written on the slides**
+6. Write down how to fix it and how you knew (I recommend you type it so you can copy/paste into Gradescope)
 
 ---
 
