@@ -41,13 +41,20 @@ On this page:
 	- [CLion 101 and Beyond](https://www.youtube.com/watch?v=rfdqzfsCmx0) (65 min)
 	- [CLion Debugger Fundamentals](https://www.youtube.com/watch?v=5wGsRdumueU) (7 min)
 - Visual Studio
+	- [Installation and Setup Guide](/sm21/files/setup-visual-studio.pdf)
+		- Please note that the guide is a little dated but the instructions should still be fairly similar (barring IDE design/layout updates)
 	- [How to Download and Install Visual Studio 2019, Step by Step](https://www.youtube.com/watch?v=IjDPFy4NPYE) (6 min)
 	- [Getting Started with Visual Studio 2019](https://www.youtube.com/watch?v=1CgsMtUmVgs) (6 min)
 	- [First program “Hello World” using Visual Studio 2019](https://www.youtube.com/watch?v=iBG0fN8lY8Y) (27 min)
 	- [How to debug C++ in Visual Studio](https://www.youtube.com/watch?v=0ebzPwixrJA) (19 min)
 - VS Code
+	- [Installation and Setup Guide](/sm21/files/setup-vs-code.pdf)
 	- [Getting Started With VSCode](https://www.youtube.com/watch?v=ORrELERGIHs) (23 min)
 	- [Debugging C/C++ with VS Code](https://www.youtube.com/watch?v=X2tM21nmzfk) (9 min)
+
+- X Code
+	- [Installation and Setup Guide](/sm21/files/setup-xcode.pdf)
+		- Please note that the guide is a little dated but the instructions should still be fairly similar (barring IDE design/layout updates)
 
 ***
 
