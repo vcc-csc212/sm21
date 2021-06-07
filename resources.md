@@ -3,6 +3,8 @@ title: Resources
 permalink: /resources/
 ---
 
+> **New Resource Alert!** PDF guides for IDE setup added under the [IDE section](#debuggers). Update made on 6/7.
+
 On this page:  
 ✔️ [Course Specific Resources](#course)  
 ✔️ [Make the most of your IDE and Debugger](#debuggers)  
