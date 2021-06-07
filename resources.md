@@ -3,7 +3,9 @@ title: Resources
 permalink: /resources/
 ---
 
-> **New Resource Alert!** PDF guides for IDE setup added under the [IDE section](#debuggers). Update made on 6/7.
+> **New Resource Alert!** 
+- PDF guides for IDE setup added under the [IDE section](#debuggers). Update made on 6/7.
+- More programming resources added under the [Programming Practice/Challenges section](#challenges). Update made on 6/7. 
 
 On this page:  
 ✔️ [Course Specific Resources](#course)  
