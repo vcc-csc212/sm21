@@ -151,10 +151,12 @@ On this page:
 
 #### Programming Practice/Challenges {#challenges}
 - [HackerRank](https://www.hackerrank.com)
+- [LeetCode](http://leetcode.com)
 - [Kattis](https://open.kattis.com)
 - [Edabit](https://edabit.com/challenges/cpp)
 - [Interview Cake](https://www.interviewcake.com)
 - [Interview Bit](https://www.interviewbit.com)
+- [Programming Challenges from Notre Dame](https://www3.nd.edu/~pbui/teaching/cse.30872.fa17/)
 
 ***
 
