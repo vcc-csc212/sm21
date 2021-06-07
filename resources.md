@@ -157,6 +157,21 @@ On this page:
 - [Interview Cake](https://www.interviewcake.com)
 - [Interview Bit](https://www.interviewbit.com)
 - [Programming Challenges from Notre Dame](https://www3.nd.edu/~pbui/teaching/cse.30872.fa17/)
+- [Online Hackathons](https://devpost.com)
+- Contribute to open source projects
+	- [Guide to Open Source Programmimg](https://opensource.guide)
+	- [Github](Github.com)
+	- [Up-for-grabs](Up-for-grabs.net)
+	- [Codetriage](Codetriage.com)
+	- [Developer.mozilla](Developer.mozilla.org)
+- Volunteer your coding skills for good
+	- [Catchafire](Catchafire.org)
+	- [Volunteermatch](Volunteermatch.org)
+	- [Donatecode](Donatecode.com)
+	- [Socialcoder](Socialcoder.org)
+	- [Civictech](Civictech.guide)
+
+
 
 ***
 
