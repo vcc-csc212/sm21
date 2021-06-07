@@ -105,7 +105,7 @@ The instructions below will walk you through implementing and testing your own d
 1. Download the files below (it's easiest if you right click and then choose download or save)
 
     [DynamicArray.h](/sm21/labs/lab05/template-code/DynamicArray.h)
-    : Contains the **declaration** of the Dynamic Array you'll be implementing. **Do not** alter any of the given private variables, public function signatures or implementations. **Curious about ifndef vs pragma once?** [Read about their differences]-- the TLDR version is that while they are used for the same purpose, they work in different ways. ifndef ignores duplicates by checking that you have not defined something before *anywhere*, pragma once ignores duplicates by checking that you have not included the *same file*.
+    : Contains the **declaration** of the Dynamic Array you'll be implementing. **Do not** alter any of the given private variables, public function signatures or implementations. **Curious about ifndef vs pragma once?** [Read about their differences](https://en.cppreference.com/w/cpp/preprocessor/impl)-- the TLDR version is that while they are used for the same purpose, they work in different ways. ifndef ignores duplicates by checking that you have not defined something before *anywhere*, pragma once ignores duplicates by checking that you have not included the *same file*.
 
     [DynamicArray.cpp](/sm21/labs/lab05/template-code/DynamicArray.cpp)
     : Contains the **definition** of the Dynamic Array you'll be implementing. Some functions have already been implemented for you-- **do not change them**. The rest of the functions are up to you to implement, specifically where you see `// TODO` comments. You may add your own **private helper functions** should you wish. A [helper function](https://stackoverflow.com/questions/19270178/what-are-helper-functions-in-c) is a function that performs a subtask but may not necessarily be useful to others when using the class itself. For example, you might find it useful to write a function to handle the resizing of the array since you'll be resizing in multiple places but the resize function should be hidden from users as they shouldn't need to worry aout resizing. Therefore, you can add the resizing function as a private function of the DynamicArray class so we know it exists and is used but can't be used outside of the class.
@@ -123,15 +123,18 @@ The instructions below will walk you through implementing and testing your own d
     > **Note:** You should initialize **all member variables** in all constructors so you don't end up with any garbage values.
 6. Implement and test `append()` and `prepend()`
     > **Notes:**
-- If the array is empty to begin with, increase its capacity to 1, otherwise, the array should increase its capacity by the scaling factor whenever it's full. 
+- **If** the array is empty to begin with, increase its capacity to 1, **otherwise, if**, the array is full, you should increase its capacity by the scaling factor.
 - Recall the algorithm for inserting into an an array:
     ```
-    If array is NOT full:
-        insert into our array 
-    If array IS full:
+    If array's capacity is 0 or if array does not exist:
+        Increase capacity to 1
+        dynamically allocate memory for new array
+    Otherwise, if array is full:
+        Increase capacity by the scaling factor
         dynamically allocate memory for new array (make sure you don't accidentally overwrite m_data)
         copy data from old array (array pointed to by m_data) into new array
         delete the old array (delete array pointed to by m_data, then reassign m_data to point to the new array)
+    Insert new value into array
     ```    
 7. Implement and test `findFirstOf()` and `findLastOf()`
 8. Implement and test `removeLast()`, `removeFirst()`, and `clear()`

@@ -5,28 +5,39 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (6/1-6/4)
-[Readings for<br>Tuesday](/sm21/wk2#tues)
-: These readings will help you understand the **necessary pre-requisite math for conducting analysis of algorithms**. This is a hefty unit designed to review **several pre-algebra and pre-calculus topics**. If you’re comfortable with these concepts, you may skim material as you see fit. **If your math is rough around the edges**, please review the [Math Resources](/sm21/resources#math) available on the resource page **before completing these readings**.
+##### This Week (6/7-6/11)
+[Readings for<br>Tuesday](/sm21/wk3#tues)
+: These readings will teach you about **binary search**, an efficient algorithm for finding an item in a sorted list.
 
-[Tuesday Lab](/sm21/lab04)
-: This lab will introduce you to the concept of analyzing algorithms. 
+Tuesday Lab
+: This lab will help you solidify your understanding of binary search.
 
-[Readings for<br>Wednesday](/sm21/wk2#weds)
-: These readings will help you better understand a data structure you have probably used already: **Dynamic Arrays**, known as vectors in C++, lists in Python, ArrayLists in Java, and Arrays in JavaScript.
+[Readings for<br>Wednesday](/sm21/wk3#weds)
+: These readings will teach you about **sets and maps**, which are containers that allow you to store data.
 
-[Wednesday Lab](/sm21/lab05)
-: This lab will help you solidify your understanding of dynamic arrays by having you implement your own dynamic array.
+Wednesday Lab
+: This lab will help you solidify your understanding of sets and maps.
 
-[Readings for<br>Thursday](/sm21/wk2#thurs)
-: These readings will teach you about **basic sorting algorithms** such as bubble sort, insertion sort, and selection sort.
+[Readings for<br>Thursday](/sm21/wk3#thurs)
+: These readings will teach you about **hashmaps**, a specific implementation of a map.
 
-[Thursday Lab](/sm21/lab06)
-: This lab will help you solidify your understanding of the implementation and analysis of basic sorting algos.
+Thursday Lab
+: This lab will help you solidify your understanding of hashmaps.
 
 ---
 
 #### Past Assignments
+
+##### Week 2 (6/1-6/4)
+- Essential Math & Intro to Analysis ff Algos
+	- [Readings for Tuesday](/sm21/wk2#tues)
+	- [Tuesday Lab](/sm21/lab04)
+- Dynamic Arrays
+	- [Readings for Wednesday](/sm21/wk2#weds)
+	- [Wednesday Lab](/sm21/lab05)
+- Basic Sorting Algos
+	- [Readings for Thursday](/sm21/wk2#thurs)
+	- [Thursday Lab](/sm21/lab06)
 
 ##### Week 1 (5/24-5/28)
 - Intro & Setup

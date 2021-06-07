@@ -142,7 +142,7 @@ Smallest element is at last position so for every element in the list I have to 
 2. Download the files below (it's easiest if you right click and then choose download or save)
 
     [sorting-lab.h](/sm21/labs/lab06/template-code/sorting-lab.h)
-    : Contains the **declaration** of the sorting lab you'll be implementing. **Do not** alter any of the given private variables, public function signatures or implementations. **Curious about ifndef vs pragma once?** [Read about their differences]-- the TLDR version is that while they are used for the same purpose, they work in different ways. ifndef ignores duplicates by checking that you have not defined something before *anywhere*, pragma once ignores duplicates by checking that you have not included the *same file*.
+    : Contains the **declaration** of the sorting lab you'll be implementing. **Do not** alter any of the given private variables, public function signatures or implementations. **Curious about ifndef vs pragma once?** [Read about their differences](https://en.cppreference.com/w/cpp/preprocessor/impl)-- the TLDR version is that while they are used for the same purpose, they work in different ways. ifndef ignores duplicates by checking that you have not defined something before *anywhere*, pragma once ignores duplicates by checking that you have not included the *same file*.
 
     [sorting-lab.cpp](/sm21/labs/lab06/template-code/sorting-lab.cpp)
     : Contains the **definition** of the sorting lab you'll be implementing. Some functions have already been implemented for you-- **do not change them**. 
