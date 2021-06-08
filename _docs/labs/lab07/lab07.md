@@ -89,8 +89,8 @@ I recommend you walk through these on your own (at least up to 26 or 50 books) t
 	<li>1,000,000 books: 20 searches</li>
 </ul>
 
-If we [graph these points](https://www.desmos.com/calculator/tvuvftonhe) we get something that looks familiar:
-<center><img src="book-points.png" alt="plotted points form list abocee with books on the x-axis and searches on the y-axis"></center>
+If we <a href="https://www.desmos.com/calculator/tvuvftonhe">graph these points</a> we get something that looks familiar:
+<center><img src="/labs/lab07/book-points.png" alt="plotted points form list abocee with books on the x-axis and searches on the y-axis"></center>
 
 What does that graph's behaviour look like? If you thought <strong>logarithmic</strong>, then awesome job! If you didn't think so, now would be a good time to brush up on some pre-algebra and pre-calculus topics using the [math resources](/sm21/resources#math) posted on the site!
 
