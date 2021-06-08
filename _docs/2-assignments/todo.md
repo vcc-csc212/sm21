@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk3#tues)
 : These readings will teach you about **binary search**, an efficient algorithm for finding an item in a sorted list.
 
-Tuesday Lab
+[Tuesday Lab](/sm21/lab07)
 : This lab will help you solidify your understanding of binary search.
 
 [Readings for<br>Wednesday](/sm21/wk3#weds)
