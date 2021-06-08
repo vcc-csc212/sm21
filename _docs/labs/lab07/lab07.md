@@ -43,11 +43,14 @@ If you have to visit <strong>every book</strong> and there are <em>n</em> books,
 Binary search is an algorithm for efficiently finding any given item in a **sorted** list/array/vector. Using the binary search algorithm allows you to determine in which half of the list to look for the item, rather than having you look through the entire list.
 
 <center>
+	<p>Binary search animation when item IS present:</p>
 	<img alt="binary search animation when item IS present" src="/sm21/labs/lab07/bs-present.gif"/> 
 	<br>
+	<p>Binary search animation when item IS NOT present:</p>
 	<img alt="binary search animation when item IS NOT present" src="/sm21/labs/lab07/bs-not-present.gif" />
 </center>
 
+<br>
 Going back to our library scenario above, in this case, you know the alphabetical order of the aisle you're looking for the book in. Say, the aisle contains books starting with "Aardvarks" through "Antelopes" and you're looking for "Alligators". You know the books are listed in alphabetical order by their title (and for simplicity's sake there's only one book with each letter) so after singing the ABCs, you think to yourself: "The middle letter of *a* (from 'a**a**rdvark") and *n* (from 'a**n**telope') is '*g*'. Since I'm looking for *l* (from 'a**l**ligator'), which is after *g*, I should look in the second half of the aisle." You repeat the process now with between *h* (the first letter after *g*, which we've already eliminated) and *n* (from 'a**n**telope', where our aisle ends). This time you again cut your search in half because *j* (the midpoint between *h* and *n*) is before *l* (from 'a**l**ligator', the book you're looking for) so you go down to the second half of the half you were looking for the book in (i.e., the last quarter of the aisle). The midpoint between *k* (letter after *j* which has been eliminated) and *n* is *l*, which is the letter you're looking for, so you're done!
 
 <br>
