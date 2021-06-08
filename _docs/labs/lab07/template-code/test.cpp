@@ -20,18 +20,18 @@ TEST_CASE("Item present") {
     }
 
     SUBCASE("3 elem, first") {
-        int arr[3] = {5,10,3};
+        int arr[3] = {5,10,30};
         REQUIRE(BinarySearch::binary_search(5, arr, 3) == 0);
     }
 
     SUBCASE("3 elem, mid") {
-        int arr[3] = {5,10,3};
+        int arr[3] = {5,10,30};
         REQUIRE(BinarySearch::binary_search(10, arr, 3) == 1);
     }
 
     SUBCASE("3 elem, last") {
-        int arr[3] = {5,10,3};
-        REQUIRE(BinarySearch::binary_search(3, arr, 3) == 2);
+        int arr[3] = {5,10,30};
+        REQUIRE(BinarySearch::binary_search(30, arr, 3) == 2);
     }
 
     //add your own
@@ -55,17 +55,17 @@ TEST_CASE("Item not present") {
     }
 
     SUBCASE("3 elem, first") {
-        int arr[3] = {5,10,3};
+        int arr[3] = {5,10,30};
         REQUIRE(BinarySearch::binary_search(52, arr, 3) == -1);
     }
 
     SUBCASE("3 elem, mid") {
-        int arr[3] = {5,10,3};
+        int arr[3] = {5,10,30};
         REQUIRE(BinarySearch::binary_search(102, arr, 3) == -1);
     }
 
     SUBCASE("3 elem, last") {
-        int arr[3] = {5,10,3};
+        int arr[3] = {5,10,30};
         REQUIRE(BinarySearch::binary_search(32, arr, 3) == -1);
     }
 
