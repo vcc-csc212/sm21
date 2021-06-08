@@ -43,7 +43,9 @@ If you have to visit <strong>every book</strong> and there are <em>n</em> books,
 Binary search is an algorithm for efficiently finding any given item in a **sorted** list/array/vector. Using the binary search algorithm allows you to determine in which half of the list to look for the item, rather than having you look through the entire list.
 
 <center>
-	<img alt="binary search animation when item IS present" src="/sm21/labs/lab07/bs-present.gif" width="45%"/> <img alt="binary search animation when item IS NOT present" src="/sm21/labs/lab07/bs-not-present.gif" width="45%"/>
+	<img alt="binary search animation when item IS present" src="/sm21/labs/lab07/bs-present.gif"/> 
+	<br>
+	<img alt="binary search animation when item IS NOT present" src="/sm21/labs/lab07/bs-not-present.gif" />
 </center>
 
 Going back to our library scenario above, in this case, you know the alphabetical order of the aisle you're looking for the book in. Say, the aisle contains books starting with "Aardvarks" through "Antelopes" and you're looking for "Alligators". You know the books are listed in alphabetical order by their title (and for simplicity's sake there's only one book with each letter) so after singing the ABCs, you think to yourself: "The middle letter of *a* (from 'a**a**rdvark") and *n* (from 'a**n**telope') is '*g*'. Since I'm looking for *l* (from 'a**l**ligator'), which is after *g*, I should look in the second half of the aisle." You repeat the process now with between *h* (the first letter after *g*, which we've already eliminated) and *n* (from 'a**n**telope', where our aisle ends). This time you again cut your search in half because *j* (the midpoint between *h* and *n*) is before *l* (from 'a**l**ligator', the book you're looking for) so you go down to the second half of the half you were looking for the book in (i.e., the last quarter of the aisle). The midpoint between *k* (letter after *j* which has been eliminated) and *n* is *l*, which is the letter you're looking for, so you're done!
@@ -90,11 +92,11 @@ I recommend you walk through these on your own (at least up to 26 or 50 books) t
 </ul>
 
 If we <a href="https://www.desmos.com/calculator/tvuvftonhe">graph these points</a> we get something that looks familiar:
-<center><img src="/labs/lab07/book-points.png" alt="plotted points form list abocee with books on the x-axis and searches on the y-axis"></center>
+<center><img src="/sm21/labs/lab07/book-points.png" alt="plotted points form list abocee with books on the x-axis and searches on the y-axis"></center>
 
-What does that graph's behaviour look like? If you thought <strong>logarithmic</strong>, then awesome job! If you didn't think so, now would be a good time to brush up on some pre-algebra and pre-calculus topics using the [math resources](/sm21/resources#math) posted on the site!
+What does that graph's behaviour look like? If you thought <strong>logarithmic</strong>, then awesome job! If you didn't think so, now would be a good time to brush up on some pre-algebra and pre-calculus topics using the <a href="/sm21/resources#math">math resources</a> posted on the site!
 
-Binary seach's time complexity is <strong>O(log n)</strong>. To see Lalitha (from previous analysis videos) walk you through a more formal and mathematical analysis, watch her [Binary Search - Time Complexity video](https://www.youtube.com/watch?v=TomQQb2kJvc) (15 min).
+Binary seach's time complexity is <strong>O(log n)</strong>. To see Lalitha (from previous analysis videos) walk you through a more formal and mathematical analysis, watch her <a href="https://www.youtube.com/watch?v=TomQQb2kJvc">Binary Search - Time Complexity video</a> (15 min).
 
 </details>
 
@@ -122,7 +124,7 @@ Now that we have a better understanding of binary search **and its time complexi
 2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
 3. Create your own makefile to compile and run your program. Refer to [Lab 3](/sm21/lab03) as needed.
 4. Implement the binary search algorithm iteratively or recursively (up to you).
-5. Add you own teest cases.
+5. Add you own test cases.
 6. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in.
 
 ---
