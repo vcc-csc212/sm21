@@ -45,7 +45,7 @@ Binary search is an algorithm for efficiently finding any given item in a **sort
 <center>
 	<p>Binary search animation when item IS present:</p>
 	<img alt="binary search animation when item IS present" src="/sm21/labs/lab07/bs-present.gif"/> 
-	<br>
+	<br> <br>
 	<p>Binary search animation when item IS NOT present:</p>
 	<img alt="binary search animation when item IS NOT present" src="/sm21/labs/lab07/bs-not-present.gif" />
 </center>
@@ -141,8 +141,8 @@ Your submission will be **tested and graded by an autograder**, for this reason 
 
 #### Handing in {#submit}
 To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
-- BinarySearch.h
-- BinarySearch.cpp
+- binary_search.h
+- binary_search.cpp
 - makefile
 - test.cpp
 
