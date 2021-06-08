@@ -4,6 +4,8 @@ asg: Lab 05
 permalink: /lab05/
 ---
 
+> Watch this lab's [video walkthrough](https://youtu.be/CsObb5XLHOU)
+
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
@@ -102,6 +104,8 @@ With amortized analysis, we see that on average, inserting into a dynamic array 
 
 The instructions below will walk you through implementing and testing your own dynamic array.
 
+> Watch this lab's [video walkthrough](https://youtu.be/CsObb5XLHOU)
+
 1. Download the files below (it's easiest if you right click and then choose download or save)
 
     [DynamicArray.h](/sm21/labs/lab05/template-code/DynamicArray.h)
@@ -140,6 +144,8 @@ The instructions below will walk you through implementing and testing your own d
 8. Implement and test `removeLast()`, `removeFirst()`, and `clear()`
     > **Note:** the array should decrease its capacity by the scaling factor whenever it's been emptied to 1/(2 x m_scaling_factor) its capacity or less (i.e., if the scaling factor is 2, the array should shrink to 1/2 its size when it's 1/4 full or less; if the scaling factor is 5, the array should shrink to 1/5 its size when it's 1/10 full or less)
 
+> Watch this lab's [video walkthrough](https://youtu.be/CsObb5XLHOU)
+
 ---
 
 #### Requirements {#reqs}
@@ -155,7 +161,6 @@ Your submission will be **tested and graded by an autograder**, for this reason 
 ---
 
 #### Handing in {#submit}
-> Please note that the assignment **currently doesn't have a submission option on Gradescope**. I will **let you know as soon as this is set up**! In the mean time, use your self-built automated tester to test all task items.
 
 To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
 - DynamicArray.h
