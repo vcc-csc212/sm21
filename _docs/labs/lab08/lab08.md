@@ -198,7 +198,7 @@ You will be working with a real-world dataset. **Choose one** of the three datas
 		2. How many shows made more than $150,000?
 
 5. [Review the code](https://replit.com/@VictoriaChvez/full-csv-reading) used to read and parse a small sample CSV where I number each row and column. Make sure to click where it says "**Code**".
-6. Download [lab08.cpp](/sm21/lab08/template-code/lab08.cpp)
+6. Download [lab08.cpp](/sm21/labs/lab08/template-code/lab08.cpp)
 7. Implement `readCSV()` keeping only the data necessary to answer your dataset's two questions (from task item 4) and inserting it appropriately into `mySet` or `myMap` 
 	- Remember that in general, **sets** can be used to answer questions such as "How many unique values of a specific type?" or "Does a value exist or not?"; whereas, **maps** can be used to answer questions such as: "How many unique values of different types?" or "How does one value compare to another?"
 8. Answer the questions for your respective dataset using the built-in functions for maps and sets 
