@@ -170,7 +170,7 @@ int main() {
 You will be working with a real-world dataset. **Choose one** of the three datasets below and download its CSV. 
 
 > 
-- Option 1: [Billionaires CSV File](https://corgis-edu.github.io/corgis/csv/billionaires/)
+- Option 1: [Billionaires Data](https://corgis-edu.github.io/corgis/csv/billionaires/)
 - Option 2: [Movies on Netflix, Prime Video, Hulu and Disney+](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney) (**Note**: You can download the file on the left side under "Data Explorer")
 - Option 3: [Broadway Shows](https://corgis-edu.github.io/corgis/csv/broadway/)
 
