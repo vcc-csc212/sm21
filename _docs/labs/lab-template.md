@@ -33,7 +33,8 @@ Your submission will be **tested and graded by an autograder**, for this reason 
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sm21/staff#sched) to get checked off.
+To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
+- 
 
 ---
 

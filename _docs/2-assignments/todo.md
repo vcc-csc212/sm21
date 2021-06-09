@@ -15,7 +15,7 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk3#weds)
 : These readings will teach you about **sets and maps**, which are containers that allow you to store data.
 
-Wednesday Lab
+[Wednesday Lab](/sm21/lab08)
 : This lab will help you solidify your understanding of sets and maps.
 
 [Readings for<br>Thursday](/sm21/wk3#thurs)
