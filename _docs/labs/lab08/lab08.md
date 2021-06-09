@@ -39,7 +39,7 @@ int main() {
 
 Maps are similar to sets, in that each contains a number of **unique elements** that are in order. The *key* difference between sets and maps is that **sets store elements all by themselves**, whereas **maps store *key-value pairs***. A key-value pair is a pair of two elements where the first element (the key) is used to index (access data from) the map, and the second element (the value) is what is stored/returned. Similar to the set reference page, there exists a [map reference](https://www.cplusplus.com/reference/map/map/) page for you to explore as well.
 
-Below is a code snippet for a program that creates a map of strings and ints and then inserts three unique key-value pairs into the dataset. When inserting inot a map, the **keys must be unique**. If you use `emplace` or `insert` with a key that is *already in the map*, the value will **not** be replaced.:
+Below is a code snippet for a program that creates a map of strings and ints and then inserts three unique key-value pairs into the dataset. When inserting into a map, the **keys must be unique**. If you use `emplace` or `insert` with a key that is *already in the map*, the value will **not** be replaced.:
 
 ```c++
 #include <iostream>
@@ -201,7 +201,7 @@ You will be working with a real-world dataset. **Choose one** of the three datas
 6. Download [lab08.cpp](/sm21/labs/lab08/template-code/lab08.cpp)
 7. Implement `readCSV()` keeping only the data necessary to answer your dataset's two questions (from task item 4) and inserting it appropriately into `mySet` or `myMap` 
 	- Remember that in general, **sets** can be used to answer questions such as "How many unique values of a specific type?" or "Does a value exist or not?"; whereas, **maps** can be used to answer questions such as: "How many unique values of different types?" or "How does one value compare to another?"
-8. Answer the questions for your respective dataset using the built-in functions for maps and sets 
+8. In `main()`, answer the questions for your respective dataset using the built-in functions for maps and sets 
 	- Refer to the [documentation for std::map](https://www.cplusplus.com/reference/map/map/) as needed
 	- Refer to the [documentation for std::set](https://www.cplusplus.com/reference/set/set/) as needed
 9. Come up with **one question** you could ask about your data that can be answered by using a **set**. Describe how you would determine its answer using a **set**.
