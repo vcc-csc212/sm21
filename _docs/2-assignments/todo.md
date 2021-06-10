@@ -21,7 +21,7 @@ permalink: /todo/
 [Readings for<br>Thursday](/sm21/wk3#thurs)
 : These readings will teach you about **hashmaps**, a specific implementation of a map.
 
-Thursday Lab
+[Thursday Lab](/sm21/lab09)
 : This lab will help you solidify your understanding of hashmaps.
 
 ---
