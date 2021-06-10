@@ -139,6 +139,7 @@ The instructions below will walk you through implementing and testing your own d
         copy data from old array (array pointed to by m_data) into new array
         delete the old array (delete array pointed to by m_data, then reassign m_data to point to the new array)
     Insert new value into array
+    Increment m_length by 1
     ```    
 7. Implement and test `findFirstOf()` and `findLastOf()`
 8. Implement and test `removeLast()`, `removeFirst()`, and `clear()`
