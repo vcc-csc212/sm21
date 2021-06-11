@@ -201,6 +201,12 @@ You will be working with a real-world dataset. **Choose one** of the three datas
 6. Download [lab08.cpp](/sm21/labs/lab08/template-code/lab08.cpp)
 7. Implement `readCSV()` keeping only the data necessary to answer your dataset's two questions (from task item 4) and inserting it appropriately into `mySet` or `myMap` 
 	- Remember that in general, **sets** can be used to answer questions such as "How many unique values of a specific type?" or "Does a value exist or not?"; whereas, **maps** can be used to answer questions such as: "How many unique values of different types?" or "How does one value compare to another?"
+	
+	> 
+	If you are using the BILLIONAIRES or BROADWAY datasets, **do not convert the numbers** using std::stoi or std::stof (or other numbers). Because the data includes quotes, C++ won't recognize it as numbers. However, you can still **do the comparison using strings**!  
+		- BILLIONAIRES: use ```"\"30\""``` when checking age  
+		- BROADWAY: use ```"\"150000\""``` when checking gross earnings  
+		The \ symbol escapes the quotes so C++ knows the quote symbols are part of the string and since characters are internally represented as numbers on a computer, the comparison will still match up.
 8. In `main()`, answer the questions for your respective dataset using the built-in functions for maps and sets 
 	- Refer to the [documentation for std::map](https://www.cplusplus.com/reference/map/map/) as needed
 	- Refer to the [documentation for std::set](https://www.cplusplus.com/reference/set/set/) as needed
