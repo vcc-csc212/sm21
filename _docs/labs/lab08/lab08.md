@@ -4,6 +4,8 @@ asg: Lab 8
 permalink: /lab08/
 ---
 
+> Watch this lab's [video walkthrough](https://youtu.be/UVoLhJuvP2E)
+
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
@@ -167,6 +169,9 @@ int main() {
 ---
 
 #### Your Task {#task}
+
+> Watch this lab's [video walkthrough](https://youtu.be/UVoLhJuvP2E)
+
 You will be working with a real-world dataset. **Choose one** of the three datasets below and download its CSV. 
 
 > 
@@ -213,6 +218,8 @@ You will be working with a real-world dataset. **Choose one** of the three datas
 9. Come up with **one question** you could ask about your data that can be answered by using a **set**. Describe how you would determine its answer using a **set**.
 10. Come up with **one question** you could ask about your data that can be answered by using a **map**. Describe how you would determine its answer using a **maps**.
 11. Record a **3-5 minute video of your screen** as you **explain your process and answers** for task items 7-10.
+
+> Watch this lab's [video walkthrough](https://youtu.be/UVoLhJuvP2E)
 
 ---
 
