@@ -6,27 +6,38 @@ permalink: /todo/
 ---
 
 ##### This Week (6/7-6/11)
-[Readings for<br>Tuesday](/sm21/wk3#tues)
-: These readings will teach you about **binary search**, an efficient algorithm for finding an item in a sorted list.
+[Readings for<br>Tuesday](/sm21/wk4#tues)
+: These readings will teach you about **pointers and memory** in C++.
 
-[Tuesday Lab](/sm21/lab07)
-: This lab will help you solidify your understanding of binary search.
+[Tuesday Lab]
+: This lab will help you solidify your understanding of pointers and memory.
 
-[Readings for<br>Wednesday](/sm21/wk3#weds)
-: These readings will teach you about **sets and maps**, which are containers that allow you to store data.
+[Readings for<br>Wednesday](/sm21/wk4#weds)
+: These readings will teach you about **linked lists**, which are the foundation for trees and graphs.
 
-[Wednesday Lab](/sm21/lab08)
-: This lab will help you solidify your understanding of sets and maps.
+[Wednesday Lab]
+: This lab will help you solidify your understanding of linked lists.
 
-[Readings for<br>Thursday](/sm21/wk3#thurs)
-: These readings will teach you about **hashmaps**, a specific implementation of a map.
+[Readings for<br>Thursday](/sm21/wk4#thurs)
+: These readings will teach you about **linked lists**, which are the foundation for trees and graphs (continuition from Wednesday).
 
-[Thursday Lab](/sm21/lab09)
-: This lab will help you solidify your understanding of hashmaps.
+[Thursday Lab]
+: This lab will help you solidify your understanding of linked lists (continuition from Wednesday).
 
 ---
 
 #### Past Assignments
+
+##### Week 3 (6/7-6/11)
+Binary search
+	- [Readings for<br>Tuesday](/sm21/wk3#tues)
+	- [Tuesday Lab](/sm21/lab07)
+Sets and Maps
+	- [Readings for<br>Wednesday](/sm21/wk3#weds)
+	- [Wednesday Lab](/sm21/lab08)
+Hashmaps
+	- [Readings for<br>Thursday](/sm21/wk3#thurs)
+	- [Thursday Lab](/sm21/lab09)
 
 ##### Week 2 (6/1-6/4)
 - Essential Math & Intro to Analysis ff Algos
