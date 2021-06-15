@@ -22,7 +22,7 @@ TEST_CASE("switcharoo") {
         std::string tester[5]{"mary", "had", "a", "little", "lamb"};
         std::string *ptr = { tester };
         Pointers::switcharoo(ptr,1,"bought"); 
-        //tester now looks like: {“mary", "bought", "a", "little", "lamb"}
+        //tester now looks like: {"mary", "bought", "a", "little", "lamb"}
         REQUIRE(tester[0] == "mary");
         REQUIRE(tester[1] == "bought");
         REQUIRE(tester[2] == "a");
@@ -33,7 +33,7 @@ TEST_CASE("switcharoo") {
     SUBCASE("simple test REPEAT not using explicit ptr, replace idx 1") {
         std::string tester[5]{"mary", "had", "a", "little", "lamb"};
         Pointers::switcharoo(tester,1,"bought"); 
-        //tester now looks like: {“mary", "bought", "a", "little", "lamb"}
+        //tester now looks like: {"mary", "bought", "a", "little", "lamb"}
         REQUIRE(tester[0] == "mary");
         REQUIRE(tester[1] == "bought");
         REQUIRE(tester[2] == "a");
@@ -49,7 +49,7 @@ TEST_CASE("switcharoo") {
         tester[3] = "little";
         tester[4] = "lamb";
         Pointers::switcharoo(tester,1,"bought"); 
-        //tester now looks like: {“mary", "bought", "a", "little", "lamb"}
+        //tester now looks like: {"mary", "bought", "a", "little", "lamb"}
         REQUIRE(tester[0] == "mary");
         REQUIRE(tester[1] == "bought");
         REQUIRE(tester[2] == "a");

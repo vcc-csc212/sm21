@@ -234,7 +234,7 @@ To submit your solution to Gradescope, select **all of the following files** and
 ---
 
 #### Grade Breakdown {#grading}
-You must successfully meet [requirement](#reqs) **1 through 2** in order to receive credit for this assignment.
+You must successfully meet [requirements](#reqs) **1 through 2** in order to receive credit for this assignment.
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
