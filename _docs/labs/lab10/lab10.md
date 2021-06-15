@@ -74,6 +74,7 @@ When you pass a variable by reference, you pass the memory address that this var
 
 > Take a few minutes to read the additional material beelow:
 - **Read** [Pointers and arrays](https://www.learncpp.com/cpp-tutorial/pointers-and-arrays/)
+- **Read** [Pointer arithmetic and array indexing](https://www.learncpp.com/cpp-tutorial/pointer-arithmetic-and-array-indexing/)
 - **Read** [Pointers and const](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
 - **Read** [Reference variables](https://www.learncpp.com/cpp-tutorial/references/)
 - **Read** [References and const](https://www.learncpp.com/cpp-tutorial/references-and-const/)
