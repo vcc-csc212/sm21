@@ -73,7 +73,7 @@ Before attending class, please complete the material below and use the following
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read the [Lab 4 Handout]  (link coming soon)
+- Read the [Lab 11 Handout]  (link coming soon)
 - Watch [Linked List Animation](https://www.youtube.com/watch?v=iNUS9iZwrVA) (3 min)
 	- Assumes **no tail pointer**
 - Explore the visualization sites below:

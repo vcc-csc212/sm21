@@ -1,7 +1,7 @@
 #include "binary_search.h"
 #include <iostream>
 
- int BinarySearch::binary_search(int data, int start_idx, int end_idx, int *arr) {
+int BinarySearch::binary_search(int data, int start_idx, int end_idx, int *arr) {
 
  	//NOTE: you an solve this iteratively or recursively! Up to you :)
 
@@ -12,6 +12,6 @@
 	//if midpoint is smaller then we should search in the last half of where we're at
 }
 
- int BinarySearch::binary_search(int data, int *arr, int len) {
+int BinarySearch::binary_search(int data, int *arr, int len) {
 	return binary_search(data, 0, len-1, arr);
 }

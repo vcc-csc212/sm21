@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk4#tues)
 : These readings will teach you about **pointers and memory** in C++.
 
-[Tuesday Lab]
+[Tuesday Lab](/sm21/lab10)
 : This lab will help you solidify your understanding of pointers and memory.
 
 [Readings for<br>Wednesday](/sm21/wk4#weds)
