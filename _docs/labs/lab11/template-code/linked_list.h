@@ -17,11 +17,11 @@ class LinkedList{
     public:
         LinkedList();
 
-        // Adds an integer to the front of the list. 
+        // Adds a character to the front of the list. 
         void push_front(char data);
-        // Adds an integer to the end of the list. 
+        // Adds a character to the end of the list. 
         void push_back(char data);
-        // Adds an integer to the list at a specific index. 
+        // Adds a character to the list at a specific index. 
         void insert(char data, unsigned int idx);
         // Searches for & removes a specific element in the list. 
         void del(char data);
