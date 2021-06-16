@@ -5,7 +5,7 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (6/7-6/11)
+##### This Week (6/14-6/18)
 [Readings for<br>Tuesday](/sm21/wk4#tues)
 : These readings will teach you about **pointers and memory** in C++.
 
@@ -15,13 +15,13 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk4#weds)
 : These readings will teach you about **linked lists**, which are the foundation for trees and graphs.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab11)
 : This lab will help you solidify your understanding of linked lists.
 
 [Readings for<br>Thursday](/sm21/wk4#thurs)
 : These readings will teach you about **linked lists**, which are the foundation for trees and graphs (continuition from Wednesday).
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab11)
 : This lab will help you solidify your understanding of linked lists (continuition from Wednesday).
 
 ---
