@@ -147,7 +147,7 @@ Your task is to create a ```linked_list``` class that utilizes a ```node``` clas
 4. Complete the implementation of `node.cpp`
 5. Uncomment the **appropriate** tests in `test.cpp`
 6. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. **Debug and add additional test cases as needed.**
-7. Having a tail pointer simplifies some functions at the cost of you having to keep track of it. **Decide** whether you want to implement your linked list **with or without a tail pointer**. IF WITHOUT, comment out line 9 in `linked_list.cpp`. 
+7. Having a tail pointer simplifies some functions at the cost of you having to keep track of it. **Decide** whether you want to implement your linked list **with or without a tail pointer**. IF WITHOUT, comment out line 9 in `linked_list.h`. 
 8. Repeat steps 4-6 (implement, uncomment tests, compile and run), this time for the **constructor** in `linked_list.cpp`
 9. Repeat steps 4-6 (implement, uncomment tests, compile and run), this time for `push_front` in `linked_list.cpp`
 10. Repeat steps 4-6 (implement, uncomment tests, compile and run), this time for `push_back` in `linked_list.cpp`
