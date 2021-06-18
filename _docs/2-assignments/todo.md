@@ -29,15 +29,15 @@ permalink: /todo/
 #### Past Assignments
 
 ##### Week 3 (6/7-6/11)
-Binary search
-	- [Readings for<br>Tuesday](/sm21/wk3#tues)
-	- [Tuesday Lab](/sm21/lab07)
-Sets and Maps
-	- [Readings for<br>Wednesday](/sm21/wk3#weds)
-	- [Wednesday Lab](/sm21/lab08)
-Hashmaps
-	- [Readings for<br>Thursday](/sm21/wk3#thurs)
-	- [Thursday Lab](/sm21/lab09)
+- Binary search
+	- [Readings for<br>Tuesday](/sm21/wk3#tues)  
+	- [Tuesday Lab](/sm21/lab07)  
+- Sets and Maps
+	- [Readings for<br>Wednesday](/sm21/wk3#weds)  
+	- [Wednesday Lab](/sm21/lab08)  
+- Hashmaps
+	- [Readings for<br>Thursday](/sm21/wk3#thurs)  
+	- [Thursday Lab](/sm21/lab09)  
 
 ##### Week 2 (6/1-6/4)
 - Essential Math & Intro to Analysis ff Algos
