@@ -9,19 +9,19 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk5#tues)
 : These readings will teach you about **queues**, a data structure that can be implemented using linked lists.
 
-[Tuesday Lab](/sm21/lab10)
+[Tuesday Lab]
 : This lab will help you solidify your understanding of queues.
 
 [Readings for<br>Wednesday](/sm21/wk5#weds)
 : These readings will teach you about **stacks**, a data structure that can be implemented using linked lists.
 
-[Wednesday Lab](/sm21/lab11)
+[Wednesday Lab]
 : This lab will help you solidify your understanding of stacks.
 
 [Readings for<br>Thursday](/sm21/wk5#thurs)
 : These readings will teach you about **priority queues**, a different form of queue.
 
-[Thursday Lab](/sm21/lab11)
+[Thursday Lab]
 : This lab will help you solidify your understanding of priority queues.
 
 ---

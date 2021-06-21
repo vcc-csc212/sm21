@@ -12,7 +12,7 @@ On this page:
 
 ---
 
-#### Pre-Reading for Queues {#thurs}
+#### Pre-Reading for Queues {#tues}
 
 ##### Essential Questions
 
@@ -48,4 +48,18 @@ Before attending class, please complete the material below:
 
 ---
 
-> Readings for Thursday coming soon.
+#### Pre-Reading for Priority Queues {#thurs}
+
+##### Essential Questions
+
+<br>
+✔️ What is a the purpose of a priority queue?  
+✔️ What is the behaviour of a priority queue?  
+✔️ How can a priority queue be implemented using a queue?  
+
+##### Read/Watch/Review
+Before attending class, please complete the material below:
+- Read [Data Structure and Algorithms - Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
+- Watch [Data Structures: Queue (Abstract Data Type)](https://www.youtube.com/watch?v=PjQdvpWfCmE) (7 min)
+- Read [How to implement a queue using a linked list](https://www.educative.io/edpresso/how-to-implement-a-queue-using-a-linked-list)
+- Watch [Data Structures: Linked List implementation of Queue](https://www.youtube.com/watch?v=A5_XdiK4J8A) (14 min)
