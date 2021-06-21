@@ -5,28 +5,37 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (6/14-6/18)
-[Readings for<br>Tuesday](/sm21/wk4#tues)
-: These readings will teach you about **pointers and memory** in C++.
+##### This Week (6/21-6/25)
+[Readings for<br>Tuesday](/sm21/wk5#tues)
+: These readings will teach you about **queues**, a data structure that can be implemented using linked lists.
 
 [Tuesday Lab](/sm21/lab10)
-: This lab will help you solidify your understanding of pointers and memory.
+: This lab will help you solidify your understanding of queues.
 
-[Readings for<br>Wednesday](/sm21/wk4#weds)
-: These readings will teach you about **linked lists**, which are the foundation for trees and graphs.
+[Readings for<br>Wednesday](/sm21/wk5#weds)
+: These readings will teach you about **stacks**, a data structure that can be implemented using linked lists.
 
 [Wednesday Lab](/sm21/lab11)
-: This lab will help you solidify your understanding of linked lists.
+: This lab will help you solidify your understanding of stacks.
 
-[Readings for<br>Thursday](/sm21/wk4#thurs)
-: These readings will teach you about **linked lists**, which are the foundation for trees and graphs (continuition from Wednesday).
+[Readings for<br>Thursday](/sm21/wk5#thurs)
+: These readings will teach you about **priority queues**, a different form of queue.
 
 [Thursday Lab](/sm21/lab11)
-: This lab will help you solidify your understanding of linked lists (continuition from Wednesday).
+: This lab will help you solidify your understanding of priority queues.
 
 ---
 
 #### Past Assignments
+
+#### Week 4 (6/14-6/18)
+- Pointers and memory
+	- [Readings for<br>Tuesday](/sm21/wk4#tues)
+	- [Tuesday Lab](/sm21/lab10)
+- Linked lists
+	- [Readings for<br>Wednesday](/sm21/wk4#weds)
+	- [Readings for<br>Thursday](/sm21/wk4#thurs)
+	- [Wednesday/Thursday Lab](/sm21/lab11)
 
 ##### Week 3 (6/7-6/11)
 - Binary search

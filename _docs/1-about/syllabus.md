@@ -142,7 +142,7 @@ Each time we meet, you'll be focusing on a new topic. **We move incredibly fast 
 | 2 | Essential Math Overview <br>& Intro to Analysis of Algos | Dynamic Arrays | Basic Sorting Algos |
 | 3 | Binary Search | Sets & Maps | Hashtables | 
 | 4 | Pointers Crash Course | Linked Lists | Linked Lists, cont'd |
-| 5 | Stacks | Queues | Priority Queues |
+| 5 | Queues | Stacks | Priority Queues |
 | 6 | Recursion Crash Course | Mergesort | Quicksort |
 | 7 | Analyzing Recursive Functions <br>(w/ recurrences) | Recursive Backtracking | Recursive Backtracking, cont'd |
 | 8 | Intro to Trees | Binary Search Trees | BSTs, cont'd |
