@@ -30,22 +30,22 @@ permalink: /todo/
 
 #### Week 4 (6/14-6/18)
 - Pointers and memory
-	- [Readings for<br>Tuesday](/sm21/wk4#tues)
+	- [Readings for Tuesday](/sm21/wk4#tues)
 	- [Tuesday Lab](/sm21/lab10)
 - Linked lists
-	- [Readings for<br>Wednesday](/sm21/wk4#weds)
-	- [Readings for<br>Thursday](/sm21/wk4#thurs)
+	- [Readings for Wednesday](/sm21/wk4#weds)
+	- [Readings for Thursday](/sm21/wk4#thurs)
 	- [Wednesday/Thursday Lab](/sm21/lab11)
 
 ##### Week 3 (6/7-6/11)
 - Binary search
-	- [Readings for<br>Tuesday](/sm21/wk3#tues)  
+	- [Readings for Tuesday](/sm21/wk3#tues)  
 	- [Tuesday Lab](/sm21/lab07)  
 - Sets and Maps
-	- [Readings for<br>Wednesday](/sm21/wk3#weds)  
+	- [Readings for Wednesday](/sm21/wk3#weds)  
 	- [Wednesday Lab](/sm21/lab08)  
 - Hashmaps
-	- [Readings for<br>Thursday](/sm21/wk3#thurs)  
+	- [Readings for Thursday](/sm21/wk3#thurs)  
 	- [Thursday Lab](/sm21/lab09)  
 
 ##### Week 2 (6/1-6/4)
