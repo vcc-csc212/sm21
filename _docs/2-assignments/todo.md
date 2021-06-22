@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk5#tues)
 : These readings will teach you about **queues**, a data structure that can be implemented using linked lists.
 
-[Tuesday Lab]
+[Tuesday Lab](/sm21/lab12/)
 : This lab will help you solidify your understanding of queues.
 
 [Readings for<br>Wednesday](/sm21/wk5#weds)
