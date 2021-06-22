@@ -71,23 +71,24 @@ Queues are particularly useful and popular thanks to their efficiency as inserti
 Modify your implementation from [Lab 11](/sm21/lab11) to become a queue.
 
 1. Make a copy of your Lab 11 files **do not modify the originals**.
-2. Rename `linked_list.cpp` to `queue.cpp`
-3. Rename `linked_list.h` to `queue.h`
-4. In `queue.h`:
+2. Rename `linked_list.cpp` to `queue.cpp`. Change your constructor's and class name (from LinkedList to Queue-- don't forget the `LinkedList::` before all the functions too!). Make sure to change the `#include` from `linked_list.h` to `queue.h`
+3. Rename `linked_list.h` to `queue.h`. Change your constructor's and class name (from LinkedList to Queue). 
+4. Update `node.h` to be friends with `Queue` instead of `LinkedList`
+5. In `queue.h`:
     - **a)** Add a tail pointer if you don't already have one.
     - **b)** Remove insert() and push_front()
     - **c)** Rename push_back() to enqueue()
     - **d)** Rename del() to dequeue(). Remove its parameter.
     - **e)** Remove contains()
     - **f)** Add a function called peek()
-5. Update `queue.cpp` so it matches `queue.h`. Namely:
+6. Update `queue.cpp` so it matches `queue.h`. Namely:
     - **a)** Add a tail pointer if you don't already have one. That is, add it to your constructor like you did head. 
     - **b)** Remove insert() and push_front()
     - **c)** Rename push_back() to enqueue(). Update the function to always update the tail pointer as expected.
     - **d)** Rename del() to dequeue(). Remove its parameter. Update the function to only remove the first element (the head) each time. Make sure to update the head pointer so it's pointing to the new front of the queue.
     - **e)** Remove contains()
-    - **f)** Add a function called peek(). peek() does not take in any parameters and it returns a char representing the value at head. Write the function so it performs the correct action.
-6. Update `test.cpp` to test all of your three functions and remove any tests that don't apply.
+    - **f)** Add a function called peek(). peek() does not take in any parameters and it returns a char representing the value at head. Write the function so it performs the correct action. If the head is nullptr, return `'\0'`.
+7. Update `test.cpp` to test all of your three functions and remove any tests that don't apply. Make sure to change the `#include` from `linked_list.h` to `queue.h`
 
 ---
 
