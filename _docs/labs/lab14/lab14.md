@@ -73,7 +73,7 @@ Lets compare the performance of a Queue with a Priority Queue:
 
 </details>
 
-<br><br>
+<br>
 
 But fret not, there is a better way to implement a Priority Queue and we'll learn about that soon!
 
