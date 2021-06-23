@@ -15,7 +15,7 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk5#weds)
 : These readings will teach you about **stacks**, a data structure that can be implemented using linked lists.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab13/)
 : This lab will help you solidify your understanding of stacks.
 
 [Readings for<br>Thursday](/sm21/wk5#thurs)

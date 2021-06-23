@@ -46,7 +46,7 @@ Modular/OOP
 : Functions and classes must be used appropriately to abstract and divvy-up your code (i.e., must follow OOP principles).
 
 Applications
-: Your final project should use the most appropriate data structures and/or algorithms to complete a task based on a real-world problem/context/scenario **and yuo should explain why said data structure or algorithm is the most appropriate for the task and for the given context/scenario/application**.
+: Your final project should use the most appropriate data structures and/or algorithms to complete a task based on a real-world problem/context/scenario **and you should explain why said data structure or algorithm is the most appropriate for the task and for the given context/scenario/application**.
 
 Video
 : Project should include a video of no more than 10 minutes where you:
