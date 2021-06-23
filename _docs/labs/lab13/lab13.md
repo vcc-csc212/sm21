@@ -35,7 +35,7 @@ Node objects store Data & a reference to the next Node in the list. The Linked L
 A Stack is a Linked List with an enforced add/remove order: first-in last-out (FILO) aka last-in first-out (LIFO). Elements added to the Stack (pushed) are placed at the fron, and we can only ever remove (pop) from the front.
 
 <p align="center">
-  <img src="/sm21/labs/lab12/stack.png" />
+  <img src="/sm21/labs/lab13/stack.png" />
 </p>
 
 
