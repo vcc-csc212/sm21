@@ -28,7 +28,7 @@ We'll be using Linked Lists as our base today. We are familiar with the Node & L
 Node objects store Data & a reference to the next Node in the list. The LinkedList maintains a pointer to the first Node in the list ("head") and contains all of the operations that can be performed on the list. LinkedLists can also contain a "tail" pointer that points to the last element in the list.
 
 <p align="center">
-  <img src="/sm21/labs/lab14/images/linked-list.png" />
+  <img src="/sm21/labs/lab14/linked-list.png" />
 </p>
 
 
@@ -37,7 +37,7 @@ Node objects store Data & a reference to the next Node in the list. The LinkedLi
 As a refresher, a Queue is a Linked List with an enforced add/remove order: first-in first-out (FIFO). Elements added to the Queue (enqueued) are placed at the back, and we can only ever remove (dequeue) from the front.
 
 <p align="center">
-  <img src="/sm21/labs/lab14/images/queue.png" />
+  <img src="/sm21/labs/lab14/queue.png" />
 </p>
 
 
@@ -46,7 +46,7 @@ As a refresher, a Queue is a Linked List with an enforced add/remove order: firs
 As you may suspect, a priority queue's roots lies in the Queue data structure, which we have previously seen as a special Linked List.
 
 <p align="center">
-  <img src="/sm21/labs/lab14/images/priority-queue.jpg" />
+  <img src="/sm21/labs/lab14/priority-queue.jpg" />
 </p>
 
 
