@@ -59,7 +59,6 @@ Before attending class, please complete the material below:
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read [Data Structure and Algorithms - Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
-- Watch [Data Structures: Queue (Abstract Data Type)](https://www.youtube.com/watch?v=PjQdvpWfCmE) (7 min)
-- Read [How to implement a queue using a linked list](https://www.educative.io/edpresso/how-to-implement-a-queue-using-a-linked-list)
-- Watch [Data Structures: Linked List implementation of Queue](https://www.youtube.com/watch?v=A5_XdiK4J8A) (14 min)
+- Read [Data Structure - Priority Queue](https://www.tutorialspoint.com/data_structures_algorithms/priority_queue.htm)
+	- Ignore their implementation code as they use arrays which we won't be using for ours.
+- Read [Background Info, Lab 14](/sm21/lab14)
