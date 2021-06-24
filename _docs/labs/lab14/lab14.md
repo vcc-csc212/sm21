@@ -130,7 +130,7 @@ Modify your implementation from [Lab 12](/sm21/lab12) to become a priority queue
         return str;
     }
     ```
-Update `test.cpp` to test all of your three functions and remove any tests that don't apply. Make sure to change the `#include` from `queue.h` to `p_queue.h`
+10. Update `test.cpp` to test all of your three functions and remove any tests that don't apply. Make sure to change the `#include` from `queue.h` to `p_queue.h`
 
 ---
 
