@@ -21,7 +21,7 @@ permalink: /todo/
 [Readings for<br>Thursday](/sm21/wk5#thurs)
 : These readings will teach you about **priority queues**, a different form of queue.
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab14/)
 : This lab will help you solidify your understanding of priority queues.
 
 ---

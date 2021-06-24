@@ -75,6 +75,90 @@ Lets compare the performance of a Queue with a Priority Queue:
 
 <br>
 
-But fret not, there is a better way to implement a Priority Queue and we'll learn about that soon!
+But fret not, there is a better way to implement a Priority Queue and we'll learn about that soon! But first, let's talk about using queues:
 
-> Task and reqs to be released soon.
+<details>
+    <summary><strong>How do we modify a queue for it to behave as a priority queue?</strong></summary>
+
+    The only difference between a p-queue and a queue is in the ordering of elements: p-queues have a priority associated with each element, which determines its position in the p-queue.
+
+    <ul>
+        <li>Since elements have a priority associated with them, we need to modify our Node class so that they have a priority. </li>
+        <li>Since an element's priority determines its position, we need to modify enqueue() so it accounts for priority upon inserting a node into the p-queue</li>
+        <li>Since all elements now have a priority associated with them, we also want to modify to_string so we can get the full information of our p-queue when printing it. </li>
+    </ul>
+
+</details>
+
+---
+
+#### Your Task {#task}
+
+Modify your implementation from [Lab 12](/sm21/lab12) to become a priority queue.
+
+1. Make a copy of your Lab 12 files **do not modify the originals**.
+2. Rename `queue.cpp` to `p_queue.cpp`. Change your constructor's and class name (from Queue to P_Queue-- don't forget the `Queue::` before all the functions too!). Make sure to change the `#include` from `queue.h` to `p_queue.h`
+3. Rename `queue.h` to `p_queue.h`. Change your constructor's and class name (from Queue to P_Queue). 
+4. Update `node.h` to be friends with `P_Queue` instead of `Queue`
+5. Compile your code to make sure 1-4 were done correctly. Update anything you missed.
+6. In `node.h`:
+  - **a)** Add `priority` as a member variable of the class. `priority` should be an integer.
+  - **b)** Add a priority parameter to the two constructors that take in `data` (if you kept original ordering then the second and third constructors). Make sure it's the **second parameter**.
+7. Update `node.cpp` so it matches `node.h`. Namely:
+  - **a)** Add a priority parameter to the two constructors that take in `data` (if you kept original ordering then the second and third constructors).
+  - **b)** Set the `priority` of the node in each of the three constructors. For the constructor that doesn't take a priority in, you can set it to `1`.
+8. In `p_queue.h`:
+    - **a)** Add a priority parameter to enqueue() 
+9. Update `p_queue.cpp` so it matches `p_queue.h`. Namely:
+    - **a)** Add a priority parameter to enqueue(). Update the function so it inserts the `data` at the correct position based on its `priority`. Priorities of smaller numbers should go first. If two elements have the same priority, then their order in the p-queue should be based on insertion (i.e., if I enqueue `a` and `b` both with priority `3`, then `a` should appear before `b` since that's the order they were enqueued in).
+    - **b)** Update to_string() to the following code:
+    ```c++
+    std::string P_Queue::to_string(){
+        std::string str = "";
+
+        Node* temp = this->head;
+
+        while(temp != nullptr){
+            str += "(";
+            str += temp->data;
+            str += ",";
+            str += std::to_string(temp->priority);
+            str += ") ";
+            temp = temp->next;
+        }
+
+        return str;
+    }
+    ```
+Update `test.cpp` to test all of your three functions and remove any tests that don't apply. Make sure to change the `#include` from `queue.h` to `p_queue.h`
+
+---
+
+#### Requirements {#reqs}  
+
+1. P_Queue functionality is as expected for all functions:
+    - enqueue
+    - dequeue
+    - peek
+    - to_string
+
+---
+
+#### Handing in {#submit}
+To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
+- p_queue.cpp
+- p_queue.h
+- test.cpp
+- node.h
+- node.cpp
+
+---
+
+#### Grade Breakdown {#grading}
+You must successfully meet [requirement](#reqs) **1** in order to receive credit for this assignment.
+
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+
+---
+
+Original assignment by Christian Esteves, used and modified with permission.
