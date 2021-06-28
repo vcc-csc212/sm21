@@ -84,7 +84,7 @@ Now say I'm curious to know:
 <br>
 
 <details>
-    <summary><strong>I can use sets and maps to answer each of the above questions! Can you figure out which data structure (either a set or a map) I would need for each of the questions above?</strong></summary>
+    <summary><strong>I can use sets and maps to answer each of the above questions! Can you figure out which data structure (either a set or a map) I would need for each of the questions above?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 <ul>
 	<li>To answer: "Are there any students who live in IL (Illinois)?"

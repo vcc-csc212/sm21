@@ -1,17 +1,34 @@
 ---
 title: Week 6
-permalink: 
+permalink: /wk6/
 ---
 
 > Reminder that you **must complete the pre-reading before each class**.
 <br><br>
 On this page:  
-✔️ [Pre-reading for Tuesday 3/2](#tues)  
-✔️ [Pre-reading for Thursday 3/4](#thurs)
+✔️ [Pre-reading for Tuesday 6/29](#tues)  
+✔️ [Pre-reading for Wednesday 6/30](#weds)  
+✔️ [Pre-reading for Thursday 7/1](#thurs)
 
 ---
 
-#### Pre-Reading for Mergesort, Tuesday 3/2 {#tues}
+#### Pre-Reading for Recursion Crash Course, Tuesday {#tues}
+
+##### Essential Questions
+Before attending class, please complete the material below and use the following questions to guide your note-taking:  
+<br>
+✔️ What is recursion and how does it work?  
+✔️ Why should/would one use recursion over iteration?  
+
+##### Read/Watch/Review
+- Read [How Recursion Works — Explained with Flowcharts and a Video](https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/)
+- Watch [What on Earth is Recursion? - Computerphile](https://www.youtube.com/watch?v=Mv9NEXX1VHc) (9 min)
+- Read [Reading 10: Recursion](https://web.mit.edu/6.005/www/fa15/classes/10-recursion/#reading_10_recursion)
+- Watch [What is recursion? Programming Tutorial](hhttps://youtu.be/MwfvXDfaZeI?t=20) (15 min)
+
+---
+
+#### Pre-Reading for Mergesort, Wednesday {#weds}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
@@ -28,37 +45,22 @@ Before attending class, please complete the material below:
 - Read [Analysis of Merge Sort](https://www.educative.io/courses/visual-introduction-to-algorithms/mXZyR)
 - Watch [Why Is Merge Sort O(n * log(n))?](https://www.youtube.com/watch?v=alJswNJ4P3U) (37 min)
 
-##### In Class
-In today's class we'll be debugging broken implementations of mergesort.
+--- 
 
----
-
-#### Pre-Reading for Analyzing Recursive Algos, Thursday 3/4 {#thurs}
+#### Pre-Reading for Quicksort, Thursday {#thurs}
 
 ##### Essential Questions
-
+Before attending class, please complete the material below and use the following questions to guide your note-taking:  
 <br>
-✔️ What is a recurrence relation and why is it useful?  
-✔️ How do we derive a recurrence relation from code?  
-✔️ How do we solve a recurrence relation to get the time complexity of a function?  
+✔️ How does the quicksort algorithm work?  
+✔️ What's the time complexity of quicksort algorithm?    
 
 ##### Read/Watch/Review
-
-> **Notes:** 
-- A lot of the pre-readings will mention **induction**. If you're unfamiliar with induction, please read [this introduction](https://www.mathsisfun.com/algebra/mathematical-induction.html) before continuing.
-- The **first reading below is a textbook chapter**. You may choose to **read the textbook chapter OR the three articles** beneath it. 
-	- They all give relatively the same information, with the textbook going more in-depth and having better-explained examples.
-- Don't be overwhelmed by the proofs-- you won't be doing formal proofs in this class, but you should understand how to confirm with yourself that your answers are correct for when we do practice problems.
-
 Before attending class, please complete the material below:
-- Read [Chapter 10: Recurrences](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)
-	- You can ignore sections 10.4.3-10.4.5
-- Read [Recurrence Relation](https://algorithmtutor.com/Analysis-of-Algorithm/Recurrence-Relation/)
-- Read [Solving Recurrence Relations (Part I)](https://algorithmtutor.com/Analysis-of-Algorithm/Solving-Recurrence-Relations-Part-I/)
-- Read [Solving Recurrence Relations (Part III)](https://algorithmtutor.com/Analysis-of-Algorithm/Solving-Recurrence-Relations-Part-III/)
-	- Purposely skipping Part II
-- Watch [Recurrence Equations Overview](https://www.youtube.com/watch?v=l0iXqhqfDPo) (6 min)
-- Watch [Recurrence Relations Discrete Mathematics](https://www.youtube.com/watch?v=eAaP4XaB8hM) (15 min)
-
-##### In Class
-In today's class we'll be practicing using recurrence relations to analyze recursive algorithms.
+- Read [Quick Sort Algorithm](https://www.interviewbit.com/tutorial/quicksort-algorithm/)
+- Watch [Quick Sort, GeeksforGeeks](https://www.youtube.com/watch?v=PgBzjlCcFvc) (3 min)
+- Watch [Algorithms: Quick Sort](https://www.youtube.com/watch?v=SLauY6PpjW4) (9 min)
+	- Note that the implementation is in Java but the implementation in C++ would be very similar.
+- Read [Analysis of Quick Sort](https://www.educative.io/courses/visual-introduction-to-algorithms/mkM8E)
+- Watch [The Quicksort Sorting Algorithm: Pick A Pivot, Partition, & Recurse](https://www.youtube.com/watch?v=uXBnyYuwPe8) (26 min)
+	- Time complexity explanation starts @ 15 min mark

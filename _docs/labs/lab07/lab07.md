@@ -23,7 +23,7 @@ Imagine trying to find a book at the library-- you get to the aisle you think th
 <br>
 
 <details>
-    <summary><strong>What is the worst case scenario of the search in the above context?</strong></summary>
+    <summary><strong>What is the worst case scenario of the search in the above context?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 If the book is the last one in the aisle or if it's not in that aisle at all, you'll have visited <strong>every book</strong>. 
 
@@ -32,7 +32,7 @@ If the book is the last one in the aisle or if it's not in that aisle at all, yo
 <br>
 
 <details>
-    <summary><strong>What is the Big-O of the worst case scenario?</strong></summary>
+    <summary><strong>What is the Big-O of the worst case scenario?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 If you have to visit <strong>every book</strong> and there are <em>n</em> books, the search will have an upper bound of <strong>O(n)</strong>. 
 
@@ -56,7 +56,7 @@ Going back to our library scenario above, in this case, you know the alphabetica
 <br>
 
 <details>
-    <summary><strong>In the scenario above, how many books did you have to look at to find the book you were looking for?</strong></summary>
+    <summary><strong>In the scenario above, how many books did you have to look at to find the book you were looking for?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 Each time wee calculated the midpoint we looked at a book to see if it was what we wanted. We did this a total of <strong>three times</strong> once when we found <em>g</em> then again when we found <em>j</em> and once more when we found <em>l</em>. 
 
@@ -65,7 +65,7 @@ Each time wee calculated the midpoint we looked at a book to see if it was what 
 <br>
 
 <details>
-    <summary><strong>Recall that in the scenario above, there was only one book with each of the letters a-n for a total of 14 books. Once again, the worst case scenario for trying to find our book is if it's not in our aisle at all (if we were looking for 'axolotl', for example). In the worst case, how many searches would you have needed to perform?</strong></summary>
+    <summary><strong>Recall that in the scenario above, there was only one book with each of the letters a-n for a total of 14 books. Once again, the worst case scenario for trying to find our book is if it's not in our aisle at all (if we were looking for 'axolotl', for example). In the worst case, how many searches would you have needed to perform?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 Each time we calculated the midpoint we looked at a book to see if it was what we wanted. We would then do:
 <ul>
@@ -82,7 +82,7 @@ After 4 books we realize our book isn't in this aisle, but hey, at least 4 books
 <br>
 
 <details>
-    <summary><strong>What is the Big-O of the worst case scenario?</strong></summary>
+    <summary><strong>What is the Big-O of the worst case scenario?</strong> (after giving it some thought, click to reveal answer)</summary>
 
 I recommend you walk through these on your own (at least up to 26 or 50 books) to confirm:
 <ul>

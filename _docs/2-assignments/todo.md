@@ -5,28 +5,40 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (6/21-6/25)
-[Readings for<br>Tuesday](/sm21/wk5#tues)
+##### This Week (6/28-7/2)
+[Readings for<br>Tuesday](/sm21/wk6#tues)
 : These readings will teach you about **queues**, a data structure that can be implemented using linked lists.
 
-[Tuesday Lab](/sm21/lab12/)
+[Tuesday Lab]
 : This lab will help you solidify your understanding of queues.
 
-[Readings for<br>Wednesday](/sm21/wk5#weds)
+[Readings for<br>Wednesday](/sm21/wk6#weds)
 : These readings will teach you about **stacks**, a data structure that can be implemented using linked lists.
 
-[Wednesday Lab](/sm21/lab13/)
+[Wednesday Lab]
 : This lab will help you solidify your understanding of stacks.
 
-[Readings for<br>Thursday](/sm21/wk5#thurs)
+[Readings for<br>Thursday](/sm21/wk6#thurs)
 : These readings will teach you about **priority queues**, a different form of queue.
 
-[Thursday Lab](/sm21/lab14/)
+[Thursday Lab]
 : This lab will help you solidify your understanding of priority queues.
 
 ---
 
 #### Past Assignments
+
+#### Week 5 (6/21-6/25)
+- Queues
+	- [Readings for<br>Tuesday](/sm21/wk5#tues)
+	- [Tuesday Lab](/sm21/lab12/)
+- Stacks
+	- [Readings for<br>Wednesday](/sm21/wk5#weds)
+	- [Wednesday Lab](/sm21/lab13/)
+- Priority Queues
+	- [Readings for<br>Thursday](/sm21/wk5#thurs)
+
+	- [Thursday Lab](/sm21/lab14/)
 
 #### Week 4 (6/14-6/18)
 - Pointers and memory

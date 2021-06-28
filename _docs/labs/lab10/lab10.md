@@ -42,6 +42,8 @@ Memory from a C++ program can be stored in one of two places: the **stack** or t
 | automatically deallocated after execution | needs manual allocation and deallocation |
 
 
+> **Watch** [Stack Versus Heap](https://www.youtube.com/watch?v=IX3fDYz0WyM) (3 min)
+
 The **stack** segment is near the top of memory with high address. Every time a function is called, the machine allocates some stack memory for it. When a new local variable is declared, more stack memory is allocated for that function to store the variable. Such allocations make the stack grow downwards. After the function returns, the stack memory of this function is deallocated, which means all local variables become invalid. The allocation and deallocation for stack memory is automatically done. The variables allocated on the stack are called stack variables, or automatic variables.
 
 ![Memory layout of a c++ program](/sm21/labs/lab10/memory_layout.png)

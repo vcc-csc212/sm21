@@ -48,7 +48,7 @@ Stacks are particularly useful and popular thanks to their efficiency as inserti
 |  Peek   | O(1)  | 
 
 <details>
-    <summary><strong>We learned last week that linked lists can have constant time insert and delete operations. Given a stacks's LIFO ordering and its constant-time operations, how do we modify a linked list for it to behave as a stack?</strong></summary>
+    <summary><strong>We learned last week that linked lists can have constant time insert and delete operations. Given a stacks's LIFO ordering and its constant-time operations, how do we modify a linked list for it to behave as a stack?</strong> (after giving it some thought, click to reveal answer)</summary>
 
     <ul>
         <li>Since a stack has constant-time pushing (prepending), we need to ensure our linked list uses its head pointer correctly.</li>
