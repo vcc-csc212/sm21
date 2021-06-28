@@ -18,7 +18,7 @@ On this page:
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
 <br>
 ✔️ What is recursion and how does it work?  
-✔️ Why should/would one use recursion over iteration?  
+✔️ When and why should/would one use recursion over iteration?  
 
 ##### Read/Watch/Review
 - Read [How Recursion Works — Explained with Flowcharts and a Video](https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/)
