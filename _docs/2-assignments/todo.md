@@ -7,22 +7,22 @@ permalink: /todo/
 
 ##### This Week (6/28-7/2)
 [Readings for<br>Tuesday](/sm21/wk6#tues)
-: These readings will teach you about **queues**, a data structure that can be implemented using linked lists.
+: These readings will teach you about **recursion**, a way of writing solutions to problems that can also be solved iteratively.
 
 [Tuesday Lab]
-: This lab will help you solidify your understanding of queues.
+: This lab will help you solidify your understanding of recursion.
 
 [Readings for<br>Wednesday](/sm21/wk6#weds)
-: These readings will teach you about **stacks**, a data structure that can be implemented using linked lists.
+: These readings will teach you about **mergesort**, a more efficient sorting algorithm than linear search.
 
 [Wednesday Lab]
-: This lab will help you solidify your understanding of stacks.
+: This lab will help you solidify your understanding of mergesort and quicksort (Thursday's topic).
 
 [Readings for<br>Thursday](/sm21/wk6#thurs)
-: These readings will teach you about **priority queues**, a different form of queue.
+: These readings will teach you about **quicksort**, a more efficient sorting algorithm than linear search.
 
 [Thursday Lab]
-: This lab will help you solidify your understanding of priority queues.
+: Continued lab from Wednesday. This lab will help you solidify your understanding of mergesort and quicksort.
 
 ---
 
