@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk6#tues)
 : These readings will teach you about **recursion**, a way of writing solutions to problems that can also be solved iteratively.
 
-[Tuesday Lab]
+[Tuesday Lab](/sm21/lab15)
 : This lab will help you solidify your understanding of recursion.
 
 [Readings for<br>Wednesday](/sm21/wk6#weds)

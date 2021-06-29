@@ -1,7 +1,7 @@
 ---
 title: Recursion
-asg: Lab 02
-permalink:
+asg: Lab 15
+permalink: /lab15/
 ---
 
 On this page:  
@@ -14,7 +14,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to give you some prctice **solving problems in a recursive manner**. **Recursion** should be a somewhat familiar topic and udnerstanding it will be crucial for upcoming mode advanced topics.
+This lab will help you solidify your understanding of recursion.
 
 ---
 
@@ -37,7 +37,7 @@ At first, this may seem like an infinite loop of sorts, but if the function is i
 
 ##### How to think about recursive function calls
 
-![image](/sm21/labs/lab-02/recursive_example.png)
+![image](/sm21/labs/lab15/recursive_example.png)
 
 In the above diagram, each box is a call to the recursive function `foo`. In the base case, simple, often times even trivial, steps are taken for some special case of the input. After returning from the base case, each call to `foo` may *use* the result returned to it and return to its caller.
 
@@ -56,13 +56,13 @@ If we answer the three questions above for calculating factorials:
 3. "How do I use solutions to the smaller problem to solve the bigger problem?" 
     - **Since** `5! = 5*4*3*2*1` **this can be rewritten as** `5! = 5 * 4!` **and** `4! = 4 * 3!` **and so on and so forth.**
 
-![recursive waterfall of 5 factorial](/sm21/labs/lab-02/recursive-waterfall.gif)
+![recursive waterfall of 5 factorial](/sm21/labs/lab15/recursive-waterfall.gif)
 
 #### An example: Sum of Numbers {#example}
 
 Before you begin implementing recursive algorithms for yourself, you'll be guided through each step of a recursive implementation of the sum from 1 to n. Along the way, you will see which part of the algorithm corresponds to which concept, and hopefully you will get a better understanding of how to think about a recursive algorithm.
 
-First, [download or copy](/sm21/labs/lab-02/sum.cpp) the contents of `sum.cpp`. All you have is a small `main` and an empty function `sum` which presently returns 0. Enter each of the following lines after reading the description for each, starting at line `4`.
+First, [download or copy](/sm21/labs/lab15/sum.cpp) the contents of `sum.cpp`. All you have is a small `main` and an empty function `sum` which presently returns 0. Enter each of the following lines after reading the description for each, starting at line `4`.
 
 ```
 if (n == 0) {
@@ -98,58 +98,61 @@ At this point you can compile and run `sum.cpp`. Since `sum` is called on 10 and
 
 sum(10) = 10 + sum(9) = 10 + 9 + sum(8) = ... = 10 + 9 + ... + 2 + 1 + sum(0) = 55.
 
-You should now take a moment to consider what the time complexity (big O) of this function is. Despite not having analyzed recursive functions before, you should still be able to come up with an answer and a good reason for it based on what you have seen in class. Write your answer as a comment above the declaration of `sum()`.
+You should now take a moment to consider what the time complexity (big O) of this function is. Despite not having analyzed recursive functions before, you should still be able to come up with an answer and a good reason for it based on what you have seen in class.
 
 ---
 
 #### Your Task {#task} 
 
-1. Write a recursive function to compute the factorial of a given integer *n*.
-2. Write a recursive function that returns the largest value in an array of integers.
-3. Write a recursive function to generate the [Fibonacci Sequence](https://www.mathsisfun.com/numbers/fibonacci-sequence.html) to the *nth* term.
-4. Write a recursive Un-ordered Permutation function as described below:
+> Work on these problems for about an hour, then you'll be placed in random groups to discuss approaches, obstacles, and answers.
 
-Given the value of N, output all permutations of numbers from 1 to N. 
+1. Determine the Big-O of `sum()` from the previous section.
+2. Write and test a recursive function to compute the factorial of a given integer *n*. Determine its Big-O.
+3. Write and test a recursive function that returns the largest value in an array of integers. Determine its Big-O.
+4. Write and test a recursive function to generate the [Fibonacci Sequence](https://www.mathsisfun.com/numbers/fibonacci-sequence.html) to the *nth* term. Determine its Big-O.
+5. Write and test a recursive Un-ordered Permutation function as described below:
+    Given the value of N, output all permutations of numbers from 1 to N. 
 
-```c++
-Input : 2
-Output : 1 2
-         2 1
+    ```c++
+    Input : 2
+    Output : 1 2
+             2 1
 
-Input : 3
-Output : 1 2 3
-         1 3 2
-         2 1 3
-         3 1 2
-         2 3 1
-         3 2 1
-```
+    Input : 3
+    Output : 1 2 3
+             1 3 2
+             2 1 3
+             3 1 2
+             2 3 1
+             3 2 1
+    ```
 
 **Note:** There are many ways to generate all unordered permutations of a given set. Your output does *not* need to match this example exactly.
 
-> Questions like Task #3 and #4 are commonly used as the first challenge problem the software engineering interview process, and they determine whether you can move on to the next step of the process. Understanding how to approach these problems is an acquired skill that we hope you'll continue to acquire throughout the class!
+> Questions like Task item #4 and #5 are commonly used as the first challenge problem the software engineering interview process, and they determine whether you can move on to the next step of the process. Understanding how to approach these problems is an acquired skill that we hope you'll continue to acquire throughout the class!
 
 ---
 
 #### Requirements {#reqs}
+
+> Work on these problems for about an hour, then you'll be placed in random groups to discuss approaches, obstacles, and answers.
+
 1. Complete and be able to explain your solution to **task 1.**
 2. Complete and be able to explain your solution to **task 2.**
 3. Complete and be able to explain your solution to **task 3.**
 4. Complete and be able to explain your solution to **task 4.**
+5. Complete and be able to explain your solution to **task 5.**
+
+---
+
+#### Handing in {#submit}
+Recursion is required pre-requisite knowledge for the topics we'll be covering the rest of the week (and semester!). You should work on these recursive problems for about an hour, then you'll be placed in random groups to discuss approaches, obstacles, and answers. At the end of class we'll have an "exit ticket" (mentimeter) asking how it went. Code solutions will not be collected but you should complete as much as you're able to before being placed into random breakout groups.
 
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers **recursion** and your level of knowledge on it will be assessed as follows: 
-- To demonstrate an `awareness` of this topic, you must:
-    - Successfully meet [requirements](#reqs) **1**
-- To demonstrate an `understanding` of this topic, you must:
-    - Successfully meet [requirements](#reqs) **1 and 2**
-- To demonstrate `competence` of this topic, you must:
-    - Successfully meet [requirements](#reqs) **1 through 4**
-
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+Recursion is required pre-requisite knowledge for the topics we'll be covering the rest of the week (and semester!). You should work on these recursive problems for about an hour, then you'll be placed in random groups to discuss approaches, obstacles, and answers. At the end of class we'll have an "exit ticket" (mentimeter) asking how it went. Code solutions will not be collected but you should complete as much as you're able to before being placed into random breakout groups.
 
 ---
 
-Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
+Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), modified assignment version by Christian Esteves, used and modified (again) with permission.
