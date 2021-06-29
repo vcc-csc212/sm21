@@ -127,9 +127,9 @@ You should now take a moment to consider what the time complexity (big O) of thi
              3 2 1
     ```
 
-**Note:** There are many ways to generate all unordered permutations of a given set. Your output does *not* need to match this example exactly.
+    **Note:** There are many ways to generate all unordered permutations of a given set. Your output does *not* need to match this example exactly.
 
-> Questions like Task item #4 and #5 are commonly used as the first challenge problem the software engineering interview process, and they determine whether you can move on to the next step of the process. Understanding how to approach these problems is an acquired skill that we hope you'll continue to acquire throughout the class!
+> Questions like task items #4 and #5 are commonly used as **the first challenge problem the software engineering interview process**, and they determine whether you can move on to the next step of the process. Understanding how to approach these problems is an acquired skill that we hope you'll continue to acquire throughout the class!
 
 ---
 
