@@ -43,10 +43,13 @@ Complete the implementation of the sorting algorithms in `lab16.cpp`. Pay attent
 
 2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
 3. Create your own makefile to compile and run your program. Refer to [Lab 3](/sm21/lab03) as needed.
-4. Complete the implementation of the sorting algorithms in `lab16.cpp`. Pay attention to the **hints in the code**. Refer to the course material (slides and readings) as needed.
-5. Add your own test cases.
+4. Complete the implementation of `mergesort` and `merge` in `lab16.cpp`. Pay attention to the **hints in the code**. Refer to the course material (slides and readings) as needed.
+5. Add your own test cases and uncomment the respective test casees for the functions you just completed.
 6. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in.
-7. In a separate file called `analysis.txt` determine and explain the time complexity of `merge()` and `partition()` in terms of `low` and `high`.
+7. Complete the implementation of `quicksort` and `partition` in `lab16.cpp`. Pay attention to the **hints in the code**. Refer to the course material (slides and readings) as needed.
+8. Add your own test cases and uncomment the respective test casees for the functions you just completed.
+9. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in.
+10. Create a new file called `analysis.txt` determine and explain the time complexity of `merge()` and `partition()` in terms of `low` and `high`.
 
 ---
 
