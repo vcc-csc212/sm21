@@ -1,54 +1,11 @@
 #include <iostream>
-#include "sorting-lab.h"
-
-sorts::sorts() {
-    //nothing to do here
-}
-
-sorts::~sorts() {
-    //nothing to do here
-}
-
-//does sorting, using selection sort algo
-void sorts::selectionSort(int * unsortedArr, int arrSize) {
-
-	// Set the current sorted_pos to 0
-	for (int sorted_pos = 0; sorted_pos <= arrSize - 1; sorted_pos++)
-	{
-		int smallest_elem_pos = sorted_pos; //keeping track of smallest position's index rather than value so it's easier to swap
-
-		// Find the smallest element in the rest of list
-		// YT link on how selection sort works: https://www.youtube.com/watch?v=g-PGLbMth_g
-
-		// Swap the smallest element in the list with the element at sorted_pos
-		std::swap(unsortedArr[smallest_elem_pos], unsortedArr[sorted_pos]);
-
-		// Increment sorted_pos by 1 (done by loop)
-		// Repeat 2-4 until list is sorted (until sorted_pos is n-1) (done by loop)
-	}
-}
-
-//does sorting, using insertion sort algo
-void sorts::insertionSort(int * unsortedArr, int arrSize) {
-	// Start at the front of the list
-	for (int i = 1; i < arrSize; i++) //starting at one so there's something to the left
-	{
-		int curr = unsortedArr[i];
-		int j; //declaring outside so we can use it outside of for loop
-
-		// Compare the current element to the element immediately to its left
-		// If the current element is smaller than the element immediately to its left...
-		// ...compare the current element to all the other elements to the left
-		// Do this until the current element is not smaller than the element its being compared to
-		//while the previous item is greater than the next item, continue swapping
-        //hint: remember there are many shifts in insertion sort, what does it take to make a shift?
-        //YT link on how insertion sort works: https://www.youtube.com/watch?v=JU767SDMDvA
-	}
-}
+#include "lab16.h"
 
 void sorts::print(int data[], int n, std::ostream& os) {
-    for(int i=0;i<n;i++)
+	// DO NOT EDIT
+    for(int i=0;i<n;i++) {
         os << data[i] << " ";
+    }
 }
 
 void sorts::merge(int data[], int temp[], int low, int mid, int high) {
@@ -79,9 +36,9 @@ void sorts::merge(int data[], int temp[], int low, int mid, int high) {
 }
 
 void sorts::mergesort(int data[], int low, int high) {
-    //base case for recursive method calls
-    //what should the recursive call be? What if we don't have enough items to actually sort through?
-	if(  ) {
+    //base case for recursive method calls: think about what should the recursive call be? What if we don't have enough items to actually sort through?
+    
+	if( /* insert base case condition*/) {
 		return;
 	}
     //look for the middle index to partition the array into 2 equal subarrays. We set a variable to determine the middle of the list
@@ -122,7 +79,7 @@ int sorts::partition(int data[], int low, int high) {
 
 void sorts::quicksort(int data[], int low, int high) {
   //base case, takes care of the same case we hinted on in mergesort
-  if (  ){
+  if ( /* insert base case condition*/){
     return;
   }
   //find a pivot item, run the partition on the array according to what the pivot is

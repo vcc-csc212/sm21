@@ -15,13 +15,13 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk6#weds)
 : These readings will teach you about **mergesort**, a more efficient sorting algorithm than linear search.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab16)
 : This lab will help you solidify your understanding of mergesort and quicksort (Thursday's topic).
 
 [Readings for<br>Thursday](/sm21/wk6#thurs)
 : These readings will teach you about **quicksort**, a more efficient sorting algorithm than linear search.
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab16)
 : Continued lab from Wednesday. This lab will help you solidify your understanding of mergesort and quicksort.
 
 ---
