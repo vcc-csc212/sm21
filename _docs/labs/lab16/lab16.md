@@ -18,12 +18,14 @@ This lab will help you solidify your understanding of mergesort and quicksort.
 ---
 
 #### Background Info {#bgi}
-Sorting algorithms are used to rearrange a list or array of elements according to a **comparison operator** on the elements. The comparison operator in a sorting algorithm decides the new order of elements. Some are simple, but some are more ellaborate, requiring use of things like helper functions.
+This lab was designed by a fellow undergrad to solidify your understanding of quicksort and mergesort. There are embedded hints throughout the code, as well as links to additional resources. Please read his comments closely.
+
+>  Please refer to the course material ([slides](/sm21/slides) and [readings](/sm21/wk6)) as needed.
 
 ---
 
 #### Your Task {#task}
-Complete the implementation of the sorting algorithms in `lab16.cpp`. Pay attention to the **hints in the code**. Refer to the course material (slides and readings) as needed.
+Complete the implementation of the sorting algorithms in `lab16.cpp`. Pay attention to the **hints in the code**.
 
 1. Download the files below (it's easiest if you right click and then choose download or save)
 

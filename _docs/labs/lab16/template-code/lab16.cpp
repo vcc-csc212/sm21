@@ -57,6 +57,7 @@ void sorts::mergesort(int data[], int n) {
 }
 
 void sorts::swap(int& x, int& y){
+  // DO NOT EDIT
   int temp = x;
   x = y;
   y = temp;
@@ -72,6 +73,7 @@ int sorts::partition(int data[], int low, int high) {
   int i = low;
   //we need to write something that goes through the whole list, checks if the data being checked is less than the data within the pivot, ans swap accordingly
 
+  //i tracks threshold item -> separates items that are smaller/greater than the pivot
   swap(data[i], data[high]);
   //return index of pivot
   return i;
@@ -85,11 +87,9 @@ void sorts::quicksort(int data[], int low, int high) {
   //find a pivot item, run the partition on the array according to what the pivot is
   //like merge sort, we make a variable to keep track of this
 
-   //call this sort method recursively on left array
+   //call this sort method recursively on left array (left of pivdex)
 
-   //call this sort method recursively on right array
-
-  //we use pivdex - 1 and pivdex + 1 because we aren't measuring the pivot at all
+   //call this sort method recursively on right array (right of pivdex)
 }
 
 void sorts::quicksort(int data[], int n){
