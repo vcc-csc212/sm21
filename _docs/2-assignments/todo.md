@@ -5,28 +5,39 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (6/28-7/2)
-[Readings for<br>Tuesday](/sm21/wk6#tues)
-: These readings will teach you about **recursion**, a way of writing solutions to problems that can also be solved iteratively.
+##### This Week (7/5-7/9)
+[Readings for<br>Tuesday](/sm21/wk7#tues)
+: These readings will teach you about **analyzing recursive functions**, a way to mathemtically determine the time complexity of recursive functions.
 
-[Tuesday Lab](/sm21/lab15)
-: This lab will help you solidify your understanding of recursion.
+[Tuesday Lab]
+: This lab will help you solidify your understanding of analyzing recursive functions using recurrence relations.
 
-[Readings for<br>Wednesday](/sm21/wk6#weds)
-: These readings will teach you about **mergesort**, a more efficient sorting algorithm than linear search.
+[Readings for<br>Wednesday](/sm21/wk7#weds)
+: These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
 
-[Wednesday Lab](/sm21/lab16)
+[Wednesday Lab]
 : This lab will help you solidify your understanding of mergesort and quicksort (Thursday's topic).
 
-[Readings for<br>Thursday](/sm21/wk6#thurs)
-: These readings will teach you about **quicksort**, a more efficient sorting algorithm than linear search.
+[Readings for<br>Thursday](/sm21/wk7#thurs)
+: Cotinued from Wednesday. These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
 
-[Thursday Lab](/sm21/lab16)
-: Continued lab from Wednesday. This lab will help you solidify your understanding of mergesort and quicksort.
+[Thursday Lab]
+: Continued lab from Wednesday. This lab will help you solidify your understanding of recursive backtracking.
 
 ---
 
 #### Past Assignments
+
+#### Week 6 (7/5-7/9)
+- Recursion Crash Course
+	- [Readings for Tuesday](/sm21/wk6#tues)
+	- [Tuesday Lab](/sm21/lab15)
+- Mergesort
+	- [Readings for Wednesday](/sm21/wk6#weds)
+	- [Wednesday Lab](/sm21/lab16)
+- Quicksort
+	- [Readings for Thursday](/sm21/wk6#thurs)
+	- [Thursday Lab](/sm21/lab16)
 
 #### Week 5 (6/21-6/25)
 - Queues
