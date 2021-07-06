@@ -40,4 +40,15 @@ Before attending class, please complete the material below:
 
 ---
 
-> Readings for Weds & Thurs coming soon!
+#### Pre-Reading for Recursive Backtracking, Wednesday & Thursday {#weds}
+
+##### Essential Questions
+
+<br>
+✔️ What is a recursive backtracking and when is it useful?  
+✔️ How do write code that does recursive backtracking?  
+
+##### Read/Watch/Review
+- Read [Recursive Backtracking I](https://stanford.edu/class/archive/cs/cs106x/cs106x.1132/handouts/18-Recursive-Backtracking.pdf)
+- Watch [The Backtracking Blueprint: The Legendary 3 Keys To Backtracking Algorithms](https://www.youtube.com/watch?v=Zq4upTEaQyM) (14 min)
+- Watch [Backtracking (Think Like a Programmer)](https://www.youtube.com/watch?v=gBC_Fd8EE8A) (13 min)
