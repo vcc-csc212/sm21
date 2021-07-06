@@ -9,14 +9,14 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk7#tues)
 : These readings will teach you about **analyzing recursive functions**, a way to mathemtically determine the time complexity of recursive functions.
 
-[Tuesday Lab]
+[Tuesday Lab](https://www.gradescope.com/courses/271139/assignments/1369321/)
 : This lab will help you solidify your understanding of analyzing recursive functions using recurrence relations.
 
 [Readings for<br>Wednesday](/sm21/wk7#weds)
 : These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
 
 [Wednesday Lab]
-: This lab will help you solidify your understanding of mergesort and quicksort (Thursday's topic).
+: This lab will help you solidify your understanding of recursive backtracking.
 
 [Readings for<br>Thursday](/sm21/wk7#thurs)
 : Cotinued from Wednesday. These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
