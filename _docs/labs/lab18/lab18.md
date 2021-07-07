@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to provide you some **experience with recursive backtracking**.
+The goal of this lab is to provide you some **experience with recursive backtracking**. You'll be doing this by way of implementing your own Tic Tac Toe game with an AI.
 
 ---
 
@@ -77,128 +77,129 @@ This process would repeat until we have a solution board:
   <img src="/labs/lab18/images/sujiko/sujiko_solved.png" />
 </p>
 
+##### Tic Tac Toe
+Tic tac toe (ttt), also known as 'noughts and crosses' or 'Xs and Os' is a 2 player game that involves trying to get three marks in a horizontal, vertical, or diagonal row. In ttt, players alternate turns marking a 3x3 grid with either an X (for player 1) or an O (for player 2). The first to get 3 in a row wins and if no one gets three in a row and the grid gets filled up, then the game is over with a tie.
+
+![tic tac toe game](/sm21/lab18/ttt-wiki.png) [Image source](https://en.wikipedia.org/wiki/Tic-tac-toe#/media/File:Tic-tac-toe-game-1.svg)
+
+If you haven't played ttt (ever or in a while), I recommend you take a piece of paper and do a couple of rounds with a roommate or relative. You can also play one of the many online versions against a fellow human or an AI!
+
+---
+
+##### Minimax Algorithm
+Minimax is an algorithm used in game theory for two-player, sequential, finite-action, deterministic,
+zero-sum games of perfect information. Breaking down what that means:  
+
+Two-player
+: A game that has two players. Tic-tac-toe is a two-player game; hearts is not.  
+
+Sequential
+: A game in which only one player moves at a time. Monopoly is a sequential game; Rochambeau (i.e., rock-paper-scissors) is not.  
+
+Finite-action
+: A game in which there is a finite number of legal moves available to a player when it is his turn to move. Battleship is a finite-action game; soccer is not.  
+
+Deterministic
+: A game that does not depend at all on chance. Its progress is entirely a function of selected moves. Checkers is deterministic; backgammon is not.  
+
+Zero-sum
+: A game in which what is good for one player is equally bad for the other, and vice versa. All the examples given here are zero-sum games.  
+
+Perfect  
+information
+: A game in which both players witness the entire progression of the game. Chess is a game of perfect information; poker is not.  
+
+<br>
+Given that tic-tac-toe meets all of those criteria, we can use the minimax algorithm to determine an optimal move given the following information: the player we are optimizing for and the current board at which the player will make their next move. We will refer to this data as **the game's state**.
+
+Given a game state, minimax will create a game tree whose minimax value can evaluate to either a -1, 0, or 1. A -1 denotes a winning condition for MIN, 0 denotes a tie, and a 1 denotes a winning condition for MAX. The minimax value of a game tree is the value of the root node x, whenever Min moves first,
+computed as the minimum value of x’s successors, which are in turn computed as the maximum
+value of x’s successors’ successors, and so on. Because the minimax algorithm is recursive, it searches smaller and smaller game trees with each recursive call.
+
+Even for such a small game as Tic Tac Toe, calculating the whole game tree is computationally expensive. Therefore, we will limit our minimax algorithm using MAX_DEPTH.
+
+```text
+if the board of the current game state is terminal (i.e., the game is over with that board):
+    return the value of the board
+    
+update game state's current player
+assume best minmax value is a tie
+
+if within MAX_DEPTH threshold:
+    for each move left in board of the current game state:
+        recur minimax on updated board and incremented depth
+        the value returned from minimax recursion above is the new minimax value
+
+        if playing MAX:
+            set best minmax value to max of current best minmax value and new minmax value
+        if playing MIN: 
+            set best minmax value to min of current best minmax value and new minmax value
+
+return best minmax value
+```
+
+> Subtle differences in your implementation of the minimax algorithm can lead to completely different results so it is crucial that you follow the algorithm exactly as is written above. Furthermore, note the following:
+- For our implementation of minimax, player 1 will be MAX and player 2 will be MIN. 
+- MAX_DEPTH should be 5 (already defined as a macro)
+- At the beginning of your algorithm, assume the best minmax value is a tie
+
 ---
 
 #### Your Task {#task}
 
-Review each of the following problems and fulfill the requirements for this lab.
+Complete the implementation of Tic Tac Toe below. Pay attention to the **hints in the code and in the background info**.
 
-##### <center>N-Queens Problem</center>
+1. Download the files below (it's easiest if you right click and then choose download or save)
 
-The N-Queens problem is the task of placing eight chess queens on an NxN chessboard such that no two queens can attack each other. Let's take a look at this empty 8x8 chess board:
+    [tic_tac_toe.h](/sm21/labs/lab18/template-code/tic_tac_toe.h)
+    : Contains the **declaration** of the lab you'll be implementing. **Do not** modify any of the given code. 
 
-> In chess, the queen may move any number of squares in any single direction (horizontally, vertically, or diagonally).
+    [tic_tac_toe.cpp](/sm21/labs/lab18/template-code/tic_tac_toe.cpp)
+    : Contains the **definition** of the lab you'll be implementing.
 
-<p align="center">
-  <img src="/labs/lab18/images/chessboard.png" />
-</p>
+    [main.cpp](/sm21/labs/lab18/template-code/main.cpp)
+    : Contains the main program to run your game in the console. **Do not** edit this file. The `main()` has already been written for you to enable the AI mode if there's a command line argument or leave the game as a 2 human player game otherwise. 
 
-How would you solve the problem? Let's take a look at pseudocode for the strategy you could use.
-
-```
-1) Start in the leftmost column
-2) If all queens are placed
-    return true
-3) Try all rows in the current column. 
-   Do following for every tried row.
-    a) If the queen can be placed safely in this row 
-       then mark this [row, column] as part of the 
-       solution and recursively check if placing
-       queen here leads to a solution.
-    b) If placing the queen in [row, column] leads to
-       a solution then return true.
-    c) If placing queen doesn't lead to a solution then
-       unmark this [row, column] (Backtrack) and go to 
-       step (a) to try other rows.
-3) If all rows have been tried and nothing worked,
-   return false to trigger backtracking.
-```
-
-> See this [online step-by-step visualization](https://www.cs.usfca.edu/~galles/visualization/RecQueens.html) for this problem.
-
-The following is the result of the recursive call tree for solving a 4x4 puzzle:
-
-<p align="center">
-  <img src="/labs/lab18/images/n-queens-4x4-solved.png" />
-</p>
-
-Download the code to solve the N-Queens problem and work to understand how the backtracking is working to solve the problem. After you can follow the code, move on to the next section.
-
-- [main.cpp](/sm21/labs/lab18/N-Queens/main.cpp)
-- [n-queens.h](/sm21/labs/lab18/N-Queens/n-queens.h)
-- [n-queens.cpp](/sm21/labs/lab18/N-Queens/n-queens.cpp)
+2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
+3. Implement the two constructors and the destructor.
+4. Implement `game_status` which determines whether the game is over by a win or tie if the game is ongoing.
+5. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and playing the game through several times in human vs human mode. To compile your code, use:
+    ```bash
+    $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
+    ```
+    > This will generate a command line program that takes in one optional command-line argument (CLA). If the program is executed with no CLA, the game will call the constructor with ai_mode as `false`, which should allow two human players to play together. If there's a CLA present, the game calls the constructor with ai_mode as `true`, which should allow a human player to play against your AI (AI will always be player 2).
+6. Implement `minimax_algo`, a recursive backtracking algorithm, to create your Tic Tac Toe AI.
+7. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and playing the game through several times in human vs AI form. You AI won't be the smartest but if implemented correctly, it should be smart enough!
 
 ---
 
-##### <center>Sudoku!</center>
+#### Requirements {#reqs}
 
-In Sudoku, you are given a partially filled 9x9 board with the objective of filling each cell such that each row, column, and 3x3 subgrid contains all of the digits 1-9. You can **not** change the given values. As an example, here is a puzzle:
-	
+Your submission will be **tested and graded by an autograder**, for this reason it cannot be stressed enough that your program must **exactly** follow the assignment specifications:    
 
-|              Sudoku Puzzle               |              Sudoku Puzzle Solved               |
-| :--------------------------------------: | :---------------------------------------------: |
-| ![image](/sm21/labs/lab18/images/sudoku_puzzle.png) | ![image](/sm21/labs/lab18/images/sudoku_puzzle_solved.png) |
-
-Now that you know the rules, finish the given code for solving a Sudoku puzzle.
-
-- [main.cpp](/sm21/labs/lab18/Sudoku/main.cpp)
-- [sudoku.cpp](/sm21/labs/lab18/Sudoku/sudoku.cpp)
-- [sudoku.h](/sm21/labs/lab18/Sudoku/sudoku.h)
-- [Easy Puzzle](/sm21/labs/lab18/Sudoku/puzzle_easy.txt)
-- [Medium Puzzle](/sm21/labs/lab18/Sudoku/puzzle_medium.txt)
-- [Hard Puzzle](/sm21/labs/lab18/Sudoku/puzzle_hard.txt)
-
-Your strategy will be *very* similar to the solution for N-Queens:
-
-```
-1) If we have filled the entire board,  return true
-2) For each digit 1-9:
-	- If this digit can be placed in this cell
-		- Place the digit
-        - Recurse to the next empty cell.
-        - If that recursive call returns true
-            - Return true
-        - else
-            - Try the next digit
-3) If none of the digits yielded a valid solution, backtrack.
-```
-
-Before starting the code for this problem, work through a few rounds on paper to ensure you have the correct methodology.
-
-##### <center>Re-N-Queens: A different perspective </center> {#nqueens2}
-
-In the given solution for N-Queens, the puzzle is solved by changing the row a Queen is placed on in a given column.
-
-Write a function that instead solves the puzzle by changing the column a Queen is placed on in a given row.
-
-In other words, instead of solving the puzzle left to right, solve it top to bottom.
-
----
-
-#### Requirements {#reqs}  
-
-1. Comment the ```solve_rec()``` function in the solution to the N-Queens problem to show you fully understand the solution.
-2. Copy the ```solve_rec()``` function and modify it such that it solves the N-Queens problem as described in [Re-N-Queens: A different perspective](#nqueens2).
-3. Finish the Sudoku program using recursive backtracking.
+1. You compiles with **no warning or error messages** upon compilation with the **exact following command**
+    ```bash
+    $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
+    ```
+2. Your program successfully executes Tic Tac Toe with two human players
+3. Your minimax algorithm produces valid moves
+4. Your minimax algorithm is implemented as stated above and produces the optimal moves
 
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sm21/staff#sched) to get checked off.
+To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
+- tic_tac_toe.h
+- tic_tac_toe.cpp
+- main.cpp
 
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers the topic of **recursive backtracking** and your level of knowledge on it will be assessed as follows: 
-- To demonstrate an `awareness` of these topics, you must:
-    - Successfully meet [requirement](#reqs) **1**
-- To demonstrate an `understanding` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 and 2**
-- To demonstrate `competence` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 through 3**
+You must successfully meet [requirements](#reqs) **1 through 4** in order to receive credit for this assignment.
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sm21/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 
-Original assignment by [Dr. Marco Alvarez](https:/homepage.cs.uri.edu/~malvarez/), used and modified with permission.
+Background info by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.

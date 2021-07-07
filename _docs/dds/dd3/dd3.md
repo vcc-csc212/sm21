@@ -1,7 +1,7 @@
 ---
 title: Bignum Calculator
 asg: Deep Dive 3
-permalink: /dd3/
+permalink: 
 ---
 
 On this page:  

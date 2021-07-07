@@ -1,4 +1,4 @@
-#include "tic-tac-toe.h"
+#include "tic_tac_toe.h"
 
 int main(int argc, char** argv)
 {
@@ -8,7 +8,7 @@ int main(int argc, char** argv)
         ai_mode = true;
     }
 
-    ttt_game *game = new ttt_game(ai_mode);
+    tic_tac_toe *game = new tic_tac_toe(ai_mode);
     game->play();
     delete game;
 }

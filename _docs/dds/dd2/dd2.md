@@ -1,7 +1,7 @@
 ---
 title: Maze Generation
 asg: Deep Dive 2
-permalink: /dd2/
+permalink: 
 ---
 
 On this page:  

@@ -1,7 +1,7 @@
 ---
 title: Tic Tac Toe w/ AI
 asg: Deep Dive 4
-permalink: /dd4/
+permalink: 
 ---
 
 On this page:  

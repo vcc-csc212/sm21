@@ -3,35 +3,35 @@
 #ifndef TIC_TAC_TOE_H
 #define TIC_TAC_TOE_H
 
-class ttt_game
+class tic_tac_toe
 {
 	public:
-		//default constructor, sets ai_mode to false
-		ttt_game();
+		//default constructor, sets m_ai_mode to false
+		tic_tac_toe();
 
-		//constructor, bool ai_mode tells whether ai mode should be enabled
-		ttt_game(bool ai_mode);
+		//constructor, sets m_ai_mode
+		tic_tac_toe(bool ai_mode);
 
 		//default destructor
-		~ttt_game();
+		~tic_tac_toe();
 
 		//executes game
 		void play();
 
 	private:
 		struct game_state {
-			char* _gs_board;
-			int _gs_player;
+			char* m_gs_board;
+			int m_gs_player;
 		};
 
 		//holds current player
-		int _current_player;
+		int m_current_player;
 
 		//tic tac toe gameboard to hold moves
-		char* _board;
+		char* m_board;
 
 		//true if AI mode enabled, false otherwise
-		bool _ai_mode;
+		bool m_ai_mode;
 
 		//-1 if ongoing, 0 if over with tie, 1 if over with win
 		int game_status(char* board);

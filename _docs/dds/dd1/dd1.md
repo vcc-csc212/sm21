@@ -1,7 +1,7 @@
 ---
 title: C++ and OOP Refresher
 asg: Deep Dive 1
-permalink: /dd1/
+permalink: 
 ---
 
 On this page:  
