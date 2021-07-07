@@ -160,12 +160,18 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
     [main.cpp](/sm21/labs/lab18/template-code/main.cpp)
     : Contains the main program to run your game in the console. **Do not** edit this file. The `main()` has already been written for you to enable the AI mode if there's a command line argument or leave the game as a 2 human player game otherwise. 
 
+    > Read about[structs](http://www.cplusplus.com/doc/tutorial/structures/) and [macros](https://www.cplusplus.com/doc/tutorial/preprocessor/) to better understand the code given to you.
+
 2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
 3. Implement the two constructors and the destructor.
 4. Implement `game_status` which determines whether the game is over by a win or tie if the game is ongoing.
 5. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and **playing the game through several times in human vs human mode**. To compile your code, use:
     ```bash
     $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
+    ```
+    and if you're working locally (i.e., VS Code or Visual Studio) on a **Windows** machine use:
+    ```bash
+    $ g++ -std=c++11 /Wall main.cpp tic_tac_toe.cpp -o ttt
     ```
     > This will generate a command line program that takes in one optional command-line argument (CLA). If the program is executed with no CLA, the game will call the constructor with ai_mode as `false`, which should allow two human players to play together. If there's a CLA present, the game calls the constructor with ai_mode as `true`, which should allow a human player to play against your AI (AI will always be player 2).
 6. Implement `minimax_algo`, the recursive backtracking algorithm as described in the section above, to create your Tic Tac Toe AI.
@@ -177,10 +183,7 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
 
 Your submission will be **tested and graded by an autograder**, for this reason it cannot be stressed enough that your program must **exactly** follow the assignment specifications:    
 
-1. You compiles with **no warning or error messages** upon compilation with the **exact following command**
-    ```bash
-    $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
-    ```
+1. You compiles with **no warnings or error messages**
 2. Your program successfully executes Tic Tac Toe with two human players
 3. Your minimax algorithm produces valid moves
 4. Your minimax algorithm is implemented as stated above and produces the optimal moves
