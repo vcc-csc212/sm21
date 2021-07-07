@@ -15,13 +15,13 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk7#weds)
 : These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab18)
 : This lab will help you solidify your understanding of recursive backtracking.
 
 [Readings for<br>Thursday](/sm21/wk7#thurs)
 : Cotinued from Wednesday. These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab18)
 : Continued lab from Wednesday. This lab will help you solidify your understanding of recursive backtracking.
 
 ---
