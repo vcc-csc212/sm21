@@ -168,7 +168,7 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
     $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
     ```
     > This will generate a command line program that takes in one optional command-line argument (CLA). If the program is executed with no CLA, the game will call the constructor with ai_mode as `false`, which should allow two human players to play together. If there's a CLA present, the game calls the constructor with ai_mode as `true`, which should allow a human player to play against your AI (AI will always be player 2).
-6. Implement `minimax_algo`, a recursive backtracking algorithm, to create your Tic Tac Toe AI.
+6. Implement `minimax_algo`, the recursive backtracking algorithm as described in the section above, to create your Tic Tac Toe AI.
 7. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and **playing the game through several times in human vs AI form**. You AI won't be the smartest but if implemented correctly, it should be smart enough!
 
 ---
