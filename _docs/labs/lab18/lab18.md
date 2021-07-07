@@ -38,7 +38,7 @@ Let's take a look at an example; solving a game of Sujiko!
 The purpose of this game is to place the numbers 1-9 on the board such that the sum of the four numbers around a circle equal the number in a circle. How would you solve this puzzle?
 
 <p align="center">
-  <img src="/labs/lab18/images/sujiko/sujiko.png" />
+  <img src="/sm21/labs/lab18/images/sujiko/sujiko.png" />
 </p>
 
 
@@ -74,13 +74,13 @@ This yields another dead end, so we would backtrack back to the 5th empty spot, 
 This process would repeat until we have a solution board:
 
 <p align="center">
-  <img src="/labs/lab18/images/sujiko/sujiko_solved.png" />
+  <img src="/sm21/labs/lab18/images/sujiko/sujiko_solved.png" />
 </p>
 
 ##### Tic Tac Toe
 Tic tac toe (ttt), also known as 'noughts and crosses' or 'Xs and Os' is a 2 player game that involves trying to get three marks in a horizontal, vertical, or diagonal row. In ttt, players alternate turns marking a 3x3 grid with either an X (for player 1) or an O (for player 2). The first to get 3 in a row wins and if no one gets three in a row and the grid gets filled up, then the game is over with a tie.
 
-![tic tac toe game](/sm21/lab18/ttt-wiki.png) [Image source](https://en.wikipedia.org/wiki/Tic-tac-toe#/media/File:Tic-tac-toe-game-1.svg)
+![tic tac toe game](/sm21/labs/lab18/images/ttt-wiki.png) [Image source](https://en.wikipedia.org/wiki/Tic-tac-toe#/media/File:Tic-tac-toe-game-1.svg)
 
 If you haven't played ttt (ever or in a while), I recommend you take a piece of paper and do a couple of rounds with a roommate or relative. You can also play one of the many online versions against a fellow human or an AI!
 
@@ -163,13 +163,13 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
 2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
 3. Implement the two constructors and the destructor.
 4. Implement `game_status` which determines whether the game is over by a win or tie if the game is ongoing.
-5. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and playing the game through several times in human vs human mode. To compile your code, use:
+5. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and **playing the game through several times in human vs human mode**. To compile your code, use:
     ```bash
     $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
     ```
     > This will generate a command line program that takes in one optional command-line argument (CLA). If the program is executed with no CLA, the game will call the constructor with ai_mode as `false`, which should allow two human players to play together. If there's a CLA present, the game calls the constructor with ai_mode as `true`, which should allow a human player to play against your AI (AI will always be player 2).
 6. Implement `minimax_algo`, a recursive backtracking algorithm, to create your Tic Tac Toe AI.
-7. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and playing the game through several times in human vs AI form. You AI won't be the smartest but if implemented correctly, it should be smart enough!
+7. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and **playing the game through several times in human vs AI form**. You AI won't be the smartest but if implemented correctly, it should be smart enough!
 
 ---
 
