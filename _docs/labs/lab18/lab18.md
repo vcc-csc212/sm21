@@ -1,5 +1,5 @@
 ---
-title: Backtracking
+title: Recursive Backtracking
 asg: Lab 18
 permalink: /lab18/
 ---
