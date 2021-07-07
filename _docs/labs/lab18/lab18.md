@@ -169,7 +169,7 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
     ```bash
     $ g++ -std=c++11 -Wall main.cpp tic_tac_toe.cpp -o ttt
     ```
-    and if you're working locally (i.e., VS Code or Visual Studio) on a **Windows** machine use:
+    BUT if you're working locally (i.e., VS Code or Visual Studio) on a **Windows** machine use:
     ```bash
     $ g++ -std=c++11 /Wall main.cpp tic_tac_toe.cpp -o ttt
     ```
