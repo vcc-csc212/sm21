@@ -30,7 +30,7 @@ Backtracking is a systemic method to iterate over all possible configurations of
 1.) At any given step, enumerate all possible actions.
 	1.2.) Make one of the enumerated actions
 	1.3.) Evaluate the new partial solution. If we obtain 'True', also return 'True' else try a different action
-2.) If we run out of moves, return 'False' to backback to a previous stage of the problem
+2.) If we run out of moves, return 'False' to backtrack to a previous stage of the problem
 ```
 
 Let's take a look at an example; solving a game of Sujiko! 
