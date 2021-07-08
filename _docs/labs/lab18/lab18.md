@@ -163,7 +163,7 @@ Complete the implementation of Tic Tac Toe below. Pay attention to the **hints i
     > Read about[structs](http://www.cplusplus.com/doc/tutorial/structures/) and [macros](https://www.cplusplus.com/doc/tutorial/preprocessor/) to better understand the code given to you.
 
 2. Once you have downloaded all the files, inspect them. Ask questions if you have them.
-3. Implement the two constructors and the destructor. **Hint:** Your constructors will look very similar to one of the constructors from Lab 5!
+3. Implement the two constructors and the destructor. **Hint:** Your constructors will look very similar to one of the constructors from Lab 5! If constructed correctly, your Tic Tac Toe board should print as follows: ![tic tac toe board at game start](/sm21/labs/lab18/images/ttt-start.png)
 4. Implement `game_status` which determines whether the game is over by a win or tie if the game is ongoing.
 5. Run, compile, and test your program by running compiling it and running it in your terminal, while in the directory all these files are located in, and **playing the game through several times in human vs human mode**. To compile your code, use:
     ```bash
