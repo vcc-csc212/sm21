@@ -90,7 +90,7 @@ bool tic_tac_toe::make_move(int location) {
     return true;
 }
 
-int tic_tac_toe::minimax_algo(game_state* status, int depth) {
+int tic_tac_toe::minimax_algo(game_state* state, int depth) {
     //TODO: implement the recursive backtracking algorithm as described in the lab handout, to create your Tic Tac Toe AI.
     //HINT: USE THE MACROS GIVEN:
         //OVER_WIN if either player won

@@ -127,7 +127,7 @@ assume best minmax value is a tie
 
 if within MAX_DEPTH threshold:
     for each move left in board of the current game state:
-        recur minimax on updated board and incremented depth
+        recur minimax on UPDATED board and incremented depth 
         the value returned from minimax recursion above is the new minimax value
 
         if playing MAX:
