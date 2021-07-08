@@ -122,7 +122,7 @@ Even for such a small game as Tic Tac Toe, calculating the whole game tree is co
 if the board of the current game state is terminal (i.e., the game is over with that board):
     return the value of the board
     
-update game state's current player (i.e., switch players)
+update game state's current player (i.e., switch players for the game state)
 assume best minmax value is a tie
 
 if within MAX_DEPTH threshold:
