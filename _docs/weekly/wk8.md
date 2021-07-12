@@ -6,7 +6,7 @@ permalink: /wk8/
 > Reminder that you **must complete the pre-reading before each class**.
 <br><br>
 On this page:  
-✔️ [Pre-reading for Tuesday 7/13](#tues) 
+✔️ [Pre-reading for Tuesday 7/13](#tues)  
 ✔️ [Pre-reading for Wednesday 7/14](#weds)  
 ✔️ [Pre-reading for Thursday 7/15](#thurs)
 
