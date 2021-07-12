@@ -5,28 +5,36 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (7/5-7/9)
-[Readings for<br>Tuesday](/sm21/wk7#tues)
-: These readings will teach you about **analyzing recursive functions**, a way to mathemtically determine the time complexity of recursive functions.
+##### This Week (7/12-7/16)
+[Readings for<br>Tuesday](/sm21/wk8#tues)
+: These readings will introduce you to the concept of **trees**.
 
-[Tuesday Lab](https://www.gradescope.com/courses/271139/assignments/1369321/)
-: This lab will help you solidify your understanding of analyzing recursive functions using recurrence relations.
+[Tuesday Lab]
+: This lab will help you solidify your understanding of trees.
 
-[Readings for<br>Wednesday](/sm21/wk7#weds)
-: These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
+[Readings for<br>Wednesday](/sm21/wk8#weds)
+: These readings will teach you about **binary search trees**, a special type of tree.
 
-[Wednesday Lab](/sm21/lab18)
-: This lab will help you solidify your understanding of recursive backtracking.
+[Wednesday Lab]
+: This lab will help you solidify your understanding of binary search trees.
 
-[Readings for<br>Thursday](/sm21/wk7#thurs)
-: Cotinued from Wednesday. These readings will teach you about **recursive backtracking**, a way to solve problems with several paths.
+[Readings for<br>Thursday](/sm21/wk8#thurs)
+: Continued from Wednesday. These readings will teach you about **binary search trees**, a special type of tree.
 
-[Thursday Lab](/sm21/lab18)
-: Continued lab from Wednesday. This lab will help you solidify your understanding of recursive backtracking.
+[Thursday Lab]
+: Continued lab from Wednesday. This lab will help you solidify your understanding of binary search trees.
 
 ---
 
 #### Past Assignments
+
+#### Week 7 (7/5-7/9)
+- Analyzing recursive functions
+	- [Readings for Tuesday](/sm21/wk7#tues)
+	- [Tuesday Lab](https://www.gradescope.com/courses/271139/assignments/1369321/)
+- Recursive Backtracking
+	- [Readings for Wednesday/Thursday](/sm21/wk7#weds)
+	- [Wednesday/Thursday Lab](/sm21/lab18)
 
 #### Week 6 (7/5-7/9)
 - Recursion Crash Course
