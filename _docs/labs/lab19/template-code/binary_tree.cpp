@@ -50,7 +50,7 @@ bool BinaryTree::insert(int parent_data, int new_data, Node* curr){
             insert at the left ONLY IF there's no child already there, 
             otherwise insert at the right ONLY IF there's no child already there
             IF BOTH sides have a child, the node is full and we cannot insert, exit the function.
-        Otherwise, search for 'parent_data' to the left, if still not found, search to the right
+        Otherwise, recursively search (by way of insert) for 'parent_data' to the left, if still not found, recursively search (by way of insert) to the right
     
     */
 
