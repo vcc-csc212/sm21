@@ -9,7 +9,7 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk8#tues)
 : These readings will introduce you to the concept of **trees**.
 
-[Tuesday Lab]
+[Tuesday Lab](/sm21/lab19)
 : This lab will help you solidify your understanding of trees.
 
 [Readings for<br>Wednesday](/sm21/wk8#weds)
