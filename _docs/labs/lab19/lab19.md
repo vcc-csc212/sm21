@@ -154,7 +154,7 @@ Complete the implementation of a binary tree. Pay attention to the **hints in th
 1. Download the files below (it's easiest if you right click and then choose download or save)
 
     [binary_tree.h](/sm21/labs/lab19/template-code/binary_tree.h)
-    : Contains the **declaration** of the lab you'll be implementing. **Do not** alter any of the given function signatures. This time, we're using a **struct** for our Node, instead of a class. Read about[structs](http://www.cplusplus.com/doc/tutorial/structures/).
+    : Contains the **declaration** of the lab you'll be implementing. **Do not** alter any of the given function signatures. This time, we're using a **struct** for our Node, instead of a class. Read about [structs](http://www.cplusplus.com/doc/tutorial/structures/).
 
     [binary_tree.cpp](/sm21/labs/lab19/template-code/binary_tree.cpp)
     : Contains the **definition** of the lab you'll be implementing.
