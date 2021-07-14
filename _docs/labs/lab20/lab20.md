@@ -45,7 +45,7 @@ Check out this binary search tree [visualization from USFCA](https://www.cs.usfc
 
 #### Your Task {#task}
 
-Complete the implementation of a binary search tree. Pay attention to the **hints in the code (CPP AND H FILES)**.
+Complete the implementation of a binary search tree. Pay attention to the all the notes below.
 
 1. Make a copy of your Lab 19 files **do not modify the originals**.
 2. Rename `binary_tree.cpp` to `bs_tree.cpp`. Change your constructor's and class name (from BinaryTree to BSTree-- don't forget the `BinaryTree::` before all the functions too!). Make sure to change the `#include` from `binary_tree.h` to `bs_tree.h`.

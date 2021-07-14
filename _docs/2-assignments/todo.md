@@ -15,13 +15,13 @@ permalink: /todo/
 [Readings for<br>Wednesday](/sm21/wk8#weds)
 : These readings will teach you about **binary search trees**, a special type of tree.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab20)
 : This lab will help you solidify your understanding of binary search trees.
 
 [Readings for<br>Thursday](/sm21/wk8#thurs)
 : Continued from Wednesday. These readings will teach you about **binary search trees**, a special type of tree.
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab20)
 : Continued lab from Wednesday. This lab will help you solidify your understanding of binary search trees.
 
 ---
