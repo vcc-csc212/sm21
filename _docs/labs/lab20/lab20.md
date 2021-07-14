@@ -1,7 +1,7 @@
 ---
 title: Binary Search Trees
 asg: Lab 20
-permalink:
+permalink: /lab20/
 ---
 
 On this page:  
