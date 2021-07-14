@@ -20,19 +20,19 @@ bool BinaryTree::search(int data){
 
 void BinaryTree::display_in_order(std::ostream& os){
     os << "In-Order: ";
-    display_in_order(this->_root);
+    display_in_order(this->_root, os);
     os << std::endl;
 }
 
 void BinaryTree::display_post_order(std::ostream& os){
     os << "Post-Order: ";
-    display_post_order(this->_root);
+    display_post_order(this->_root, os);
     os << std::endl;
 }
 
 void BinaryTree::display_pre_order(std::ostream& os){
     os << "Pre-Order: ";
-    display_pre_order(this->_root);
+    display_pre_order(this->_root, os);
     os << std::endl;
 }
 
