@@ -74,7 +74,7 @@ Complete the implementation of a binary search tree. Pay attention to the all th
         - Recall BST ordering when rewriting this function!
     - **f)** Add a **private** function called `destroy()`. This function should take in a Node* as a parameter and should return `void`.
         - This function should destroy the entire subtree starting at node passed in, recursively. Make sure that you only delete your current node after all subtrees have been freed (otherwise you'll have a memory leak!). **HINT:** Think about which type of traversal would be best to implement this method.
-7. Update the tree destructor in `bs_tree.cpp` so that it calls `destroy()` on the root of the tree.
+7. Create a tree destructor (destructors are named with a ~ and then the class name, so in this case `~BSTree`) in `bs_tree.cpp` so that it calls `destroy()` on the root of the tree. **Make sure to add the destructor declaration to your header file as well!**)
 8. Update `test.cpp` to test all of your public functions correctly. Make sure to change the `#include` from `binary_tree.h` to `bs_tree.h`
 9. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
 10. Define and implement the following functions into your `BSTree` class:
