@@ -55,8 +55,8 @@ Complete the implementation of a binary search tree. Pay attention to the all th
     - **a)** Add a **public** function called `height()`. This function should take no parameters and should return an integer representing the height of the tree. 
     - **b)** Add a **private** function called `height()`. This function should take in a Node* and should return an integer representing the height of the tree.
     - **c)** Remove `parent_data` from both `insert()` functions. Update the **private** `insert()` so it returns a `Node*` instead of a `bool`.
-    - **d)** Add a **public** function called `search()`. This function should take in an integer to search for and should return a boolean representing whether the data was found in the tree or not.
-    - **e)** Add a **private** function called `search()`. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
+    - **d)** Update your **public** `search()` function. This function should take in an integer to search for and should return a boolean representing whether the data was found in the tree or not.
+    - **e)** Update your **private** `search()` function. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
     - **f)** Add a **private** function called `destroy()`. This function should take in a Node* as a parameter and should return `void`.
 6. Update `bs_tree.cpp` so it matches `bs_tree.h`. Namely:
     - **a)** Add a **public** function called `height()`. This function should take no parameters and should return an integer representing the height of the tree. 
@@ -68,9 +68,9 @@ Complete the implementation of a binary search tree. Pay attention to the all th
         - Update the public function per the private function's new signature. When you call the private function, set the tree's root to whatever the private call returns.
         - Update the private function so that it matches its new signature. 
         - Update the private function so that it inserts the node in the **correct** place in the tree, **per BST ordering**. Assume duplicate keys will not be inserted.
-    - **d)** Add a **public** function called `search()`. This function should take in an integer to search for and should return a boolean representing whether the data was found in the tree or not.
+    - **d)** Update your **public** `search()` function. This function should take in an integer to search for and should return a boolean representing whether the data was found in the tree or not.
         - Like the relationship between the rest of the public and private functions, this function should call the private method on the root, and return the resulting boolean.
-    - **e)** Add a **private** function called `search()`. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
+    - **e)** Update your **private** `search()` function. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
         - Recall BST ordering when rewriting this function!
     - **f)** Add a **private** function called `destroy()`. This function should take in a Node* as a parameter and should return `void`.
         - This function should destroy the entire subtree starting at node passed in, recursively. Make sure that you only delete your current node after all subtrees have been freed (otherwise you'll have a memory leak!). **HINT:** Think about which type of traversal would be best to implement this method. It'll look very similar to one of your display functions, except that instead of printing, you'll be deleting the node (so if your parameter is called curr, you'd do `delete curr`).
