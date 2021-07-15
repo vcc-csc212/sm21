@@ -57,7 +57,7 @@ Complete the implementation of a binary search tree. Pay attention to the all th
     - **c)** Remove `parent_data` from both `insert()` functions. Update the **private** `insert()` so it returns a `Node*` instead of a `bool`.
     - **d)** Add a **public** function called `search()`. This function should take in an integer to search for and should return a boolean representing whether the data was found in the tree or not.
     - **e)** Add a **private** function called `search()`. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
-    - **f)** Add a **private** function called `destroy()`. This function should take in no parameters and should return `void`.
+    - **f)** Add a **private** function called `destroy()`. This function should take in a Node* as a parameter and should return `void`.
 6. Update `bs_tree.cpp` so it matches `bs_tree.h`. Namely:
     - **a)** Add a **public** function called `height()`. This function should take no parameters and should return an integer representing the height of the tree. 
         - Like the relationship between the rest of the public and private functions, this function should call the private method on the root, and return the resulting integer representing the height of the tree. 
@@ -72,7 +72,7 @@ Complete the implementation of a binary search tree. Pay attention to the all th
         - Like the relationship between the rest of the public and private functions, this function should call the private method on the root, and return the resulting boolean.
     - **e)** Add a **private** function called `search()`. This function should take in an integer to search for and a Node* to traverse the tree and should return a boolean representing whether the data was found in the tree or not.
         - Recall BST ordering when rewriting this function!
-    - **f)** Add a **private** function called `destroy()`. This function should take in no parameters and should return `void`.
+    - **f)** Add a **private** function called `destroy()`. This function should take in a Node* as a parameter and should return `void`.
         - This function should destroy the entire subtree starting at node passed in, recursively. Make sure that you only delete your current node after all subtrees have been freed (otherwise you'll have a memory leak!). **HINT:** Think about which type of traversal would be best to implement this method.
 7. Update the tree destructor in `bs_tree.cpp` so that it calls `destroy()` on the root of the tree.
 8. Update `test.cpp` to test all of your public functions correctly. Make sure to change the `#include` from `binary_tree.h` to `bs_tree.h`
