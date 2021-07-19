@@ -146,5 +146,5 @@ Each time we meet, you'll be focusing on a new topic. **We move incredibly fast 
 | 6 | Recursion Crash Course | Mergesort | Quicksort |
 | 7 | Analyzing Recursive Functions <br>(w/ recurrences) | Recursive Backtracking | Recursive Backtracking, cont'd |
 | 8 | Intro to Trees | Binary Search Trees | BSTs, cont'd |
-| 9 | Balanced Trees | Heaps | Heapsort |
+| 9 | Self-Balancing Trees | Heaps | Heapsort |
 | 10 | Intro to Graphs | BFS & DFS | Dijkstra |

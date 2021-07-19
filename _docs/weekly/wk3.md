@@ -46,7 +46,7 @@ Before attending class, please complete the material below:
 
 ---
 
-#### Pre-Reading for Hashaps {#thurs}
+#### Pre-Reading for Hashmaps {#thurs}
 
 ##### Essential Questions
 Before attending class, please complete the material below and **use the following questions to guide your note-taking**:  

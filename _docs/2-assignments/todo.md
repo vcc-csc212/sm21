@@ -5,28 +5,37 @@ order: 0
 permalink: /todo/
 ---
 
-##### This Week (7/12-7/16)
-[Readings for<br>Tuesday](/sm21/wk8#tues)
-: These readings will introduce you to the concept of **trees**.
+##### This Week (7/19-7/23)
+[Readings for<br>Tuesday](/sm21/wk9#tues)
+: These readings will introduce you to the concept of **self-balancing trees**.
 
-[Tuesday Lab](/sm21/lab19)
-: This lab will help you solidify your understanding of trees.
+[Tuesday Lab]
+: This lab will help you solidify your understanding of self-balancing trees.
 
-[Readings for<br>Wednesday](/sm21/wk8#weds)
-: These readings will teach you about **binary search trees**, a special type of tree.
+[Readings for<br>Wednesday](/sm21/wk9#weds)
+: These readings will teach you about **heaps**, a special type of tree.
 
-[Wednesday Lab](/sm21/lab20)
-: This lab will help you solidify your understanding of binary search trees.
+[Wednesday Lab]
+: This lab will help you solidify your understanding of heaps.
 
-[Readings for<br>Thursday](/sm21/wk8#thurs)
-: Continued from Wednesday. These readings will teach you about **binary search trees**, a special type of tree.
+[Readings for<br>Thursday](/sm21/wk9#thurs)
+: Continued from Wednesday. These readings will teach you about **heapsort**, a sorting algorithm that utilizes heaps.
 
-[Thursday Lab](/sm21/lab20)
-: Continued lab from Wednesday. This lab will help you solidify your understanding of binary search trees.
+[Thursday Lab]
+: Continued lab from Wednesday. This lab will help you solidify your understanding of heaps.
 
 ---
 
 #### Past Assignments
+
+#### Week 8 (7/12-7/16)
+- Intro to Trees
+	- [Readings for Tuesday](/sm21/wk8#tues)
+	- [Tuesday Lab](/sm21/lab19)
+- BSTs
+	- [Readings for Wednesday](/sm21/wk8#weds)
+	- [Wednesday/Thursday Lab](/sm21/lab20)
+	- [Readings for Thursday](/sm21/wk8#thurs)
 
 #### Week 7 (7/5-7/9)
 - Analyzing recursive functions
