@@ -31,13 +31,8 @@ Heaps are special implementations of Complete Binary Treess and come in two flav
 
 The difference between these structures are their special rules:
 
-###### Min-Heap
-
-The key at the root node must be the **minimum** among the keys present in its children.
-
-###### Max-Heap
-
-The key at the root node must be the **maximum** among the keys present in its children.
+- **Min-Heap**: The key at the root node must be the **minimum** among the keys present in its children.
+- **Max-Heap**: The key at the root node must be the **maximum** among the keys present in its children.
 
 #### Heap Operations
 
@@ -48,7 +43,7 @@ For most operations in a Heap, we need to envision each Node in a heap as being 
     <figcaption><center>Heap Notations</center></figcaption>
 </p>
 
-The root Node is index 0. We then we proceed left-right, top-down to "index" the remaining Nodes.
+The root Node is index 0. We then we proceed left-right, top-down to "index" the remaining Nodes. Take a good look at the diagram above and make sure you understand it, as it will be necessary for your lab implementation below. 
 
 ---
 
@@ -86,18 +81,14 @@ Complete the implementation of a MIN heap. Pay attention to the **hints in the c
    - This is a MIN heap so all children must be larger than their parents
 6. Complete the implementation of `insert`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
    - This is a MIN heap so all children must be larger than their parents
-7. Add your own test cases for the functions you just completed.
-8. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
-9. Complete the implementation of `find_last`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
-10. Add your own test cases for the functions you just completed.
-11. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
-12. Complete the implementation of `remove_min`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
-13. Add your own test cases for the functions you just completed.
-14. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
-15. Complete the implementation of `delete_element`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
-16. Add your own test cases for the functions you just completed.
-17. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
-18. New function (heapsort) to be added for Thursday's lab :)
+7. Add your own test cases for the functions you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
+8. Complete the implementation of `find_last`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
+9. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
+10. Complete the implementation of `remove_min`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
+11. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
+12. Complete the implementation of `delete_element`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
+13. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
+14. New function (heapsort) to be added for Thursday's lab :)
 
 ---
 
