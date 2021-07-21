@@ -10,18 +10,18 @@ permalink: /todo/
 : These readings will introduce you to the concept of **self-balancing trees**.
 
 [Tuesday Lab]
-: This lab will help you solidify your understanding of self-balancing trees.
+: As a lab for today we completed a group exercise in class. See [slides](/sm21/slides) for review.
 
 [Readings for<br>Wednesday](/sm21/wk9#weds)
 : These readings will teach you about **heaps**, a special type of tree.
 
-[Wednesday Lab]
+[Wednesday Lab](/sm21/lab21)
 : This lab will help you solidify your understanding of heaps.
 
 [Readings for<br>Thursday](/sm21/wk9#thurs)
 : Continued from Wednesday. These readings will teach you about **heapsort**, a sorting algorithm that utilizes heaps.
 
-[Thursday Lab]
+[Thursday Lab](/sm21/lab21)
 : Continued lab from Wednesday. This lab will help you solidify your understanding of heaps.
 
 ---
