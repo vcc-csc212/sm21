@@ -118,10 +118,6 @@ void HeapTree::destroy(HeapNode* curr){
     // don't re-invent the wheel, use what you have from lab 20
 }
 
-bool HeapTree::search(int data, HeapNode* curr){
-    // remember this is a MIN heap so all children must be largeer than their parents
-}
-
 bool HeapTree::isFull(HeapNode* curr){
     // don't re-invent the wheel, use what you have from lab 20
 }
@@ -132,6 +128,10 @@ bool HeapTree::isComplete(HeapNode* curr, int index, int node_count){
 
 int HeapTree::size(HeapNode* curr){
     // don't re-invent the wheel, use what you have from lab 20
+}
+
+bool HeapTree::search(int data, HeapNode* curr){
+    // remember this is a MIN heap so all children must be largeer than their parents
 }
 
 HeapNode* HeapTree::min_heapify(HeapNode* curr){
@@ -162,11 +162,11 @@ HeapNode* HeapTree::find_last(HeapNode* curr, int index, int node_count){
     1. If we reach `nullptr` or calculate an index >= the # of Nodes we have in the tree
        - Return `nullptr`
     2. If we've located the last element in the tree
-       - Return it, mark it to be removed from the Tree
+       - Return it
     3. Search left, calculating the index for that Node
-       - Handle removing the Node if necessary
+       - If there was a node returned, return it
     4. Search right, calculating the index for that Node
-       - Handle removing the Node if necessary
+       - If there was a node returned, return it
      */
 }
 
