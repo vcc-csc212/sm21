@@ -88,6 +88,7 @@ Complete the implementation of a MIN heap. Pay attention to the **hints in the c
 12. Complete the implementation of `delete_element`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
 13. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
 14. Complete the implementation of `search`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
+   - **HINT:** This will look more like the search from Lab 19 than the one from Lab 20.
 15. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
 16. New function (heapsort) to be added for Thursday's lab :)
 
