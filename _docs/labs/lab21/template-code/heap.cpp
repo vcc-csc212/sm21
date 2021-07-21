@@ -72,7 +72,7 @@ void HeapTree::delete_element(int data){
 // Strictly used for the test cases
 void HeapTree::find_last(std::ostream& os){
     HeapNode* temp = find_last(this->m_root, 0, size(this->m_root));
-    os << temp->data << std::endl;
+    os << temp->m_data << std::endl;
 }
 
 /*********************** END: Public functions provided for you ***********************/
