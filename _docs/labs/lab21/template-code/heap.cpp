@@ -164,9 +164,9 @@ HeapNode* HeapTree::find_last(HeapNode* curr, int index, int node_count){
     2. If we've located the last element in the tree
        - Return it
     3. Search left, calculating the index for that Node
-       - If there was a node returned, return it
+       - If there was a node returned, return it (as this is the last node)
     4. Search right, calculating the index for that Node
-       - If there was a node returned, return it
+       - If there was a node returned, return it (as this is the last node)
      */
 }
 
