@@ -146,7 +146,7 @@ HeapNode* HeapTree::min_heapify(HeapNode* curr){
         - Recursively continue down the left branch.
     2. Check if there is a right child
         - Swap the current Node & the Node to its right, if needed.
-        - Recursively continue down the left branch.
+        - Recursively continue down the right branch.
 
     The end result of the Heapify function is a Tree in which the Min-Heap property is maintained.
     */
