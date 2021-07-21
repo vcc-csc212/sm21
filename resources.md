@@ -3,9 +3,8 @@ title: Resources
 permalink: /resources/
 ---
 
-> **New Resource Alert!** 
-- PDF guides for IDE setup added under the [IDE section](#debuggers). Update made on 6/7.
-- More programming resources added under the [Programming Practice/Challenges section](#challenges). Update made on 6/7. 
+> **7/21 New Resource Alert!** 
+- More visualizers added under the [Code and Data Structure Visualizers section](#viz).
 
 On this page:  
 ✔️ [Course Specific Resources](#course)  
@@ -148,6 +147,8 @@ On this page:
 #### Code and Data Structure Visualizers {#viz}
 - [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 - [C++ Code Visualization](http://pythontutor.com/cpp.html)
+- [Data Structures and Algo Visualizer (From USFCA)](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [Data Structures and Algo Visualizer (From VisuAlgo)](https://visualgo.net/en)
 
 ***
 
