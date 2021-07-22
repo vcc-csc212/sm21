@@ -177,7 +177,7 @@ void HeapTree::remove_min(HeapNode* curr){
     Removing the Min of the Heap is a fairly common operation. Here's how we do it:
 
     1. Find the last Node in the tree
-    2. Swap it with the Min/Max Node
+    2. Swap it with the Min Node
     3. Delete the last Node in the tree
     4. Heapify! (Since heapfying is computationally expensive [when compared to the rest of the heap fuctions] we only do it once in the non-recursive function, i.e., in the public function, take a look above!)
     */
