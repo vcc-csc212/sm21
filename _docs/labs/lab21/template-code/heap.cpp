@@ -162,12 +162,14 @@ HeapNode* HeapTree::find_last(HeapNode* curr, int index, int node_count){
     1. If we reach `nullptr` or calculate an index >= the # of Nodes we have in the tree
        - Return `nullptr`
     2. If we've located the last element in the tree
-       - Return it
+       - Return it, mark it to be removed from the Tree
     3. Search left, calculating the index for that Node
        - If there was a node returned, return it (as this is the last node)
     4. Search right, calculating the index for that Node
        - If there was a node returned, return it (as this is the last node)
-     */
+
+    NOTE: Mark it to be removed from the Tree means: setting it to nullptr so nodes connected to it know they're not longer connected a node. Since you still have to return the node, (so it can actually be deleted later)-- make sure to use a temp node so you don't always return nullptr.
+    */
 }
 
 void HeapTree::remove_min(HeapNode* curr){

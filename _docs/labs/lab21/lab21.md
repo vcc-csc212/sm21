@@ -90,7 +90,10 @@ Complete the implementation of a MIN heap. Pay attention to the **hints in the c
 14. Complete the implementation of `search`. Pay attention to the **comments and hints in the code**. Refer to the course material (slides, readings, and background info above) as needed.
    - **HINT:** This will look more like the search from Lab 19 than the one from Lab 20.
 15. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
-16. New function (heapsort) to be added for Thursday's lab :)
+16. Add a public function, `heapsort`, to your H and CPP files. The function should take in an array of integers and an integer representing the size of the array.
+17. Complete the implementation of `heapsort`. 
+   - Build a heap from the numbers in the array passed in and then rewrite the contents of the array so they're in sorted order
+18. Add your own test cases for the function you just completed. Run, compile, and test your program by running `make` in your terminal, while in the directory all these files are located in. Debug as needed.
 
 ---
 
@@ -98,14 +101,11 @@ Complete the implementation of a MIN heap. Pay attention to the **hints in the c
 Your goal for this lab is to complete the following tasks **in order**:
 
 1. All heap functions behave as expected for a min heap
-2. New requirement to be added for Thursday's lab :)
+2. Heapsort function behaves as expected
 
 ---
 
 #### Handing in {#submit}
-
-> Note that Thursday's lab will add a new function (heapsort) to your heap implementation, so the submission won't be open until tomorrow.
-
 To submit your solution to Gradescope, select **all of the following files** and use the *drag and drop* option:
 - heap.h
 - heap.cpp
