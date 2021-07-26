@@ -19,10 +19,10 @@ permalink: /todo/
 : Continued from Tuesday. This lab will help you solidify your understanding of graphs.
 
 [Readings for<br>Thursday](/sm21/wk10#thurs)
-: Continued from Wednesday. These readings will teach you about **Dijkstra**, a sorting algorithm that utilizes heaps.
+: Continued from Wednesday. These readings will teach you about **Dijkstra**, 
 
 [Thursday Lab]
-: Final lab of the semester/session! Will serve as a reflection
+: Final lab of the semester/session! Dijkstra meets reflection.
 
 ---
 
