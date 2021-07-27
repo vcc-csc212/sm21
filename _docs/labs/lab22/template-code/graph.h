@@ -18,7 +18,7 @@ class Graph{
         // Constructor
         Graph();
         // Displays the graph. This function has been completed in graph.cpp-- DO NOT modify it.
-        void displayGraph(); 
+        void displayGraph(std::ostream& os = std::cout); 
         // Accepts a source, destination, and cost. Pushes a new Pair object into the correct location in adj_list.
         void addEdge(int source, int destination, int cost);
         // DFS helper function. Sets up what is needed to call the worker BFS that you will implement. This function has been completed in graph.cpp-- DO NOT modify it.

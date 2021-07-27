@@ -8,13 +8,13 @@ Graph::Graph(){
     // nothing to do here
 }
 
-void Graph::displayGraph(){
+void Graph::displayGraph(std::ostream& os){
     for(unsigned int i = 0; i < this->adj_list.size(); i++){
-        std::cout << i << ": ";
+        os << i << ": ";
         for(unsigned int j = 0; j < this->adj_list[i].size(); j++){
-            std::cout << "(" << this->adj_list[i][j].first << "," << this->adj_list[i][j].second << ") ";
+            os << "(" << this->adj_list[i][j].first << "," << this->adj_list[i][j].second << ") ";
         }
-        std::cout << std::endl;
+        os << std::endl;
     }
 }
 
