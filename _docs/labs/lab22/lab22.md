@@ -131,7 +131,7 @@ Why care about DFS? DFS is used to find the shortest path between two points (in
 
 #### Your Task {#task}
 
-Complete the implementation of an directed weighted graph. Pay attention to the **hints in the code (CPP AND H FILES)**.
+Complete the implementation of an **undirected weighted graph**. Pay attention to the **hints in the code (CPP AND H FILES)**.
 
 1. Download the files below (it's easiest if you right click and then choose download or save)
 

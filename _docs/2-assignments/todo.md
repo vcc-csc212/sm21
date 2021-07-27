@@ -9,14 +9,14 @@ permalink: /todo/
 [Readings for<br>Tuesday](/sm21/wk10#tues)
 : These readings will introduce you to the concept of **Graphs**.
 
-[Tuesday Lab]
+[Tuesday Lab](/sm21/lab22)
 : This lab will help you solidify your understanding of graphs.
 
 [Readings for<br>Wednesday](/sm21/wk10#weds)
 : These readings will teach you about **BFS & DFS**, a special type of tree.
 
-[Wednesday Lab]
-: Continued from Tuesday. This lab will help you solidify your understanding of graphs.
+[Wednesday Lab](/sm21/lab22)
+: Continued from Tuesday. This lab will help you solidify your understanding of graphs, BFS, and DFS.
 
 [Readings for<br>Thursday](/sm21/wk10#thurs)
 : Continued from Wednesday. These readings will teach you about **Dijkstra**, 
