@@ -75,22 +75,22 @@ Because I want you to emphasize your learning rather than your grades, grading i
 
 To receive a D
 : you must:
-- Meet **all the requirements** for 60% of all labs assigned
+- Meet **all the requirements** for ~60%~ 14-15 of all labs assigned (and graded)
 - Complete and submit a final project
 
 To receive a C
 : you must:
-- Meet **all the requirements** for 70% of all labs assigned
+- Meet **all the requirements** for ~70%~ 16-17 of all labs assigned (and graded)
 - Complete and submit a final project
 
 To receive a B
 : you must:
-- Meet **all the requirements** for 80% of all labs assigned
+- Meet **all the requirements** for ~80%~ 18-19 of all labs assigned (and graded)
 - Complete and submit a final project
 
 To receive a A
 : you must:
-- Meet **all the requirements** for 90% of all labs assigned
+- Meet **all the requirements** for ~90%~ 20+ of all labs assigned (and graded)
 - Complete and submit a final project
 
 To receive a +
