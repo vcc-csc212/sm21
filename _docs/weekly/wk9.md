@@ -37,6 +37,7 @@ Before attending class, please complete the material below:
 - Read [AVL Tree Insertion, Rotation, and Balance Factor Explained](https://www.freecodecamp.org/news/avl-tree-insertion-rotation-and-balance-factor/)
 - Read [Red-Black Tree: Self-Balanced Binary Search Trees Explained with Examples](https://www.freecodecamp.org/news/red-black-trees/)
 - Read [Red Black Tree (Properties, Advantages, Inserting Nodes)](https://www.includehelp.com/data-structure-tutorial/red-black-tree.aspx)
+- Read [Red Black Tree (Basic Tutorial)](https://www.scaler.com/topics/data-structures/red-black-tree/)
 
 ---
 
